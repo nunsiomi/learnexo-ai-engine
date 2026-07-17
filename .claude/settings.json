@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -X POST http://localhost:8000/learning-path -H \"Content-Type: application/json\" -d \"{\\\\\"learning_style\\\\\": \\\\\"visual\\\\\", \\\\\"subject\\\\\": \\\\\"Mathematics\\\\\", \\\\\"class_level\\\\\": \\\\\"JSS2\\\\\", \\\\\"weak_topics\\\\\": [\\\\\"fractions\\\\\"], \\\\\"strong_topics\\\\\": [\\\\\"basic_operations\\\\\"]}\")",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 33012)",
+      "PowerShell(python --version)",
+      "PowerShell(python evaluation/run_evaluation.py --dry-run)",
+      "PowerShell(python evaluation/run_evaluation.py)",
+      "PowerShell(python evaluation/run_evaluation.py --dry-run --model llama-3.1-8b-instant)",
+      "PowerShell(Copy-Item \"evaluation\\\\results\\\\per_topic.csv\" \"evaluation\\\\results\\\\per_topic_70b.csv\" -Force)",
+      "PowerShell(Copy-Item \"evaluation\\\\results\\\\summary.csv\" \"evaluation\\\\results\\\\summary_70b.csv\" -Force)"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\USER\\Desktop\\Desktop\\LearNEXO-AI\\evaluation\\results"
+    ]
+  }
+}

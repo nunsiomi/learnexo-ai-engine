@@ -1,11 +1,11 @@
 from typing import Optional, Any
 from pydantic import BaseModel, Field, model_validator
-from app.schemas.learning_style import StudentActivity, LearningStyleLiteral
+from app.schemas.learning_style import LearningStyleRequest, LearningStyleLiteral
 from app.core.topics import get_topics, invalid_topics
 
 
 class GenerateLearningRequest(BaseModel):
-    student_activity: StudentActivity
+    student_activity: LearningStyleRequest
     subject: str = Field(..., min_length=2)
     class_level: str = Field(..., min_length=2)
     term: str = "First"
