@@ -1,0 +1,966 @@
+run_id,condition,profile_id,class_level,term,learning_style,returned_rank,returned_topic,slug_match_type,slug_matched_value,slug_similarity,curr_match_type,curr_matched_value,curr_similarity,is_hallucinated
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,1,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,2,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,3,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,4,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,5,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Decimals, Fractions and Percentages",0.473,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,7,indices,exact,indices,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,8,logarithms,exact,logarithms,1.0,none,Development of Numbers and Numerals,0.222,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,9,surds,exact,surds,1.0,none,Factors and Multiples,0.231,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Decimals, Fractions and Percentages",0.321,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,11,linear_equations,exact,linear_equations,1.0,none,Number Base System,0.353,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Factors and Multiples,0.326,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,13,quadratic_equations,exact,quadratic_equations,1.0,none,Basic Operations on Whole Numbers and Decimals,0.338,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,14,inequalities,exact,inequalities,1.0,none,Factors and Multiples,0.424,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,15,polynomials,exact,polynomials,1.0,none,Basic Operations on Whole Numbers and Decimals,0.316,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,16,sets,exact,sets,1.0,none,Number Base System,0.273,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,17,logic,exact,logic,1.0,none,Factors and Multiples,0.154,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,18,plane_geometry,exact,plane_geometry,1.0,none,Number Base System,0.312,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,19,angles,exact,angles,1.0,none,Factors and Multiples,0.37,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,20,triangles,exact,triangles,1.0,none,Factors and Multiples,0.467,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,21,circles,exact,circles,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,22,mensuration,exact,mensuration,1.0,none,"Decimals, Fractions and Percentages",0.348,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,23,coordinate_geometry,exact,coordinate_geometry,1.0,none,Factors and Multiples,0.3,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,24,vectors,exact,vectors,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,25,statistics,exact,statistics,1.0,none,Factors and Multiples,0.323,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,26,probability,exact,probability,1.0,none,Number Base System,0.276,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,27,sequence_and_series,exact,sequence_and_series,1.0,none,Factors and Multiples,0.45,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,28,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Factors and Multiples,0.381,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,29,matrices,exact,matrices,1.0,none,Factors and Multiples,0.345,False
+P1_jss1_visual__r1__grounded,grounded,P1_jss1_visual,JSS1,First,visual,30,trigonometry,exact,trigonometry,1.0,none,Basic Operations on Whole Numbers and Decimals,0.276,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,1,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,2,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,3,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,4,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,5,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Decimals, Fractions and Percentages",0.473,False
+P1_jss1_visual__r1__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,6,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r1__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,1,Numbers And Numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r1__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,2,Fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r1__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,3,Decimals and Percentages,borderline,decimals,0.9,none,"Decimals, Fractions and Percentages",0.814,False
+P1_jss1_visual__r1__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,4,Ratios and Proportional Relationships,none,ratio_and_proportion,0.702,none,"Decimals, Fractions and Percentages",0.472,True
+P1_jss1_visual__r1__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,5,Basic Operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,1,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,2,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,3,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,4,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,5,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Decimals, Fractions and Percentages",0.473,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,7,indices,exact,indices,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,8,logarithms,exact,logarithms,1.0,none,Development of Numbers and Numerals,0.222,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,9,surds,exact,surds,1.0,none,Factors and Multiples,0.231,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Decimals, Fractions and Percentages",0.321,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,11,linear_equations,exact,linear_equations,1.0,none,Number Base System,0.353,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Factors and Multiples,0.326,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,13,quadratic_equations,exact,quadratic_equations,1.0,none,Basic Operations on Whole Numbers and Decimals,0.338,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,14,inequalities,exact,inequalities,1.0,none,Factors and Multiples,0.424,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,15,polynomials,exact,polynomials,1.0,none,Basic Operations on Whole Numbers and Decimals,0.316,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,16,sets,exact,sets,1.0,none,Number Base System,0.273,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,17,logic,exact,logic,1.0,none,Factors and Multiples,0.154,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,18,plane_geometry,exact,plane_geometry,1.0,none,Number Base System,0.312,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,19,angles,exact,angles,1.0,none,Factors and Multiples,0.37,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,20,triangles,exact,triangles,1.0,none,Factors and Multiples,0.467,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,21,circles,exact,circles,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,22,mensuration,exact,mensuration,1.0,none,"Decimals, Fractions and Percentages",0.348,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,23,coordinate_geometry,exact,coordinate_geometry,1.0,none,Factors and Multiples,0.3,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,24,vectors,exact,vectors,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,25,statistics,exact,statistics,1.0,none,Factors and Multiples,0.323,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,26,probability,exact,probability,1.0,none,Number Base System,0.276,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,27,sequence_and_series,exact,sequence_and_series,1.0,none,Factors and Multiples,0.45,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,28,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Factors and Multiples,0.381,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,29,matrices,exact,matrices,1.0,none,Factors and Multiples,0.345,False
+P1_jss1_visual__r2__grounded,grounded,P1_jss1_visual,JSS1,First,visual,30,trigonometry,exact,trigonometry,1.0,none,Basic Operations on Whole Numbers and Decimals,0.276,False
+P1_jss1_visual__r2__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,1,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r2__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,2,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r2__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,3,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r2__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,4,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r2__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,5,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,1,Understanding Fractions as Parts of a Whole,borderline,fractions,0.9,none,"Decimals, Fractions and Percentages",0.487,False
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,2,Introduction to Numbers and Numeration,borderline,numbers_and_numeration,0.9,none,Development of Numbers and Numerals,0.603,False
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,3,Understanding Equivalent Fractions,borderline,fractions,0.9,none,"Decimals, Fractions and Percentages",0.435,False
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,4,Operations with Fractions,borderline,fractions,0.9,none,"Decimals, Fractions and Percentages",0.433,False
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,5,Place Value and Expanded Notation,none,ratio_and_proportion,0.453,none,Basic Operations on Whole Numbers and Decimals,0.354,True
+P1_jss1_visual__r2__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,6,Basic Operations with Whole Numbers,borderline,basic_operations,0.9,none,Basic Operations on Whole Numbers and Decimals,0.765,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,1,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,2,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,3,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,4,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,5,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Decimals, Fractions and Percentages",0.473,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,7,indices,exact,indices,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,8,logarithms,exact,logarithms,1.0,none,Development of Numbers and Numerals,0.222,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,9,surds,exact,surds,1.0,none,Factors and Multiples,0.231,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Decimals, Fractions and Percentages",0.321,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,11,linear_equations,exact,linear_equations,1.0,none,Number Base System,0.353,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Factors and Multiples,0.326,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,13,quadratic_equations,exact,quadratic_equations,1.0,none,Basic Operations on Whole Numbers and Decimals,0.338,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,14,inequalities,exact,inequalities,1.0,none,Factors and Multiples,0.424,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,15,polynomials,exact,polynomials,1.0,none,Basic Operations on Whole Numbers and Decimals,0.316,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,16,sets,exact,sets,1.0,none,Number Base System,0.273,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,17,logic,exact,logic,1.0,none,Factors and Multiples,0.154,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,18,plane_geometry,exact,plane_geometry,1.0,none,Number Base System,0.312,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,19,angles,exact,angles,1.0,none,Factors and Multiples,0.37,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,20,triangles,exact,triangles,1.0,none,Factors and Multiples,0.467,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,21,circles,exact,circles,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,22,mensuration,exact,mensuration,1.0,none,"Decimals, Fractions and Percentages",0.348,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,23,coordinate_geometry,exact,coordinate_geometry,1.0,none,Factors and Multiples,0.3,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,24,vectors,exact,vectors,1.0,none,Factors and Multiples,0.357,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,25,statistics,exact,statistics,1.0,none,Factors and Multiples,0.323,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,26,probability,exact,probability,1.0,none,Number Base System,0.276,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,27,sequence_and_series,exact,sequence_and_series,1.0,none,Factors and Multiples,0.45,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,28,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Factors and Multiples,0.381,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,29,matrices,exact,matrices,1.0,none,Factors and Multiples,0.345,False
+P1_jss1_visual__r3__grounded,grounded,P1_jss1_visual,JSS1,First,visual,30,trigonometry,exact,trigonometry,1.0,none,Basic Operations on Whole Numbers and Decimals,0.276,False
+P1_jss1_visual__r3__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,1,fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r3__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,2,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r3__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,3,basic_operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P1_jss1_visual__r3__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,4,decimals,exact,decimals,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r3__ungrounded,ungrounded,P1_jss1_visual,JSS1,First,visual,5,percentages,exact,percentages,1.0,borderline,"Decimals, Fractions and Percentages",0.9,False
+P1_jss1_visual__r3__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,1,Numbers And Numeration,exact,numbers_and_numeration,1.0,none,Development of Numbers and Numerals,0.632,False
+P1_jss1_visual__r3__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,2,Fractions,exact,fractions,1.0,borderline,Fractions (1): Introduction and Equivalence,0.9,False
+P1_jss1_visual__r3__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,3,Decimals and Percentages,borderline,decimals,0.9,none,"Decimals, Fractions and Percentages",0.814,False
+P1_jss1_visual__r3__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,4,Ratios and Proportional Relationships,none,ratio_and_proportion,0.702,none,"Decimals, Fractions and Percentages",0.472,True
+P1_jss1_visual__r3__ungrounded_readable,ungrounded_readable,P1_jss1_visual,JSS1,First,visual,5,Basic Operations,exact,basic_operations,1.0,borderline,Basic Operations on Whole Numbers and Decimals,0.9,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,4,indices,exact,indices,1.0,none,Directed Numbers and Algebraic Expressions,0.286,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,5,logarithms,exact,logarithms,1.0,none,Simple Equations and Linear Inequalities,0.28,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,6,surds,exact,surds,1.0,none,Graphs of Linear Equations,0.194,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,7,linear_equations,exact,linear_equations,1.0,borderline,Graphs of Linear Equations,0.9,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,8,simultaneous_equations,exact,simultaneous_equations,1.0,none,Graphs of Linear Equations,0.583,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,9,quadratic_equations,exact,quadratic_equations,1.0,none,Graphs of Linear Equations,0.578,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,10,inequalities,exact,inequalities,1.0,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,11,polynomials,exact,polynomials,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,12,sets,exact,sets,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,13,logic,exact,logic,1.0,none,Directed Numbers and Algebraic Expressions,0.17,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,14,plane_geometry,exact,plane_geometry,1.0,none,Graphs of Linear Equations,0.35,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,15,angles,exact,angles,1.0,borderline,"Plane Shapes, Scale Drawing and Angles in Polygons",0.9,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,16,triangles,exact,triangles,1.0,none,Simple Equations and Linear Inequalities,0.286,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,17,circles,exact,circles,1.0,none,Directed Numbers and Algebraic Expressions,0.245,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,18,mensuration,exact,mensuration,1.0,none,Graphs of Linear Equations,0.378,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,19,coordinate_geometry,exact,coordinate_geometry,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,20,vectors,exact,vectors,1.0,none,Graphs of Linear Equations,0.242,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,21,statistics,exact,statistics,1.0,none,Simple Equations and Linear Inequalities,0.32,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,22,probability,exact,probability,1.0,none,Graphs of Linear Equations,0.27,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,23,sequence_and_series,exact,sequence_and_series,1.0,none,Simple Equations and Linear Inequalities,0.508,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,24,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Graphs of Linear Equations,0.298,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,25,matrices,exact,matrices,1.0,none,Simple Equations and Linear Inequalities,0.292,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,26,trigonometry,exact,trigonometry,1.0,none,Simple Equations and Linear Inequalities,0.231,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,27,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Directed Numbers and Algebraic Expressions,0.562,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,28,basic_operations,exact,basic_operations,1.0,none,Graphs of Linear Equations,0.571,False
+P2_jss2_auditory__r1__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,29,decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,4,equations,borderline,linear_equations,0.9,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,5,graphing_linear_equations,borderline,linear_equations,0.9,borderline,Graphs of Linear Equations,0.863,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,6,solving_linear_equations,borderline,linear_equations,0.9,none,Graphs of Linear Equations,0.76,False
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,7,solving_linear_systems,none,logarithms,0.438,none,Graphs of Linear Equations,0.458,True
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,8,linear_functions,none,linear_equations,0.812,none,Graphs of Linear Equations,0.619,True
+P2_jss2_auditory__r1__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,9,quadratic_functions,none,quadratic_equations,0.842,none,Directed Numbers and Algebraic Expressions,0.393,True
+P2_jss2_auditory__r1__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,1,Algebraic Expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r1__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,2,Ratio And Proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r1__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,3,Percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r1__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,4,Fractions,exact,fractions,1.0,none,Graphs of Linear Equations,0.4,False
+P2_jss2_auditory__r1__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,5,Decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,4,indices,exact,indices,1.0,none,Directed Numbers and Algebraic Expressions,0.286,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,5,logarithms,exact,logarithms,1.0,none,Simple Equations and Linear Inequalities,0.28,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,6,surds,exact,surds,1.0,none,Graphs of Linear Equations,0.194,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,7,linear_equations,exact,linear_equations,1.0,borderline,Graphs of Linear Equations,0.9,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,8,simultaneous_equations,exact,simultaneous_equations,1.0,none,Graphs of Linear Equations,0.583,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,9,quadratic_equations,exact,quadratic_equations,1.0,none,Graphs of Linear Equations,0.578,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,10,inequalities,exact,inequalities,1.0,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,11,polynomials,exact,polynomials,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,12,sets,exact,sets,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,13,logic,exact,logic,1.0,none,Directed Numbers and Algebraic Expressions,0.17,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,14,plane_geometry,exact,plane_geometry,1.0,none,Graphs of Linear Equations,0.35,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,15,angles,exact,angles,1.0,borderline,"Plane Shapes, Scale Drawing and Angles in Polygons",0.9,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,16,triangles,exact,triangles,1.0,none,Simple Equations and Linear Inequalities,0.286,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,17,circles,exact,circles,1.0,none,Directed Numbers and Algebraic Expressions,0.245,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,18,mensuration,exact,mensuration,1.0,none,Graphs of Linear Equations,0.378,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,19,coordinate_geometry,exact,coordinate_geometry,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,20,vectors,exact,vectors,1.0,none,Graphs of Linear Equations,0.242,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,21,statistics,exact,statistics,1.0,none,Simple Equations and Linear Inequalities,0.32,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,22,probability,exact,probability,1.0,none,Graphs of Linear Equations,0.27,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,23,sequence_and_series,exact,sequence_and_series,1.0,none,Simple Equations and Linear Inequalities,0.508,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,24,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Graphs of Linear Equations,0.298,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,25,matrices,exact,matrices,1.0,none,Simple Equations and Linear Inequalities,0.292,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,26,trigonometry,exact,trigonometry,1.0,none,Simple Equations and Linear Inequalities,0.231,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,27,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Directed Numbers and Algebraic Expressions,0.562,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,28,basic_operations,exact,basic_operations,1.0,none,Graphs of Linear Equations,0.571,False
+P2_jss2_auditory__r2__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,29,decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,4,equations,borderline,linear_equations,0.9,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,5,graphing_linear_equations,borderline,linear_equations,0.9,borderline,Graphs of Linear Equations,0.863,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,6,solving_linear_equations,borderline,linear_equations,0.9,none,Graphs of Linear Equations,0.76,False
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,7,linear_functions,none,linear_equations,0.812,none,Graphs of Linear Equations,0.619,True
+P2_jss2_auditory__r2__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,8,quadratic_functions,none,quadratic_equations,0.842,none,Directed Numbers and Algebraic Expressions,0.393,True
+P2_jss2_auditory__r2__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,1,Algebraic Expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r2__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,2,Ratio And Proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r2__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,3,Percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r2__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,4,Fractions,exact,fractions,1.0,none,Graphs of Linear Equations,0.4,False
+P2_jss2_auditory__r2__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,5,Decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,4,indices,exact,indices,1.0,none,Directed Numbers and Algebraic Expressions,0.286,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,5,logarithms,exact,logarithms,1.0,none,Simple Equations and Linear Inequalities,0.28,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,6,surds,exact,surds,1.0,none,Graphs of Linear Equations,0.194,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,7,linear_equations,exact,linear_equations,1.0,borderline,Graphs of Linear Equations,0.9,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,8,simultaneous_equations,exact,simultaneous_equations,1.0,none,Graphs of Linear Equations,0.583,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,9,quadratic_equations,exact,quadratic_equations,1.0,none,Graphs of Linear Equations,0.578,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,10,inequalities,exact,inequalities,1.0,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,11,polynomials,exact,polynomials,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,12,sets,exact,sets,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,13,logic,exact,logic,1.0,none,Directed Numbers and Algebraic Expressions,0.17,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,14,plane_geometry,exact,plane_geometry,1.0,none,Graphs of Linear Equations,0.35,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,15,angles,exact,angles,1.0,borderline,"Plane Shapes, Scale Drawing and Angles in Polygons",0.9,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,16,triangles,exact,triangles,1.0,none,Simple Equations and Linear Inequalities,0.286,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,17,circles,exact,circles,1.0,none,Directed Numbers and Algebraic Expressions,0.245,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,18,mensuration,exact,mensuration,1.0,none,Graphs of Linear Equations,0.378,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,19,coordinate_geometry,exact,coordinate_geometry,1.0,none,Graphs of Linear Equations,0.267,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,20,vectors,exact,vectors,1.0,none,Graphs of Linear Equations,0.242,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,21,statistics,exact,statistics,1.0,none,Simple Equations and Linear Inequalities,0.32,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,22,probability,exact,probability,1.0,none,Graphs of Linear Equations,0.27,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,23,sequence_and_series,exact,sequence_and_series,1.0,none,Simple Equations and Linear Inequalities,0.508,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,24,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Graphs of Linear Equations,0.298,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,25,matrices,exact,matrices,1.0,none,Simple Equations and Linear Inequalities,0.292,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,26,trigonometry,exact,trigonometry,1.0,none,Simple Equations and Linear Inequalities,0.231,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,27,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Directed Numbers and Algebraic Expressions,0.562,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,28,basic_operations,exact,basic_operations,1.0,none,Graphs of Linear Equations,0.571,False
+P2_jss2_auditory__r3__grounded,grounded,P2_jss2_auditory,JSS2,Second,auditory,29,decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,1,algebraic_expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,2,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,3,percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,4,equations,borderline,linear_equations,0.9,borderline,Simple Equations and Linear Inequalities,0.9,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,5,graphing_linear_equations,borderline,linear_equations,0.9,borderline,Graphs of Linear Equations,0.863,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,6,solving_linear_equations,borderline,linear_equations,0.9,none,Graphs of Linear Equations,0.76,False
+P2_jss2_auditory__r3__ungrounded,ungrounded,P2_jss2_auditory,JSS2,Second,auditory,7,solving_quadratic_equations,borderline,quadratic_equations,0.9,none,Graphs of Linear Equations,0.642,False
+P2_jss2_auditory__r3__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,1,Algebraic Expressions,exact,algebraic_expressions,1.0,borderline,Directed Numbers and Algebraic Expressions,0.9,False
+P2_jss2_auditory__r3__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,2,Ratio And Proportion,exact,ratio_and_proportion,1.0,none,"Angles of Elevation and Depression, and Bearings",0.412,False
+P2_jss2_auditory__r3__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,3,Percentages,exact,percentages,1.0,none,Graphs of Linear Equations,0.324,False
+P2_jss2_auditory__r3__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,4,Fractions,exact,fractions,1.0,none,Graphs of Linear Equations,0.4,False
+P2_jss2_auditory__r3__ungrounded_readable,ungrounded_readable,P2_jss2_auditory,JSS2,Second,auditory,5,Decimals,exact,decimals,1.0,none,Directed Numbers and Algebraic Expressions,0.28,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,algebraic_expressions,exact,algebraic_expressions,1.0,none,Revision: Algebraic Processes,0.64,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,linear_equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,percentages,exact,percentages,1.0,none,Revision: Mensuration and Geometry,0.311,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Revision: Mensuration and Geometry,0.407,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,surds,exact,surds,1.0,none,Revision: Number and Numeration,0.222,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,logarithms,exact,logarithms,1.0,none,Revision: Number and Numeration,0.195,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,9,polynomials,exact,polynomials,1.0,none,Revision: Algebraic Processes,0.25,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,10,sets,exact,sets,1.0,none,Revision: Algebraic Processes,0.182,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,11,logic,exact,logic,1.0,none,Revision: Algebraic Processes,0.235,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,12,plane_geometry,exact,plane_geometry,1.0,none,Revision: Mensuration and Geometry,0.458,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,13,angles,exact,angles,1.0,none,Revision: Algebraic Processes,0.229,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,14,triangles,exact,triangles,1.0,none,Revision: Algebraic Processes,0.316,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,15,circles,exact,circles,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,16,mensuration,exact,mensuration,1.0,borderline,Revision: Mensuration and Geometry,0.9,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,17,coordinate_geometry,exact,coordinate_geometry,1.0,none,Revision: Mensuration and Geometry,0.491,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,18,vectors,exact,vectors,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,19,statistics,exact,statistics,1.0,borderline,Revision: Statistics and JSCE Examination Preparation,0.9,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,20,probability,exact,probability,1.0,none,Revision: Mensuration and Geometry,0.267,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,21,sequence_and_series,exact,sequence_and_series,1.0,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,22,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Revision: Mensuration and Geometry,0.364,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,23,matrices,exact,matrices,1.0,none,Revision: Algebraic Processes,0.324,False
+P3_jss3_kinesthetic__r1__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,24,trigonometry,exact,trigonometry,1.0,none,Revision: Mensuration and Geometry,0.435,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,linear_graphs,none,linear_equations,0.621,none,Revision: Number and Numeration,0.318,True
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,graphing_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.5,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,quadratic_equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,functions,none,fractions,0.778,none,Revision: Number and Numeration,0.3,True
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,system_of_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.351,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,linear_equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r1__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,Simultaneous Equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,Graphs of Linear Equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.456,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,Linear Inequalities,borderline,inequalities,0.9,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,Quadratic Equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,Surds,exact,surds,1.0,none,Revision: Number and Numeration,0.222,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,Linear Equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,Indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,algebraic_expressions,exact,algebraic_expressions,1.0,none,Revision: Algebraic Processes,0.64,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,linear_equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,plane_geometry,exact,plane_geometry,1.0,none,Revision: Mensuration and Geometry,0.458,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,angles,exact,angles,1.0,none,Revision: Algebraic Processes,0.229,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,triangles,exact,triangles,1.0,none,Revision: Algebraic Processes,0.316,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,circles,exact,circles,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,9,mensuration,exact,mensuration,1.0,borderline,Revision: Mensuration and Geometry,0.9,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,10,coordinate_geometry,exact,coordinate_geometry,1.0,none,Revision: Mensuration and Geometry,0.491,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,11,vectors,exact,vectors,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,12,statistics,exact,statistics,1.0,borderline,Revision: Statistics and JSCE Examination Preparation,0.9,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,13,probability,exact,probability,1.0,none,Revision: Mensuration and Geometry,0.267,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,14,sequence_and_series,exact,sequence_and_series,1.0,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,15,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Revision: Mensuration and Geometry,0.364,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,16,matrices,exact,matrices,1.0,none,Revision: Algebraic Processes,0.324,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,17,trigonometry,exact,trigonometry,1.0,none,Revision: Mensuration and Geometry,0.435,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,18,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Revision: Number and Numeration,0.792,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,19,basic_operations,exact,basic_operations,1.0,none,Revision: Number and Numeration,0.426,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,20,fractions,exact,fractions,1.0,none,Revision: Number and Numeration,0.3,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,21,decimals,exact,decimals,1.0,none,Revision: Algebraic Processes,0.27,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,22,percentages,exact,percentages,1.0,none,Revision: Mensuration and Geometry,0.311,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,23,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Revision: Mensuration and Geometry,0.407,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,24,logarithms,exact,logarithms,1.0,none,Revision: Number and Numeration,0.195,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,25,surds,exact,surds,1.0,none,Revision: Number and Numeration,0.222,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,26,quadratic_equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,27,inequalities,exact,inequalities,1.0,none,Revision: Mensuration and Geometry,0.348,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,28,polynomials,exact,polynomials,1.0,none,Revision: Algebraic Processes,0.25,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,29,sets,exact,sets,1.0,none,Revision: Algebraic Processes,0.182,False
+P3_jss3_kinesthetic__r2__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,30,logic,exact,logic,1.0,none,Revision: Algebraic Processes,0.235,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,graphing_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.5,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,quadratic_equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,circles,exact,circles,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,system_of_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.351,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,linear_inequalities,borderline,inequalities,0.9,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,functions,none,fractions,0.778,none,Revision: Number and Numeration,0.3,True
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r2__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,9,linear_equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,Simultaneous Equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,Graphs of Linear Equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.456,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,Solving Linear Equations with Fractions and Decimals,borderline,fractions,0.9,none,Revision: Mensuration and Geometry,0.419,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,Solving Linear Equations with Absolute Values,borderline,linear_equations,0.9,none,Revision: Mensuration and Geometry,0.38,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,Linear Inequalities,borderline,inequalities,0.9,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,Quadratic Equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,Indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,Linear Equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,linear_equations,exact,linear_equations,1.0,none,Revision: Number and Numeration,0.468,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,algebraic_expressions,exact,algebraic_expressions,1.0,none,Revision: Algebraic Processes,0.64,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,polynomials,exact,polynomials,1.0,none,Revision: Algebraic Processes,0.25,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,sets,exact,sets,1.0,none,Revision: Algebraic Processes,0.182,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,logic,exact,logic,1.0,none,Revision: Algebraic Processes,0.235,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,plane_geometry,exact,plane_geometry,1.0,none,Revision: Mensuration and Geometry,0.458,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,9,angles,exact,angles,1.0,none,Revision: Algebraic Processes,0.229,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,10,triangles,exact,triangles,1.0,none,Revision: Algebraic Processes,0.316,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,11,circles,exact,circles,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,12,mensuration,exact,mensuration,1.0,borderline,Revision: Mensuration and Geometry,0.9,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,13,coordinate_geometry,exact,coordinate_geometry,1.0,none,Revision: Mensuration and Geometry,0.491,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,14,vectors,exact,vectors,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,15,statistics,exact,statistics,1.0,borderline,Revision: Statistics and JSCE Examination Preparation,0.9,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,16,probability,exact,probability,1.0,none,Revision: Mensuration and Geometry,0.267,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,17,sequence_and_series,exact,sequence_and_series,1.0,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,18,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Revision: Mensuration and Geometry,0.364,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,19,matrices,exact,matrices,1.0,none,Revision: Algebraic Processes,0.324,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,20,trigonometry,exact,trigonometry,1.0,none,Revision: Mensuration and Geometry,0.435,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,21,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Revision: Number and Numeration,0.792,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,22,basic_operations,exact,basic_operations,1.0,none,Revision: Number and Numeration,0.426,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,23,fractions,exact,fractions,1.0,none,Revision: Number and Numeration,0.3,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,24,decimals,exact,decimals,1.0,none,Revision: Algebraic Processes,0.27,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,25,percentages,exact,percentages,1.0,none,Revision: Mensuration and Geometry,0.311,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,26,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Revision: Mensuration and Geometry,0.407,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,27,logarithms,exact,logarithms,1.0,none,Revision: Number and Numeration,0.195,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,28,surds,exact,surds,1.0,none,Revision: Number and Numeration,0.222,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,29,quadratic_equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r3__grounded,grounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,30,inequalities,exact,inequalities,1.0,none,Revision: Mensuration and Geometry,0.348,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,simultaneous_equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,graphing_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.5,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,quadratic_equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,circles,exact,circles,1.0,none,Revision: Algebraic Processes,0.278,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,system_of_linear_equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.351,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,linear_inequalities,borderline,inequalities,0.9,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,functions,none,fractions,0.778,none,Revision: Number and Numeration,0.3,True
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,graphing_functions,none,fractions,0.593,none,Revision: Algebraic Processes,0.255,True
+P3_jss3_kinesthetic__r3__ungrounded,ungrounded,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,9,indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,1,Simultaneous Equations,exact,simultaneous_equations,1.0,none,Revision: Number and Numeration,0.415,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,2,Graphs of Linear Equations,borderline,linear_equations,0.9,none,Revision: Number and Numeration,0.456,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,3,Quadratic Equations,exact,quadratic_equations,1.0,none,Revision: Number and Numeration,0.36,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,4,Surds,exact,surds,1.0,none,Revision: Number and Numeration,0.222,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,5,Linear Inequalities,borderline,inequalities,0.9,none,Revision: Number and Numeration,0.4,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,6,Linear Equations with Two Variables,borderline,linear_equations,0.9,none,Revision: Mensuration and Geometry,0.348,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,7,Indices,exact,indices,1.0,none,Revision: Algebraic Processes,0.333,False
+P3_jss3_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P3_jss3_kinesthetic,JSS3,Third,kinesthetic,8,Linear Equations with Fractions,borderline,fractions,0.9,none,Revision: Mensuration and Geometry,0.369,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,2,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,3,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,5,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Number Systems and Modular Arithmetic,0.576,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,6,basic_operations,exact,basic_operations,1.0,none,Sets,0.4,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,7,fractions,exact,fractions,1.0,none,Sets,0.308,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,8,decimals,exact,decimals,1.0,none,Sets,0.333,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,9,percentages,exact,percentages,1.0,none,Sets,0.4,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,10,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Simple Equations, Inequalities and Variation",0.438,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,11,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Simple Equations, Inequalities and Variation",0.246,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,12,linear_equations,exact,linear_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.4,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,13,simultaneous_equations,exact,simultaneous_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.455,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,14,inequalities,exact,inequalities,1.0,borderline,"Simple Equations, Inequalities and Variation",0.9,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,15,polynomials,exact,polynomials,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,16,plane_geometry,exact,plane_geometry,1.0,none,Introduction to Coordinate Geometry,0.449,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,17,angles,exact,angles,1.0,none,Sets,0.4,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,18,triangles,exact,triangles,1.0,none,Sets,0.308,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,19,circles,exact,circles,1.0,none,Sets,0.364,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,20,mensuration,exact,mensuration,1.0,none,"Simple Equations, Inequalities and Variation",0.291,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,21,coordinate_geometry,exact,coordinate_geometry,1.0,borderline,Introduction to Coordinate Geometry,0.9,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,22,vectors,exact,vectors,1.0,none,Sets,0.545,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,23,statistics,exact,statistics,1.0,none,Sets,0.429,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,24,probability,exact,probability,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,25,sequence_and_series,exact,sequence_and_series,1.0,none,Indices and Logarithms,0.537,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,26,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Number Systems and Modular Arithmetic,0.552,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,27,matrices,exact,matrices,1.0,none,Sets,0.333,False
+P4_ss1_visual__r1__grounded,grounded,P4_ss1_visual,SS1,First,visual,28,trigonometry,exact,trigonometry,1.0,none,Introduction to Coordinate Geometry,0.468,False
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,2,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,3,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,5,functions,none,fractions,0.778,none,Sets,0.308,True
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,6,graphing,none,fractions,0.471,none,Indices and Logarithms,0.2,True
+P4_ss1_visual__r1__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,7,systems_of_equations,none,linear_equations,0.611,none,Number Systems and Modular Arithmetic,0.456,True
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,1,Sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,2,Quadratic Equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,3,Logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,4,Indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,5,Graphs and Charts,none,ratio_and_proportion,0.486,none,Indices and Logarithms,0.513,True
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,6,Functions and Relations,none,ratio_and_proportion,0.605,none,"Simple Equations, Inequalities and Variation",0.507,True
+P4_ss1_visual__r1__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,7,Algebraic Manipulation,none,algebraic_expressions,0.651,none,Indices and Logarithms,0.318,True
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,2,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,3,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,5,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Number Systems and Modular Arithmetic,0.576,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,6,basic_operations,exact,basic_operations,1.0,none,Sets,0.4,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,7,fractions,exact,fractions,1.0,none,Sets,0.308,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,8,decimals,exact,decimals,1.0,none,Sets,0.333,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,9,percentages,exact,percentages,1.0,none,Sets,0.4,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,10,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Simple Equations, Inequalities and Variation",0.438,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,11,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Simple Equations, Inequalities and Variation",0.246,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,12,linear_equations,exact,linear_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.4,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,13,simultaneous_equations,exact,simultaneous_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.455,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,14,inequalities,exact,inequalities,1.0,borderline,"Simple Equations, Inequalities and Variation",0.9,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,15,polynomials,exact,polynomials,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,16,logic,exact,logic,1.0,none,Indices and Logarithms,0.296,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,17,plane_geometry,exact,plane_geometry,1.0,none,Introduction to Coordinate Geometry,0.449,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,18,angles,exact,angles,1.0,none,Sets,0.4,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,19,triangles,exact,triangles,1.0,none,Sets,0.308,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,20,circles,exact,circles,1.0,none,Sets,0.364,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,21,mensuration,exact,mensuration,1.0,none,"Simple Equations, Inequalities and Variation",0.291,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,22,coordinate_geometry,exact,coordinate_geometry,1.0,borderline,Introduction to Coordinate Geometry,0.9,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,23,vectors,exact,vectors,1.0,none,Sets,0.545,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,24,statistics,exact,statistics,1.0,none,Sets,0.429,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,25,probability,exact,probability,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,26,sequence_and_series,exact,sequence_and_series,1.0,none,Indices and Logarithms,0.537,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,27,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Number Systems and Modular Arithmetic,0.552,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,28,matrices,exact,matrices,1.0,none,Sets,0.333,False
+P4_ss1_visual__r2__grounded,grounded,P4_ss1_visual,SS1,First,visual,29,trigonometry,exact,trigonometry,1.0,none,Introduction to Coordinate Geometry,0.468,False
+P4_ss1_visual__r2__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r2__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,2,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r2__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,3,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,1,Sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,2,Quadratic Equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,3,Logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,4,Indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,5,Graphs and Charts,none,ratio_and_proportion,0.486,none,Indices and Logarithms,0.513,True
+P4_ss1_visual__r2__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,6,Functions and Relations,none,ratio_and_proportion,0.605,none,"Simple Equations, Inequalities and Variation",0.507,True
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,2,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,3,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,5,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Number Systems and Modular Arithmetic,0.576,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,6,basic_operations,exact,basic_operations,1.0,none,Sets,0.4,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,7,fractions,exact,fractions,1.0,none,Sets,0.308,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,8,decimals,exact,decimals,1.0,none,Sets,0.333,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,9,percentages,exact,percentages,1.0,none,Sets,0.4,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,10,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,"Simple Equations, Inequalities and Variation",0.438,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,11,algebraic_expressions,exact,algebraic_expressions,1.0,none,"Simple Equations, Inequalities and Variation",0.246,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,12,linear_equations,exact,linear_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.4,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,13,simultaneous_equations,exact,simultaneous_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.455,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,14,inequalities,exact,inequalities,1.0,borderline,"Simple Equations, Inequalities and Variation",0.9,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,15,polynomials,exact,polynomials,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,16,plane_geometry,exact,plane_geometry,1.0,none,Introduction to Coordinate Geometry,0.449,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,17,angles,exact,angles,1.0,none,Sets,0.4,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,18,triangles,exact,triangles,1.0,none,Sets,0.308,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,19,circles,exact,circles,1.0,none,Sets,0.364,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,20,mensuration,exact,mensuration,1.0,none,"Simple Equations, Inequalities and Variation",0.291,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,21,coordinate_geometry,exact,coordinate_geometry,1.0,borderline,Introduction to Coordinate Geometry,0.9,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,22,vectors,exact,vectors,1.0,none,Sets,0.545,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,23,statistics,exact,statistics,1.0,none,Sets,0.429,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,24,probability,exact,probability,1.0,none,"Simple Equations, Inequalities and Variation",0.218,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,25,sequence_and_series,exact,sequence_and_series,1.0,none,Indices and Logarithms,0.537,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,26,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Number Systems and Modular Arithmetic,0.552,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,27,matrices,exact,matrices,1.0,none,Sets,0.333,False
+P4_ss1_visual__r3__grounded,grounded,P4_ss1_visual,SS1,First,visual,28,trigonometry,exact,trigonometry,1.0,none,Introduction to Coordinate Geometry,0.468,False
+P4_ss1_visual__r3__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,1,sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r3__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,2,quadratic_equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r3__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,3,logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__ungrounded,ungrounded,P4_ss1_visual,SS1,First,visual,4,indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,1,Sets,exact,sets,1.0,exact,Sets,1.0,False
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,2,Quadratic Equations,exact,quadratic_equations,1.0,none,"Simple Equations, Inequalities and Variation",0.349,False
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,3,Logarithms,exact,logarithms,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,4,Indices,exact,indices,1.0,borderline,Indices and Logarithms,0.9,False
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,5,Graphs and Charts,none,ratio_and_proportion,0.486,none,Indices and Logarithms,0.513,True
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,6,Functions and Relations,none,ratio_and_proportion,0.605,none,"Simple Equations, Inequalities and Variation",0.507,True
+P4_ss1_visual__r3__ungrounded_readable,ungrounded_readable,P4_ss1_visual,SS1,First,visual,7,Algebraic Manipulations,none,algebraic_expressions,0.682,none,Indices and Logarithms,0.356,True
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,3,plane_geometry,exact,plane_geometry,1.0,none,Simultaneous Equations,0.389,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,4,angles,exact,angles,1.0,none,Simultaneous Equations,0.286,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,5,triangles,exact,triangles,1.0,none,Quadratic Equations,0.357,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,6,circles,exact,circles,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,7,mensuration,exact,mensuration,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,8,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Simultaneous Equations,0.455,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,9,basic_operations,exact,basic_operations,1.0,none,Quadratic Equations,0.629,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,10,fractions,exact,fractions,1.0,none,Quadratic Equations,0.571,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,11,decimals,exact,decimals,1.0,none,Quadratic Equations,0.296,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,12,percentages,exact,percentages,1.0,none,Simultaneous Equations,0.242,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,13,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Quadratic Equations,0.513,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,14,indices,exact,indices,1.0,none,Quadratic Equations,0.385,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,15,logarithms,exact,logarithms,1.0,none,Simultaneous Equations,0.312,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,16,surds,exact,surds,1.0,none,Simultaneous Equations,0.222,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,17,algebraic_expressions,exact,algebraic_expressions,1.0,none,Quadratic Equations,0.55,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,18,linear_equations,exact,linear_equations,1.0,none,Simultaneous Equations,0.684,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,19,simultaneous_equations,exact,simultaneous_equations,1.0,exact,Simultaneous Equations,1.0,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,20,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,21,polynomials,exact,polynomials,1.0,none,Quadratic Equations,0.2,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,22,sets,exact,sets,1.0,none,Simultaneous Equations,0.308,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,23,logic,exact,logic,1.0,none,Simultaneous Equations,0.222,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,24,vectors,exact,vectors,1.0,none,Quadratic Equations,0.308,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,25,statistics,exact,statistics,1.0,borderline,Statistics (1): Data Collection and Frequency Distributions,0.9,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,26,probability,exact,probability,1.0,none,Simultaneous Equations,0.182,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,27,sequence_and_series,exact,sequence_and_series,1.0,none,"Mensuration: Circles, Cylinders, Cones and Spheres",0.406,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,28,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Quadratic Equations,0.25,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,29,matrices,exact,matrices,1.0,none,Quadratic Equations,0.444,False
+P5_ss1_auditory__r1__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,30,trigonometry,exact,trigonometry,1.0,none,Quadratic Equations,0.258,False
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,3,number_systems,none,numbers_and_numeration,0.444,none,Simultaneous Equations,0.222,True
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,4,algebraic_expressions,exact,algebraic_expressions,1.0,none,Quadratic Equations,0.55,False
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,5,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r1__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,6,functions,none,fractions,0.778,none,Quadratic Equations,0.5,True
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,1,Coordinate Geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,2,Inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,3,Graphs,none,logarithms,0.5,none,Quadratic Equations,0.24,True
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,4,Functions,none,fractions,0.778,none,Quadratic Equations,0.5,True
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,5,Quadratic Equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,6,Linear Equations,exact,linear_equations,1.0,none,Simultaneous Equations,0.684,False
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,7,Solving Equations,none,linear_equations,0.788,none,Simultaneous Equations,0.615,True
+P5_ss1_auditory__r1__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,8,Algebraic Manipulation,none,algebraic_expressions,0.651,none,Quadratic Equations,0.585,True
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,3,angles,exact,angles,1.0,none,Simultaneous Equations,0.286,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,4,triangles,exact,triangles,1.0,none,Quadratic Equations,0.357,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,5,circles,exact,circles,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,6,mensuration,exact,mensuration,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,7,plane_geometry,exact,plane_geometry,1.0,none,Simultaneous Equations,0.389,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,8,sets,exact,sets,1.0,none,Simultaneous Equations,0.308,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,9,logic,exact,logic,1.0,none,Simultaneous Equations,0.222,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,10,linear_equations,exact,linear_equations,1.0,none,Simultaneous Equations,0.684,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,11,simultaneous_equations,exact,simultaneous_equations,1.0,exact,Simultaneous Equations,1.0,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,12,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,13,statistics,exact,statistics,1.0,borderline,Statistics (1): Data Collection and Frequency Distributions,0.9,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,14,probability,exact,probability,1.0,none,Simultaneous Equations,0.182,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,15,sequence_and_series,exact,sequence_and_series,1.0,none,"Mensuration: Circles, Cylinders, Cones and Spheres",0.406,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,16,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Quadratic Equations,0.25,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,17,matrices,exact,matrices,1.0,none,Quadratic Equations,0.444,False
+P5_ss1_auditory__r2__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,18,trigonometry,exact,trigonometry,1.0,none,Quadratic Equations,0.258,False
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,3,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,4,functions,none,fractions,0.778,none,Quadratic Equations,0.5,True
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,5,systems_of_equations,none,linear_equations,0.611,none,Simultaneous Equations,0.571,True
+P5_ss1_auditory__r2__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,6,graphing_linear_equations,borderline,linear_equations,0.9,none,Quadratic Equations,0.591,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,1,Coordinate Geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,2,Inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,3,Graphs and Functions,none,numbers_and_numeration,0.571,none,Quadratic Equations,0.462,True
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,4,Quadratic Equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,5,Linear Equations and Inequalities,borderline,linear_equations,0.9,none,Simultaneous Equations,0.473,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,6,Ratios and Proportional Relationships,none,ratio_and_proportion,0.702,none,Quadratic Equations,0.429,True
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,7,Linear Equations and Graphs,borderline,linear_equations,0.9,none,Simultaneous Equations,0.531,False
+P5_ss1_auditory__r2__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,8,Solving Systems of Equations,none,linear_equations,0.636,none,Simultaneous Equations,0.52,True
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,3,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Simultaneous Equations,0.455,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,4,basic_operations,exact,basic_operations,1.0,none,Quadratic Equations,0.629,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,5,percentages,exact,percentages,1.0,none,Simultaneous Equations,0.242,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Quadratic Equations,0.513,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,7,indices,exact,indices,1.0,none,Quadratic Equations,0.385,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,8,logarithms,exact,logarithms,1.0,none,Simultaneous Equations,0.312,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,9,surds,exact,surds,1.0,none,Simultaneous Equations,0.222,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,Quadratic Equations,0.55,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,11,linear_equations,exact,linear_equations,1.0,none,Simultaneous Equations,0.684,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,12,simultaneous_equations,exact,simultaneous_equations,1.0,exact,Simultaneous Equations,1.0,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,13,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,14,sets,exact,sets,1.0,none,Simultaneous Equations,0.308,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,15,logic,exact,logic,1.0,none,Simultaneous Equations,0.222,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,16,plane_geometry,exact,plane_geometry,1.0,none,Simultaneous Equations,0.389,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,17,angles,exact,angles,1.0,none,Simultaneous Equations,0.286,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,18,triangles,exact,triangles,1.0,none,Quadratic Equations,0.357,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,19,circles,exact,circles,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,20,mensuration,exact,mensuration,1.0,borderline,"Mensuration: Circles, Cylinders, Cones and Spheres",0.9,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,21,vectors,exact,vectors,1.0,none,Quadratic Equations,0.308,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,22,statistics,exact,statistics,1.0,borderline,Statistics (1): Data Collection and Frequency Distributions,0.9,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,23,probability,exact,probability,1.0,none,Simultaneous Equations,0.182,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,24,sequence_and_series,exact,sequence_and_series,1.0,none,"Mensuration: Circles, Cylinders, Cones and Spheres",0.406,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,25,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Quadratic Equations,0.25,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,26,matrices,exact,matrices,1.0,none,Quadratic Equations,0.444,False
+P5_ss1_auditory__r3__grounded,grounded,P5_ss1_auditory,SS1,Second,auditory,27,trigonometry,exact,trigonometry,1.0,none,Quadratic Equations,0.258,False
+P5_ss1_auditory__r3__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,1,coordinate_geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r3__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,2,inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r3__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,3,quadratic_equations,exact,quadratic_equations,1.0,exact,Quadratic Equations,1.0,False
+P5_ss1_auditory__r3__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,4,functions,none,fractions,0.778,none,Quadratic Equations,0.5,True
+P5_ss1_auditory__r3__ungrounded,ungrounded,P5_ss1_auditory,SS1,Second,auditory,5,systems_of_equations,none,linear_equations,0.611,none,Simultaneous Equations,0.571,True
+P5_ss1_auditory__r3__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,1,Coordinate Geometry,exact,coordinate_geometry,1.0,none,Quadratic Equations,0.263,False
+P5_ss1_auditory__r3__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,2,Inequalities,exact,inequalities,1.0,none,Simultaneous Equations,0.529,False
+P5_ss1_auditory__r3__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,3,Graphs and Charts,none,ratio_and_proportion,0.486,none,"Mensuration: Circles, Cylinders, Cones and Spheres",0.328,True
+P5_ss1_auditory__r3__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,4,Functions and Relations,none,ratio_and_proportion,0.605,none,Simultaneous Equations,0.533,True
+P5_ss1_auditory__r3__ungrounded_readable,ungrounded_readable,P5_ss1_auditory,SS1,Second,auditory,5,Algebraic Expressions and Equations,borderline,algebraic_expressions,0.9,none,Quadratic Equations,0.556,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,surds,exact,surds,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,indices,exact,indices,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,6,logarithms,exact,logarithms,1.0,none,Matrices and Determinants,0.343,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,7,algebraic_expressions,exact,algebraic_expressions,1.0,none,Sequences and Series: Geometric Progression,0.469,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,8,linear_equations,exact,linear_equations,1.0,none,Quadratic Functions and Graphs,0.348,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,9,simultaneous_equations,exact,simultaneous_equations,1.0,none,Quadratic Functions and Graphs,0.308,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,10,quadratic_equations,exact,quadratic_equations,1.0,none,Quadratic Functions and Graphs,0.653,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,11,inequalities,exact,inequalities,1.0,none,Quadratic Functions and Graphs,0.286,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,12,polynomials,exact,polynomials,1.0,none,Matrices and Determinants,0.278,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,13,sets,exact,sets,1.0,none,Matrices and Determinants,0.276,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,14,logic,exact,logic,1.0,none,Surds and Further Indices,0.133,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,15,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,16,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,17,triangles,exact,triangles,1.0,none,Matrices and Determinants,0.412,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,18,coordinate_geometry,exact,coordinate_geometry,1.0,none,Sequences and Series: Geometric Progression,0.387,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,19,vectors,exact,vectors,1.0,none,Quadratic Functions and Graphs,0.27,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,20,statistics,exact,statistics,1.0,none,Surds and Further Indices,0.343,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,21,probability,exact,probability,1.0,none,Surds and Further Indices,0.222,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,22,sequence_and_series,exact,sequence_and_series,1.0,none,Sequences and Series: Geometric Progression,0.613,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,23,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Sequences and Series: Arithmetic Progression,0.462,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,24,matrices,exact,matrices,1.0,borderline,Matrices and Determinants,0.9,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,25,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Surds and Further Indices,0.553,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,26,basic_operations,exact,basic_operations,1.0,none,Matrices and Determinants,0.439,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,27,fractions,exact,fractions,1.0,none,Quadratic Functions and Graphs,0.41,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,28,decimals,exact,decimals,1.0,none,Matrices and Determinants,0.303,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,29,percentages,exact,percentages,1.0,none,Surds and Further Indices,0.278,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,30,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Surds and Further Indices,0.444,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,31,sequence_and_series: arithmetic_progression,borderline,sequence_and_series,0.9,borderline,Sequences and Series: Arithmetic Progression,0.989,False
+P6_ss2_kinesthetic__r1__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,32,sequence_and_series: geometric_progression,borderline,sequence_and_series,0.9,borderline,Sequences and Series: Geometric Progression,0.988,False
+P6_ss2_kinesthetic__r1__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r1__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r1__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r1__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r1__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,Mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,Circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,Trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,Plane Geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r1__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,Angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,triangles,exact,triangles,1.0,none,Matrices and Determinants,0.412,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,6,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,7,indices,exact,indices,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,8,logarithms,exact,logarithms,1.0,none,Matrices and Determinants,0.343,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,9,surds,exact,surds,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,Sequences and Series: Geometric Progression,0.469,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,11,linear_equations,exact,linear_equations,1.0,none,Quadratic Functions and Graphs,0.348,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Quadratic Functions and Graphs,0.308,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,13,quadratic_equations,exact,quadratic_equations,1.0,none,Quadratic Functions and Graphs,0.653,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,14,inequalities,exact,inequalities,1.0,none,Quadratic Functions and Graphs,0.286,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,15,polynomials,exact,polynomials,1.0,none,Matrices and Determinants,0.278,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,16,sets,exact,sets,1.0,none,Matrices and Determinants,0.276,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,17,logic,exact,logic,1.0,none,Surds and Further Indices,0.133,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,18,coordinate_geometry,exact,coordinate_geometry,1.0,none,Sequences and Series: Geometric Progression,0.387,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,19,vectors,exact,vectors,1.0,none,Quadratic Functions and Graphs,0.27,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,20,statistics,exact,statistics,1.0,none,Surds and Further Indices,0.343,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,21,probability,exact,probability,1.0,none,Surds and Further Indices,0.222,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,22,sequence_and_series,exact,sequence_and_series,1.0,none,Sequences and Series: Geometric Progression,0.613,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,23,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Sequences and Series: Arithmetic Progression,0.462,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,24,matrices,exact,matrices,1.0,borderline,Matrices and Determinants,0.9,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,25,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Surds and Further Indices,0.553,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,26,basic_operations,exact,basic_operations,1.0,none,Matrices and Determinants,0.439,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,27,fractions,exact,fractions,1.0,none,Quadratic Functions and Graphs,0.41,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,28,decimals,exact,decimals,1.0,none,Matrices and Determinants,0.303,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,29,percentages,exact,percentages,1.0,none,Surds and Further Indices,0.278,False
+P6_ss2_kinesthetic__r2__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,30,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Surds and Further Indices,0.444,False
+P6_ss2_kinesthetic__r2__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r2__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r2__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r2__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r2__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,Mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,Trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,Circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,Plane Geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r2__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,Angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,triangles,exact,triangles,1.0,none,Matrices and Determinants,0.412,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,6,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,7,indices,exact,indices,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,8,logarithms,exact,logarithms,1.0,none,Matrices and Determinants,0.343,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,9,surds,exact,surds,1.0,borderline,Surds and Further Indices,0.9,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,Sequences and Series: Geometric Progression,0.469,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,11,linear_equations,exact,linear_equations,1.0,none,Quadratic Functions and Graphs,0.348,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Quadratic Functions and Graphs,0.308,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,13,quadratic_equations,exact,quadratic_equations,1.0,none,Quadratic Functions and Graphs,0.653,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,14,inequalities,exact,inequalities,1.0,none,Quadratic Functions and Graphs,0.286,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,15,polynomials,exact,polynomials,1.0,none,Matrices and Determinants,0.278,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,16,sets,exact,sets,1.0,none,Matrices and Determinants,0.276,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,17,logic,exact,logic,1.0,none,Surds and Further Indices,0.133,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,18,coordinate_geometry,exact,coordinate_geometry,1.0,none,Sequences and Series: Geometric Progression,0.387,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,19,vectors,exact,vectors,1.0,none,Quadratic Functions and Graphs,0.27,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,20,statistics,exact,statistics,1.0,none,Surds and Further Indices,0.343,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,21,probability,exact,probability,1.0,none,Surds and Further Indices,0.222,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,22,sequence_and_series,exact,sequence_and_series,1.0,none,Sequences and Series: Geometric Progression,0.613,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,23,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Sequences and Series: Arithmetic Progression,0.462,False
+P6_ss2_kinesthetic__r3__grounded,grounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,24,matrices,exact,matrices,1.0,borderline,Matrices and Determinants,0.9,False
+P6_ss2_kinesthetic__r3__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r3__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r3__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r3__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,plane_geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r3__ungrounded,ungrounded,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P6_ss2_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,1,Mensuration,exact,mensuration,1.0,none,Surds and Further Indices,0.389,False
+P6_ss2_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,2,Circles,exact,circles,1.0,none,Quadratic Functions and Graphs,0.216,False
+P6_ss2_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,3,Trigonometry,exact,trigonometry,1.0,none,Matrices and Determinants,0.378,False
+P6_ss2_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,4,Plane Geometry,exact,plane_geometry,1.0,none,Sequences and Series: Geometric Progression,0.386,False
+P6_ss2_kinesthetic__r3__ungrounded_readable,ungrounded_readable,P6_ss2_kinesthetic,SS2,First,kinesthetic,5,Angles,exact,angles,1.0,none,Surds and Further Indices,0.258,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,1,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,2,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,4,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,5,plane_geometry,exact,plane_geometry,1.0,none,Permutation and Combination,0.341,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,6,circles,exact,circles,1.0,none,Differentiation,0.273,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,7,angles,exact,angles,1.0,none,Integration,0.235,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,8,triangles,exact,triangles,1.0,none,Integration,0.4,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,9,coordinate_geometry,exact,coordinate_geometry,1.0,none,Differentiation,0.353,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,10,sets,exact,sets,1.0,none,Integration,0.267,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,11,logic,exact,logic,1.0,none,Probability,0.25,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,12,polynomials,exact,polynomials,1.0,none,Permutation and Combination,0.368,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,13,inequalities,exact,inequalities,1.0,none,Integration,0.522,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,14,quadratic_equations,exact,quadratic_equations,1.0,none,Differentiation,0.529,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,15,simultaneous_equations,exact,simultaneous_equations,1.0,none,Integration,0.485,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,16,linear_equations,exact,linear_equations,1.0,none,Integration,0.667,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,17,algebraic_expressions,exact,algebraic_expressions,1.0,none,Integration,0.375,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,18,indices,exact,indices,1.0,none,Integration,0.333,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,19,logarithms,exact,logarithms,1.0,none,Probability,0.286,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,20,surds,exact,surds,1.0,none,Integration,0.125,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,21,percentages,exact,percentages,1.0,none,Differentiation,0.462,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,22,decimals,exact,decimals,1.0,none,Differentiation,0.348,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,23,fractions,exact,fractions,1.0,none,Integration,0.6,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,24,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Permutation and Combination,0.638,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,25,basic_operations,exact,basic_operations,1.0,none,Integration,0.593,False
+P7_ss3_visual__r1__grounded,grounded,P7_ss3_visual,SS3,First,visual,26,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Permutation and Combination,0.531,False
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,1,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,2,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,4,functions,none,fractions,0.778,none,Differentiation,0.5,True
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,5,graphing,none,fractions,0.471,none,Integration,0.526,True
+P7_ss3_visual__r1__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,6,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,1,Matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,2,Vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,3,Probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,4,Functions,none,fractions,0.778,none,Differentiation,0.5,True
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,5,Graphs,none,logarithms,0.5,none,Integration,0.353,True
+P7_ss3_visual__r1__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,6,Statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,1,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,2,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,4,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,5,plane_geometry,exact,plane_geometry,1.0,none,Permutation and Combination,0.341,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,6,circles,exact,circles,1.0,none,Differentiation,0.273,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,7,angles,exact,angles,1.0,none,Integration,0.235,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,8,triangles,exact,triangles,1.0,none,Integration,0.4,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,9,coordinate_geometry,exact,coordinate_geometry,1.0,none,Differentiation,0.353,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,10,sets,exact,sets,1.0,none,Integration,0.267,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,11,logic,exact,logic,1.0,none,Probability,0.25,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,12,polynomials,exact,polynomials,1.0,none,Permutation and Combination,0.368,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,13,inequalities,exact,inequalities,1.0,none,Integration,0.522,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,14,quadratic_equations,exact,quadratic_equations,1.0,none,Differentiation,0.529,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,15,simultaneous_equations,exact,simultaneous_equations,1.0,none,Integration,0.485,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,16,linear_equations,exact,linear_equations,1.0,none,Integration,0.667,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,17,algebraic_expressions,exact,algebraic_expressions,1.0,none,Integration,0.375,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,18,indices,exact,indices,1.0,none,Integration,0.333,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,19,logarithms,exact,logarithms,1.0,none,Probability,0.286,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,20,surds,exact,surds,1.0,none,Integration,0.125,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,21,percentages,exact,percentages,1.0,none,Differentiation,0.462,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,22,decimals,exact,decimals,1.0,none,Differentiation,0.348,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,23,fractions,exact,fractions,1.0,none,Integration,0.6,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,24,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Permutation and Combination,0.531,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,25,basic_operations,exact,basic_operations,1.0,none,Integration,0.593,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,26,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Permutation and Combination,0.638,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,27,sequence_and_series,exact,sequence_and_series,1.0,none,Permutation and Combination,0.391,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,28,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Differentiation,0.333,False
+P7_ss3_visual__r2__grounded,grounded,P7_ss3_visual,SS3,First,visual,29,trigonometry,exact,trigonometry,1.0,none,Integration,0.435,False
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,1,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,2,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,4,functions,none,fractions,0.778,none,Differentiation,0.5,True
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,5,graphs,none,logarithms,0.5,none,Integration,0.353,True
+P7_ss3_visual__r2__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,6,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,1,Matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,2,Vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,3,Probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,4,Graphs and Charts,none,ratio_and_proportion,0.486,none,Permutation and Combination,0.455,True
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,5,Statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,6,Functions and Graphs,none,sequence_and_series,0.513,none,Permutation and Combination,0.468,True
+P7_ss3_visual__r2__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,7,Algebraic Manipulation,none,algebraic_expressions,0.651,none,Differentiation,0.432,True
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,1,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,2,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,4,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,5,percentages,exact,percentages,1.0,none,Differentiation,0.462,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,6,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Permutation and Combination,0.638,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,7,indices,exact,indices,1.0,none,Integration,0.333,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,8,logarithms,exact,logarithms,1.0,none,Probability,0.286,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,9,surds,exact,surds,1.0,none,Integration,0.125,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,10,algebraic_expressions,exact,algebraic_expressions,1.0,none,Integration,0.375,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,11,linear_equations,exact,linear_equations,1.0,none,Integration,0.667,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,12,simultaneous_equations,exact,simultaneous_equations,1.0,none,Integration,0.485,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,13,quadratic_equations,exact,quadratic_equations,1.0,none,Differentiation,0.529,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,14,inequalities,exact,inequalities,1.0,none,Integration,0.522,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,15,polynomials,exact,polynomials,1.0,none,Permutation and Combination,0.368,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,16,sets,exact,sets,1.0,none,Integration,0.267,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,17,logic,exact,logic,1.0,none,Probability,0.25,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,18,plane_geometry,exact,plane_geometry,1.0,none,Permutation and Combination,0.341,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,19,angles,exact,angles,1.0,none,Integration,0.235,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,20,triangles,exact,triangles,1.0,none,Integration,0.4,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,21,circles,exact,circles,1.0,none,Differentiation,0.273,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,22,mensuration,exact,mensuration,1.0,none,Integration,0.636,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,23,coordinate_geometry,exact,coordinate_geometry,1.0,none,Differentiation,0.353,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,24,sequence_and_series,exact,sequence_and_series,1.0,none,Permutation and Combination,0.391,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,25,commercial_arithmetic,exact,commercial_arithmetic,1.0,none,Differentiation,0.333,False
+P7_ss3_visual__r3__grounded,grounded,P7_ss3_visual,SS3,First,visual,26,trigonometry,exact,trigonometry,1.0,none,Integration,0.435,False
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,1,matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,2,vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,3,probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,4,functions,none,fractions,0.778,none,Differentiation,0.5,True
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,5,graphing,none,fractions,0.471,none,Integration,0.526,True
+P7_ss3_visual__r3__ungrounded,ungrounded,P7_ss3_visual,SS3,First,visual,6,statistics,exact,statistics,1.0,none,Integration,0.381,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,1,Matrices,exact,matrices,1.0,none,Integration,0.316,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,2,Vectors,exact,vectors,1.0,none,Integration,0.333,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,3,Probability,exact,probability,1.0,exact,Probability,1.0,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,4,Graphs and Functions,none,numbers_and_numeration,0.571,none,Permutation and Combination,0.511,True
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,5,Quadratic Equations,exact,quadratic_equations,1.0,none,Differentiation,0.529,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,6,Trigonometry,exact,trigonometry,1.0,none,Integration,0.435,False
+P7_ss3_visual__r3__ungrounded_readable,ungrounded_readable,P7_ss3_visual,SS3,First,visual,7,Statistics,exact,statistics,1.0,none,Integration,0.381,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,2,algebraic_expressions,exact,algebraic_expressions,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,3,linear_equations,exact,linear_equations,1.0,none,Calculus Revision and Applications,0.32,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,4,simultaneous_equations,exact,simultaneous_equations,1.0,none,Calculus Revision and Applications,0.429,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,5,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,6,inequalities,exact,inequalities,1.0,none,Calculus Revision and Applications,0.261,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,7,polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,8,indices,exact,indices,1.0,none,Calculus Revision and Applications,0.293,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,9,logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,10,surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,11,percentages,exact,percentages,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.222,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,12,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Calculus Revision and Applications,0.519,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,13,fractions,exact,fractions,1.0,none,Calculus Revision and Applications,0.372,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,14,decimals,exact,decimals,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.2,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,15,basic_operations,exact,basic_operations,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,16,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Calculus Revision and Applications,0.393,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,17,angles,exact,angles,1.0,none,Calculus Revision and Applications,0.2,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,18,triangles,exact,triangles,1.0,none,Calculus Revision and Applications,0.279,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,19,circles,exact,circles,1.0,none,Calculus Revision and Applications,0.195,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,20,mensuration,exact,mensuration,1.0,none,Calculus Revision and Applications,0.311,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,21,plane_geometry,exact,plane_geometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.312,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,22,coordinate_geometry,exact,coordinate_geometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.317,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,23,vectors,exact,vectors,1.0,none,Calculus Revision and Applications,0.244,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,24,statistics,exact,statistics,1.0,borderline,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.9,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,25,probability,exact,probability,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.19,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,26,sets,exact,sets,1.0,none,Calculus Revision and Applications,0.211,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,27,logic,exact,logic,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,28,matrices,exact,matrices,1.0,none,Calculus Revision and Applications,0.19,False
+P8_ss3_auditory__r1__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,29,trigonometry,exact,trigonometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.267,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,2,linear_equations,exact,linear_equations,1.0,none,Calculus Revision and Applications,0.32,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,3,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,4,circles,exact,circles,1.0,none,Calculus Revision and Applications,0.195,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,5,trigonometry,exact,trigonometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.267,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,6,functions,none,fractions,0.778,none,Calculus Revision and Applications,0.372,True
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,7,surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,8,logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r1__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,9,polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,1,Sequence And Series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,2,Arithmetic Progression,none,algebraic_expressions,0.605,none,Calculus Revision and Applications,0.321,True
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,3,Geometric Progression,none,algebraic_expressions,0.667,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.301,True
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,4,Quadratic Equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,5,Surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,6,Logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r1__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,7,Polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,2,linear_equations,exact,linear_equations,1.0,none,Calculus Revision and Applications,0.32,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,3,simultaneous_equations,exact,simultaneous_equations,1.0,none,Calculus Revision and Applications,0.429,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,4,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,5,inequalities,exact,inequalities,1.0,none,Calculus Revision and Applications,0.261,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,6,polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,7,algebraic_expressions,exact,algebraic_expressions,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,8,indices,exact,indices,1.0,none,Calculus Revision and Applications,0.293,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,9,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Calculus Revision and Applications,0.519,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,10,percentages,exact,percentages,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.222,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,11,fractions,exact,fractions,1.0,none,Calculus Revision and Applications,0.372,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,12,decimals,exact,decimals,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.2,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,13,basic_operations,exact,basic_operations,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,14,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Calculus Revision and Applications,0.393,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,15,circles,exact,circles,1.0,none,Calculus Revision and Applications,0.195,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,16,triangles,exact,triangles,1.0,none,Calculus Revision and Applications,0.279,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,17,angles,exact,angles,1.0,none,Calculus Revision and Applications,0.2,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,18,plane_geometry,exact,plane_geometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.312,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,19,coordinate_geometry,exact,coordinate_geometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.317,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,20,vectors,exact,vectors,1.0,none,Calculus Revision and Applications,0.244,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,21,statistics,exact,statistics,1.0,borderline,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.9,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,22,probability,exact,probability,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.19,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,23,matrices,exact,matrices,1.0,none,Calculus Revision and Applications,0.19,False
+P8_ss3_auditory__r2__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,24,trigonometry,exact,trigonometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.267,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,2,progressions,none,algebraic_expressions,0.545,none,Calculus Revision and Applications,0.304,True
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,3,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,4,linear_equations,exact,linear_equations,1.0,none,Calculus Revision and Applications,0.32,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,5,functions,none,fractions,0.778,none,Calculus Revision and Applications,0.372,True
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,6,circles,exact,circles,1.0,none,Calculus Revision and Applications,0.195,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,7,trigonometry,exact,trigonometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.267,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,8,surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,9,logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r2__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,10,polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,1,Sequence And Series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,2,Arithmetic Progression,none,algebraic_expressions,0.605,none,Calculus Revision and Applications,0.321,True
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,3,Geometric Progression,none,algebraic_expressions,0.667,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.301,True
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,4,Quadratic Equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,5,Surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,6,Logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r2__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,7,Polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,2,algebraic_expressions,exact,algebraic_expressions,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,3,linear_equations,exact,linear_equations,1.0,none,Calculus Revision and Applications,0.32,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,4,simultaneous_equations,exact,simultaneous_equations,1.0,none,Calculus Revision and Applications,0.429,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,5,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,6,inequalities,exact,inequalities,1.0,none,Calculus Revision and Applications,0.261,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,7,polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,8,indices,exact,indices,1.0,none,Calculus Revision and Applications,0.293,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,9,logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,10,surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,11,percentages,exact,percentages,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.222,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,12,ratio_and_proportion,exact,ratio_and_proportion,1.0,none,Calculus Revision and Applications,0.519,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,13,fractions,exact,fractions,1.0,none,Calculus Revision and Applications,0.372,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,14,decimals,exact,decimals,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.2,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,15,basic_operations,exact,basic_operations,1.0,none,Calculus Revision and Applications,0.4,False
+P8_ss3_auditory__r3__grounded,grounded,P8_ss3_auditory,SS3,Second,auditory,16,numbers_and_numeration,exact,numbers_and_numeration,1.0,none,Calculus Revision and Applications,0.393,False
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,1,sequence_and_series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,2,progressions,none,algebraic_expressions,0.545,none,Calculus Revision and Applications,0.304,True
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,3,quadratic_equations,exact,quadratic_equations,1.0,none,Calculus Revision and Applications,0.453,False
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,4,cubic_equations,none,quadratic_equations,0.765,none,Calculus Revision and Applications,0.408,True
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,5,circle_theorems,none,circles,0.636,none,Calculus Revision and Applications,0.286,True
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,6,trigonometry,exact,trigonometry,1.0,none,"WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",0.267,False
+P8_ss3_auditory__r3__ungrounded,ungrounded,P8_ss3_auditory,SS3,Second,auditory,7,functions,none,fractions,0.778,none,Calculus Revision and Applications,0.372,True
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,1,Sequence And Series,exact,sequence_and_series,1.0,none,Calculus Revision and Applications,0.34,False
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,2,Arithmetic Progression,none,algebraic_expressions,0.605,none,Calculus Revision and Applications,0.321,True
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,3,Geometric Progression,none,algebraic_expressions,0.667,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.301,True
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,4,Financial Mathematics,none,commercial_arithmetic,0.571,none,Calculus Revision and Applications,0.327,True
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,5,Surds,exact,surds,1.0,none,Calculus Revision and Applications,0.205,False
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,6,Logarithms,exact,logarithms,1.0,none,Calculus Revision and Applications,0.273,False
+P8_ss3_auditory__r3__ungrounded_readable,ungrounded_readable,P8_ss3_auditory,SS3,Second,auditory,7,Polynomials,exact,polynomials,1.0,none,WAEC/JAMB Comprehensive Revision: Number and Algebra,0.159,False

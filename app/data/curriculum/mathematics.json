@@ -1,0 +1,1429 @@
+{
+  "subject": "Mathematics",
+  "class_levels": {
+    "JSS1": {
+      "First": [
+        {
+          "topic": "Development of Numbers and Numerals",
+          "subtopics": [
+            "History of counting and early number systems (Egyptian, Roman, Hindu-Arabic)",
+            "Place value in whole numbers",
+            "Counting, reading and writing in millions, billions and trillions",
+            "Number names in Nigerian languages (Yoruba, Igbo, Hausa)",
+            "Quantitative reasoning on large numbers"
+          ],
+          "learning_objectives": [
+            "Explain how counting developed and identify early number systems",
+            "Write numbers in Egyptian, Roman and Hindu-Arabic numeral systems",
+            "State the place values of digits in whole numbers up to trillions",
+            "Apply large-number reading and writing to population and budget problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration theme; quantitative reasoning appears in all BECE papers"
+        },
+        {
+          "topic": "Fractions (1): Introduction and Equivalence",
+          "subtopics": [
+            "Meaning of fractions; numerator and denominator",
+            "Equivalent fractions and simplest form",
+            "Improper fractions and mixed numbers",
+            "Ordering fractions in ascending and descending order",
+            "Application of equivalent fractions in sharing"
+          ],
+          "learning_objectives": [
+            "Identify and write equivalent fractions",
+            "Convert between improper fractions and mixed numbers",
+            "Reduce fractions to their lowest terms",
+            "Order fractions and apply them to everyday sharing problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration — Fractions; appears in BECE Paper 1 multiple-choice"
+        },
+        {
+          "topic": "Decimals, Fractions and Percentages",
+          "subtopics": [
+            "Relationship between fractions and decimals",
+            "Place values of decimal fractions",
+            "Converting fractions to decimals and vice versa (terminating and recurring)",
+            "Percentages — converting between fractions, decimals and percentages",
+            "Problems involving percentages in everyday Nigerian life"
+          ],
+          "learning_objectives": [
+            "Establish the relationship between fractions, decimals and percentages",
+            "Convert fluently between the three forms",
+            "Solve real-life percentage problems (discounts, interest, market prices)"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration — Fractions; common in WAEC/NECO SS assessment foundations"
+        },
+        {
+          "topic": "Factors and Multiples",
+          "subtopics": [
+            "Prime numbers and composite numbers (Sieve of Eratosthenes)",
+            "Prime factorisation (factor tree and index form)",
+            "Highest Common Factor (HCF)",
+            "Lowest Common Multiple (LCM)",
+            "Difference between LCM and HCF; quantitative reasoning"
+          ],
+          "learning_objectives": [
+            "Identify prime and composite numbers",
+            "Find prime factors of whole numbers using decomposition",
+            "Calculate HCF and LCM of two or more numbers",
+            "Apply HCF and LCM to practical problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration — LCM and HCF topics directly tested in BECE Papers 1 and 2"
+        },
+        {
+          "topic": "Number Base System",
+          "subtopics": [
+            "Introduction to number bases (base 10 and other bases)",
+            "Expanding numbers in powers of their base",
+            "Counting in base 2 (binary system); place values",
+            "Converting between base 10 and base 2",
+            "Converting between other bases"
+          ],
+          "learning_objectives": [
+            "Write numbers in various bases in expanded form",
+            "Count numbers in groups of two (binary)",
+            "Convert numbers between base 10 and base 2",
+            "Convert numbers between other bases"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration — Counting in base two; BECE Paper 1 multiple-choice"
+        },
+        {
+          "topic": "Basic Operations on Whole Numbers and Decimals",
+          "subtopics": [
+            "Addition and subtraction of whole numbers and decimals",
+            "Multiplication and division of whole numbers and decimals",
+            "Order of operations (BODMAS)",
+            "Word problems involving the four basic operations",
+            "Transactions in the home and office (household arithmetic)"
+          ],
+          "learning_objectives": [
+            "Perform the four basic operations on whole numbers and decimals",
+            "Apply BODMAS correctly in multi-step calculations",
+            "Solve word problems involving everyday Nigerian money and measures"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Basic Operations — directly tested across all three BECE papers"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Fractions (2): Basic Operations",
+          "subtopics": [
+            "Addition and subtraction of fractions",
+            "Multiplication and division of fractions",
+            "Word problems involving all four operations on fractions",
+            "Mixed operations on fractions and decimals"
+          ],
+          "learning_objectives": [
+            "Add, subtract, multiply and divide fractions correctly",
+            "Solve word problems involving fractions in everyday contexts"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Basic Operations — Fractions; common in BECE Paper 1 and Paper 3 compulsory questions"
+        },
+        {
+          "topic": "Integers",
+          "subtopics": [
+            "Positive and negative integers on a number line",
+            "Addition and subtraction of integers",
+            "Multiplication and division of directed numbers",
+            "Everyday applications of integers (temperature, debt, altitude)"
+          ],
+          "learning_objectives": [
+            "Represent integers on a number line",
+            "Perform the four operations on positive and negative integers",
+            "Apply integers to real-life situations (gains/losses, above/below sea level)"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Basic Operations — directed numbers; BECE Paper 1 and Paper 2"
+        },
+        {
+          "topic": "Estimation and Approximation",
+          "subtopics": [
+            "Estimation of dimensions, distances, capacity and mass",
+            "Rounding to the nearest 10, 100, and 1000",
+            "Decimal places and significant figures",
+            "Approximating results of calculations",
+            "Quantitative reasoning involving estimation"
+          ],
+          "learning_objectives": [
+            "Estimate lengths, masses, capacities and distances in everyday Nigerian contexts",
+            "Round numbers to required decimal places and significant figures",
+            "Apply approximation to practical calculations"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Basic Operations — Approximation; also a foundation skill for WAEC/NECO"
+        },
+        {
+          "topic": "Binary Number System: Basic Operations",
+          "subtopics": [
+            "Addition of two and three 3-digit binary numbers",
+            "Subtraction of binary numbers",
+            "Multiplication of two 2-digit binary numbers",
+            "Division of binary numbers",
+            "Application of binary numbers in computers"
+          ],
+          "learning_objectives": [
+            "Add, subtract, multiply and divide binary numbers",
+            "Apply binary arithmetic to simple computer logic problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Basic Operations — Binary; BECE Paper 1 multiple-choice"
+        },
+        {
+          "topic": "Use of Symbols and Algebraic Expressions",
+          "subtopics": [
+            "Open sentences and use of letters to represent unknown values",
+            "Like and unlike terms in algebraic expressions",
+            "Collecting and simplifying like terms",
+            "Addition and subtraction of algebraic expressions",
+            "Quantitative aptitude and reasoning with symbols"
+          ],
+          "learning_objectives": [
+            "Translate word problems into algebraic expressions using symbols",
+            "Identify and simplify like terms",
+            "Perform basic arithmetic on algebraic expressions"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Algebraic Processes — Use of symbols; foundation for SS algebra"
+        },
+        {
+          "topic": "Simple Equations",
+          "subtopics": [
+            "Translating word problems into equations",
+            "Solving simple linear equations in one variable",
+            "Solving word problems using equations",
+            "Checking solutions by substitution"
+          ],
+          "learning_objectives": [
+            "Translate word problems into linear equations",
+            "Solve simple equations by collecting like terms and balancing",
+            "Apply equations to solve practical Nigerian everyday problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Algebraic Processes — Simple equations; BECE Paper 2 and 3"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Plane Shapes and Their Perimeters",
+          "subtopics": [
+            "Properties of plane shapes: square, rectangle, triangle, trapezium, parallelogram, circle",
+            "Perimeter of regular polygons, squares, rectangles, triangles",
+            "Circumference of a circle (π × d)",
+            "Word problems on perimeter"
+          ],
+          "learning_objectives": [
+            "Identify and describe properties of common plane shapes",
+            "Calculate the perimeters of polygons and circles",
+            "Apply perimeter calculations to fencing and boundary problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Geometry and Measurement — Plane shapes; directly tested in all BECE papers"
+        },
+        {
+          "topic": "Areas of Plane Shapes",
+          "subtopics": [
+            "Area of squares, rectangles, triangles, parallelograms",
+            "Area of trapeziums and circles",
+            "Conversion of area units",
+            "Word problems involving area (land, floor, walls)"
+          ],
+          "learning_objectives": [
+            "Calculate areas of common plane shapes using correct formulae",
+            "Solve real-world area problems (farmland, floor tiles, window panes)"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 2 and 3 compulsory questions"
+        },
+        {
+          "topic": "Three-Dimensional Shapes and Volume",
+          "subtopics": [
+            "Properties of cubes, cuboids, pyramids, cones, cylinders and spheres",
+            "Faces, edges and vertices of solids",
+            "Volume of cubes and cuboids",
+            "Word problems on volume"
+          ],
+          "learning_objectives": [
+            "Identify and describe properties of 3D solids",
+            "Calculate volume of cubes and cuboids",
+            "Apply volume to practical problems (capacity of containers, tanks)"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Three-dimensional shapes; BECE Paper 1"
+        },
+        {
+          "topic": "Geometrical Constructions and Angles",
+          "subtopics": [
+            "Construction of parallel and perpendicular lines",
+            "Bisection of a line segment and bisection of angles",
+            "Construction of angles: 90°, 60°, 45°, 30°",
+            "Properties of angles: vertically opposite, adjacent, alternate, corresponding",
+            "Angles at a point and on a straight line; sum of angles of a polygon"
+          ],
+          "learning_objectives": [
+            "Use a pair of compasses and ruler to construct standard angles and lines",
+            "Measure and identify types of angles",
+            "Apply angle properties to solve problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Construction and Angles; BECE Paper 2"
+        },
+        {
+          "topic": "Statistics: Data Collection and Presentation",
+          "subtopics": [
+            "Why we collect data; purpose of statistics",
+            "Collecting and organising data (tally and frequency tables)",
+            "Ordered presentation of data",
+            "Bar charts, pie charts, pictograms",
+            "Mean, median and mode of a data set"
+          ],
+          "learning_objectives": [
+            "Collect, organise and present data in tables and charts",
+            "Read and interpret bar charts, pie charts and pictograms",
+            "Calculate mean, median and mode of a simple data set"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Everyday Statistics — directly tested in BECE Paper 2; foundation for WAEC/NECO statistics"
+        }
+      ]
+    },
+    "JSS2": {
+      "First": [
+        {
+          "topic": "Standard Form and Indices",
+          "subtopics": [
+            "Powers of ten; expressing numbers as powers of 10",
+            "Standard form (scientific notation) of whole numbers and decimals",
+            "Basic operations on numbers in standard form",
+            "Index notation; laws of indices (multiplication, division, zero index, negative index)"
+          ],
+          "learning_objectives": [
+            "Express any number in standard form",
+            "Perform addition, subtraction, multiplication and division in standard form",
+            "State and apply the basic laws of indices"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration; WAEC/NECO SS1 foundation — standard form is tested at all levels"
+        },
+        {
+          "topic": "Whole Numbers: HCF, LCM and Number Patterns",
+          "subtopics": [
+            "Revision of prime factors; prime factorisation up to 200",
+            "Highest Common Factor (HCF) using prime factorisation",
+            "Lowest Common Multiple (LCM) using prime factorisation",
+            "Divisibility rules",
+            "Rectangular, triangular and square number patterns"
+          ],
+          "learning_objectives": [
+            "Find HCF and LCM of numbers using prime factorisation",
+            "Apply divisibility rules to simplify calculations",
+            "Identify and extend common number patterns"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Number and Numeration — LCM, HCF"
+        },
+        {
+          "topic": "Squares and Square Roots",
+          "subtopics": [
+            "Squares of whole numbers; perfect squares",
+            "Finding square roots by factorisation",
+            "Squares and square roots using mathematical tables",
+            "Making non-perfect squares into perfect squares",
+            "Quantitative reasoning involving squares and square roots"
+          ],
+          "learning_objectives": [
+            "Find squares of whole numbers and decimal numbers",
+            "Compute square roots by factorisation and from tables",
+            "Apply squares and square roots to area and Pythagoras problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Number and Numeration — Squares and square roots; WAEC/NECO foundation"
+        },
+        {
+          "topic": "Fractions: Percentages, Ratio, Proportion and Rate",
+          "subtopics": [
+            "Revision of fractions; finding percentage of quantities",
+            "Ratio and proportion in sharing (e.g. sharing ₦5000 in a given ratio)",
+            "Direct and inverse proportion",
+            "Rate (speed, density, unit cost)"
+          ],
+          "learning_objectives": [
+            "Calculate percentages of quantities and express quantities as percentages",
+            "Divide quantities in a given ratio",
+            "Solve problems involving direct and inverse proportion",
+            "Apply rate to problems of speed, pricing and density"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration — Fractions; everyday applications in BECE Paper 3"
+        },
+        {
+          "topic": "Household and Commercial Arithmetic",
+          "subtopics": [
+            "Simple interest calculations",
+            "Profit and loss; percentage profit and loss",
+            "Discount and sales tax (VAT)",
+            "Bills, budgets and household expenses",
+            "Buying and selling prices in Nigerian markets"
+          ],
+          "learning_objectives": [
+            "Calculate simple interest on loans and savings",
+            "Find profit, loss, percentage profit and percentage loss",
+            "Calculate VAT and discount on goods",
+            "Solve realistic Nigerian money problems"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Basic Operations — Transactions in homes and offices; high-value topic in BECE Paper 3"
+        },
+        {
+          "topic": "Approximation and Estimation",
+          "subtopics": [
+            "Rounding to decimal places and significant figures (revision and extension)",
+            "Approximating results of calculations",
+            "Estimation of real-world quantities",
+            "Error in measurement; absolute and relative error"
+          ],
+          "learning_objectives": [
+            "Round results to required decimal places and significant figures",
+            "Estimate answers to calculations and judge their reasonableness",
+            "Understand and calculate measurement error"
+          ],
+          "estimated_hours": 3,
+          "exam_relevance": "BECE Basic Operations — Approximation; WAEC/NECO Paper 1"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Directed Numbers and Algebraic Expressions",
+          "subtopics": [
+            "Positive and negative integers on the number line",
+            "Multiplication and division of directed numbers",
+            "Multiplicative inverse (reciprocals)",
+            "Expansion of algebraic expressions (brackets removal)",
+            "Factorisation of algebraic expressions"
+          ],
+          "learning_objectives": [
+            "Perform the four operations on directed numbers",
+            "Expand algebraic expressions by removing brackets",
+            "Factorise simple algebraic expressions"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Algebraic Processes — Factorisation; BECE Paper 2"
+        },
+        {
+          "topic": "Simple Equations and Linear Inequalities",
+          "subtopics": [
+            "Revision of simple linear equations",
+            "Forming and solving equations from word problems",
+            "Linear inequalities in one variable",
+            "Graphical representation of solutions on a number line",
+            "Word problems on inequalities"
+          ],
+          "learning_objectives": [
+            "Solve linear equations and check by substitution",
+            "Translate word problems into equations and inequalities",
+            "Represent solutions of inequalities on a number line"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Algebraic Processes — Simple equations and Linear inequalities"
+        },
+        {
+          "topic": "Graphs of Linear Equations",
+          "subtopics": [
+            "Plotting points on the Cartesian plane",
+            "Drawing graphs of linear equations in two variables",
+            "Gradient and y-intercept of a straight line",
+            "Linear graphs from real-life situations",
+            "Tables of values for linear functions"
+          ],
+          "learning_objectives": [
+            "Plot ordered pairs correctly on the Cartesian plane",
+            "Draw and interpret graphs of linear equations",
+            "Determine the gradient and intercepts of a straight line"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Algebraic Processes — Graphs; BECE Paper 2 (graph questions)"
+        },
+        {
+          "topic": "Plane Shapes, Scale Drawing and Angles in Polygons",
+          "subtopics": [
+            "Properties of similar shapes and enlargement with scale factor",
+            "Scale drawing (maps and plans; reading and constructing)",
+            "Sum of interior angles of a polygon",
+            "Exterior angles of polygons",
+            "Regular polygons and their properties"
+          ],
+          "learning_objectives": [
+            "Identify similar shapes and apply scale factors",
+            "Construct and interpret scale drawings",
+            "Calculate interior and exterior angles of regular and irregular polygons"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Similar shapes, Angles in polygons"
+        },
+        {
+          "topic": "Angles of Elevation and Depression, and Bearings",
+          "subtopics": [
+            "Definition of angles of elevation and depression",
+            "Solving problems using angles of elevation and depression",
+            "Compass directions and the concept of bearing",
+            "Calculating bearings and distances on diagrams",
+            "Application of bearings to navigation problems"
+          ],
+          "learning_objectives": [
+            "Define and measure angles of elevation and depression",
+            "Solve practical problems involving these angles",
+            "Measure and calculate three-figure bearings"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Bearing; also a core WAEC/NECO topic"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Pythagoras' Rule",
+          "subtopics": [
+            "Statement of Pythagoras' theorem",
+            "Finding the hypotenuse of a right-angled triangle",
+            "Finding a shorter side using Pythagoras",
+            "Pythagorean triples",
+            "Applications to real-life problems (ladders, distances, Nigerian architecture)"
+          ],
+          "learning_objectives": [
+            "State and apply Pythagoras' theorem to right-angled triangles",
+            "Find unknown sides in right-angled triangles",
+            "Solve practical problems using Pythagoras (distances, heights)"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Geometry and Measurement; core WAEC/NECO SS topic"
+        },
+        {
+          "topic": "Geometrical Constructions",
+          "subtopics": [
+            "Bisection of line segments and angles using a pair of compasses",
+            "Construction of angles: 30°, 45°, 60°, 90°, 120°",
+            "Copying a given angle",
+            "Construction of triangles and quadrilaterals",
+            "Loci of points"
+          ],
+          "learning_objectives": [
+            "Use compasses and ruler to bisect lines and angles accurately",
+            "Construct standard angles and geometric shapes",
+            "Understand loci as sets of points satisfying given conditions"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Construction; WAEC/NECO practical geometry"
+        },
+        {
+          "topic": "Data Presentation and Interpretation",
+          "subtopics": [
+            "Frequency tables (grouped and ungrouped data)",
+            "Bar charts, pie charts and histograms",
+            "Line graphs and cumulative frequency curves",
+            "Reading and interpreting charts and tables",
+            "Extracting information from statistical diagrams"
+          ],
+          "learning_objectives": [
+            "Construct frequency tables for grouped and ungrouped data",
+            "Draw and interpret bar charts, pie charts and histograms",
+            "Extract and interpret information from statistical diagrams"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Everyday Statistics — Data presentation; BECE Paper 2"
+        },
+        {
+          "topic": "Probability",
+          "subtopics": [
+            "Meaning of probability; equally likely outcomes",
+            "Probability scale from 0 to 1",
+            "Simple probability of chance events",
+            "Probability experiments (coin tosses, dice, drawing from bag)",
+            "Application of probability to everyday Nigerian decision-making"
+          ],
+          "learning_objectives": [
+            "Define probability and use the probability scale",
+            "Calculate the probability of simple events",
+            "Apply probability to real-world situations"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Everyday Statistics — Probability; BECE Paper 2 and WAEC/NECO SS"
+        }
+      ]
+    },
+    "JSS3": {
+      "First": [
+        {
+          "topic": "Binary Number System: Operations and Applications",
+          "subtopics": [
+            "Revision: converting binary numbers to base 10",
+            "Converting between base 10 and binary; converting other bases to binary",
+            "Addition of two and three 3-digit binary numbers",
+            "Subtraction and multiplication of binary numbers",
+            "Application of binary numbers to computers and coding"
+          ],
+          "learning_objectives": [
+            "Recall and apply binary number operations",
+            "Convert binary numbers to other bases and vice versa",
+            "Add, subtract and multiply numbers in base two",
+            "Explain the role of binary numbers in computer systems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Number and Numeration; NERDC JSS3 curriculum core topic"
+        },
+        {
+          "topic": "Word Problems",
+          "subtopics": [
+            "Translating word problems into numerical expressions",
+            "Sum, difference and product in word problems",
+            "Word problems involving fractions",
+            "Changing numerical expressions into words",
+            "Problems involving equations and algebraic expressions"
+          ],
+          "learning_objectives": [
+            "Interpret and solve word problems involving all four operations",
+            "Translate mathematical statements between words and symbols",
+            "Solve word problems involving fractions and equations"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Paper 3 — all compulsory questions are word problems; critical for BECE success"
+        },
+        {
+          "topic": "Factorisation (1): Common Factors",
+          "subtopics": [
+            "Factorising expressions of the form ax + ay",
+            "Factorising four-term expressions by grouping (e.g. 3m + pq + 3p + mq)",
+            "Difference of two squares: a² − b²",
+            "Perfect square trinomials: a² ± 2ab + b²",
+            "Word problems involving factorisation"
+          ],
+          "learning_objectives": [
+            "Factorise simple algebraic expressions using common factors",
+            "Factorise by grouping and using difference of two squares",
+            "Apply factorisation to solve word problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Algebraic Processes — Factorisation; BECE Paper 2"
+        },
+        {
+          "topic": "Geometrical Constructions (Revision and Extension)",
+          "subtopics": [
+            "Revision of bisecting lines and angles",
+            "Constructing angles of 90°, 60°, 45° and 30°",
+            "Copying a given angle using compasses",
+            "Constructing simple plane shapes (equilateral triangle, square)",
+            "Loci: the set of points equidistant from two given points"
+          ],
+          "learning_objectives": [
+            "Revise and extend standard geometric constructions",
+            "Construct angles of 30° and 45° accurately",
+            "Describe and construct simple loci"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Geometry — Construction; BECE Paper 2 (often carries high marks)"
+        },
+        {
+          "topic": "Areas of Plane Shapes",
+          "subtopics": [
+            "Area of triangles, parallelograms, trapeziums",
+            "Area of circles and sectors",
+            "Composite shapes (combination of rectangles, triangles, semicircles)",
+            "Word problems on area in Nigerian everyday life (land, room, sports field)"
+          ],
+          "learning_objectives": [
+            "Find the area of triangles, parallelograms, trapeziums, circles and sectors",
+            "Calculate the area of composite shapes",
+            "Solve real-world area problems in the Nigerian context"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 3 compulsory questions"
+        },
+        {
+          "topic": "Formulae: Substitution and Change of Subject",
+          "subtopics": [
+            "Substituting numerical values into algebraic formulae",
+            "Evaluating expressions using substitution",
+            "Changing the subject of a formula (one step)",
+            "Changing the subject involving two or more steps",
+            "Application to speed, area, volume and science formulae"
+          ],
+          "learning_objectives": [
+            "Substitute given values into formulae and evaluate expressions",
+            "Change the subject of a formula",
+            "Apply formula manipulation to physics and real-life problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Algebraic Processes; WAEC/NECO SS1 extension — change of subject is core"
+        },
+        {
+          "topic": "Similarity (1): Similar Shapes and Scale Factors",
+          "subtopics": [
+            "Identification of similar shapes (triangles, rectangles, squares) in the environment",
+            "Enlargement and the concept of scale factor",
+            "Corresponding lengths and angles of similar figures",
+            "Using scale factor to find unknown lengths"
+          ],
+          "learning_objectives": [
+            "Identify similar plane figures in the environment",
+            "Enlarge a shape by a given scale factor",
+            "Calculate unknown lengths using the ratio of corresponding sides"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Geometry — Similar shapes; WAEC/NECO SS extension"
+        },
+        {
+          "topic": "Trigonometry (1): Tangent of an Angle",
+          "subtopics": [
+            "Right-angled triangle: opposite, adjacent, hypotenuse",
+            "Definition of the tangent ratio (tan θ = opposite ÷ adjacent)",
+            "Using mathematical tables to find tan values",
+            "Finding unknown distances and lengths using the tangent ratio",
+            "Finding unknown angles using inverse tangent"
+          ],
+          "learning_objectives": [
+            "Identify the sides of a right-angled triangle relative to a given angle",
+            "Determine and apply the tangent of an acute angle",
+            "Find distances and angles using the tangent ratio"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry — Trigonometry; high-value BECE Paper 2 and Paper 3 topic; WAEC core"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Factorisation (2): Quadratic Expressions",
+          "subtopics": [
+            "Expanding quadratic expressions (FOIL method)",
+            "Factorising quadratic expressions ax² + bx + c",
+            "Using the quadratic equation box method",
+            "Solving quadratic equations by factorisation",
+            "Word problems leading to quadratic equations"
+          ],
+          "learning_objectives": [
+            "Expand and factorise quadratic expressions",
+            "Solve quadratic equations by factorisation",
+            "Apply quadratic equations to real-world problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Algebraic Processes — Factorisation; WAEC/NECO SS1 essential topic"
+        },
+        {
+          "topic": "Equations (1): Equations Involving Fractions",
+          "subtopics": [
+            "Solving simple equations involving fractions (finding LCD)",
+            "Cross-multiplication method",
+            "Word problems leading to equations with fractions"
+          ],
+          "learning_objectives": [
+            "Solve linear equations involving fractional coefficients",
+            "Apply cross-multiplication to equation solving",
+            "Formulate and solve word problems that lead to fractional equations"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Algebraic Processes; WAEC/NECO SS1 extension"
+        },
+        {
+          "topic": "Compound Interest",
+          "subtopics": [
+            "Revision of simple interest",
+            "Compound interest: concept and distinction from simple interest",
+            "Calculating compound interest step-by-step and using the formula",
+            "Instalment repayment and loans",
+            "Application to Nigerian banks and savings (Naira amounts)"
+          ],
+          "learning_objectives": [
+            "Distinguish between simple and compound interest",
+            "Calculate compound interest using step-by-step and formula methods",
+            "Apply compound interest to Nigerian banking and loan problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Number and Numeration — compound interest; high-value in BECE Paper 3; WAEC SS core"
+        },
+        {
+          "topic": "Proportion: Direct, Inverse and Reciprocal",
+          "subtopics": [
+            "Direct proportion and its graphical representation",
+            "Inverse proportion and its graphical representation",
+            "Reciprocals of numbers; using reciprocals in calculations",
+            "Joint variation",
+            "Application to practical Nigerian life (cost, speed, workers, time)"
+          ],
+          "learning_objectives": [
+            "Solve problems involving direct and inverse proportion",
+            "Find and apply reciprocals of numbers",
+            "Apply direct and inverse proportion to practical problems"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Number and Numeration; WAEC/NECO SS applications"
+        },
+        {
+          "topic": "Equations (2): Simultaneous Linear Equations",
+          "subtopics": [
+            "Compiling tables of values for two linear equations",
+            "Graphical solution of simultaneous linear equations",
+            "Elimination method for solving simultaneous equations",
+            "Substitution method for solving simultaneous equations",
+            "Word problems leading to simultaneous equations"
+          ],
+          "learning_objectives": [
+            "Solve simultaneous equations graphically",
+            "Apply elimination and substitution methods",
+            "Formulate and solve real-life word problems using simultaneous equations"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Algebraic Processes; core WAEC/NECO SS1 topic — almost always on the exam"
+        },
+        {
+          "topic": "Similarity (2): Areas and Volumes of Similar Shapes",
+          "subtopics": [
+            "Ratio of lengths, areas and volumes of similar shapes",
+            "Scale factor k, k², k³ for length, area, volume respectively",
+            "Calculating unknown areas and volumes of similar shapes",
+            "Application to maps, architectural plans and models"
+          ],
+          "learning_objectives": [
+            "Calculate lengths, areas and volumes of similar shapes using scale factors",
+            "Apply the k : k² : k³ relationship for similar shapes",
+            "Solve practical problems on similar shapes"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Geometry — Similar shapes; WAEC/NECO SS extension"
+        },
+        {
+          "topic": "Trigonometry (2): Sine and Cosine of Angles",
+          "subtopics": [
+            "Definition of sine and cosine ratios",
+            "Using mathematical tables for sin and cos values",
+            "Applying sin, cos and tan to find unknown sides and angles",
+            "Angles of elevation and depression revisited with trig ratios",
+            "Word problems combining all three trigonometric ratios"
+          ],
+          "learning_objectives": [
+            "Identify and determine sine and cosine of acute angles",
+            "Apply all three trigonometric ratios to find distances and angles",
+            "Solve word problems involving angles of elevation and depression"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Geometry — Trigonometry; core WAEC/NECO SS topic — high marks in Paper 2"
+        },
+        {
+          "topic": "Everyday Statistics: Measures of Central Tendency",
+          "subtopics": [
+            "Mean (arithmetic average) of ungrouped data",
+            "Median of ungrouped and grouped data",
+            "Mode of a data set",
+            "Range as a measure of spread",
+            "Representing data in pie charts, bar charts and pictograms",
+            "Applying statistics to analyse information and environmental issues"
+          ],
+          "learning_objectives": [
+            "Calculate mean, median, mode and range of given data",
+            "Represent and interpret data in pie charts, bar charts and pictograms",
+            "Apply statistical measures to everyday Nigerian data"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Everyday Statistics; WAEC/NECO SS core — statistics appears on every Paper 2"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Revision: Number and Numeration",
+          "subtopics": [
+            "Whole numbers, fractions, decimals, percentages, ratio and proportion",
+            "Number bases (binary, base 10)",
+            "Indices, standard form",
+            "Compound interest and commercial arithmetic",
+            "BECE past question practice on number topics"
+          ],
+          "learning_objectives": [
+            "Consolidate all JSS1–JSS3 number and numeration topics",
+            "Answer BECE-style questions on number and numeration accurately"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE — Number and Numeration covers approximately 30% of the exam"
+        },
+        {
+          "topic": "Revision: Algebraic Processes",
+          "subtopics": [
+            "Simplification of expressions; factorisation (linear and quadratic)",
+            "Linear equations; simultaneous equations; equations with fractions",
+            "Change of subject of formulae",
+            "Graphs of linear equations; inequalities",
+            "BECE past question practice on algebra"
+          ],
+          "learning_objectives": [
+            "Consolidate all JSS1–JSS3 algebra topics",
+            "Solve BECE-style algebraic problems confidently"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Algebraic Processes — approximately 25% of the exam"
+        },
+        {
+          "topic": "Revision: Mensuration and Geometry",
+          "subtopics": [
+            "Areas and perimeters of plane shapes; volumes of 3D solids",
+            "Construction of angles and shapes",
+            "Similar shapes and scale factors",
+            "Trigonometric ratios (sin, cos, tan)",
+            "Angles (polygon, elevation, depression, bearing)"
+          ],
+          "learning_objectives": [
+            "Consolidate all JSS1–JSS3 geometry and mensuration topics",
+            "Answer BECE construction and trigonometry questions accurately"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Mensuration and Geometry — approximately 30% of the exam"
+        },
+        {
+          "topic": "Revision: Statistics and JSCE Examination Preparation",
+          "subtopics": [
+            "Mean, median, mode and range; data presentation (charts, tables)",
+            "Probability (basic)",
+            "BECE format overview: Papers 1, 2 and 3",
+            "Exam technique (time management, showing working in Paper 3)",
+            "Comprehensive BECE past questions (all themes)"
+          ],
+          "learning_objectives": [
+            "Consolidate statistics and probability topics",
+            "Demonstrate BECE-examination technique across all paper types",
+            "Attempt full BECE practice papers under timed conditions"
+          ],
+          "estimated_hours": 8,
+          "exam_relevance": "BECE Everyday Statistics + JSCE full preparation — this term is entirely exam-focused"
+        }
+      ]
+    },
+    "SS1": {
+      "First": [
+        {
+          "topic": "Number Systems and Modular Arithmetic",
+          "subtopics": [
+            "Revision of number bases (base 2, 8, 10, 16)",
+            "Conversion between number bases",
+            "Modular arithmetic: addition, subtraction, multiplication mod n",
+            "Practical applications of modular arithmetic (clocks, calendars)"
+          ],
+          "learning_objectives": [
+            "Convert numbers between different bases",
+            "Perform arithmetic operations in modulo n",
+            "Apply modular arithmetic to real-world problems"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Number and Numeration; regularly tested"
+        },
+        {
+          "topic": "Sets",
+          "subtopics": [
+            "Definition and notation of sets; types of sets",
+            "Venn diagrams (2 and 3 sets)",
+            "Union, intersection, complement of sets",
+            "Word problems using Venn diagrams (surveys, groups)",
+            "Number of elements in a union (inclusion-exclusion principle)"
+          ],
+          "learning_objectives": [
+            "Use correct set notation and represent sets on Venn diagrams",
+            "Find union, intersection and complement of sets",
+            "Solve real-world word problems using Venn diagrams"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Sets; one of the most frequently tested SS1 topics"
+        },
+        {
+          "topic": "Indices and Logarithms",
+          "subtopics": [
+            "Laws of indices (revision and extension)",
+            "Negative and fractional indices",
+            "Introduction to logarithms; log base 10",
+            "Laws of logarithms (product, quotient, power rules)",
+            "Using logarithm tables for multiplication, division, powers and roots"
+          ],
+          "learning_objectives": [
+            "Apply all laws of indices to simplify expressions",
+            "Define logarithms and apply the three laws",
+            "Use 4-figure logarithm tables to perform calculations"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Indices and Logarithms; core topic across all SS years"
+        },
+        {
+          "topic": "Simple Equations, Inequalities and Variation",
+          "subtopics": [
+            "Linear equations in one variable (revision)",
+            "Linear inequalities in one variable; graphical representation",
+            "Direct variation (y = kx); inverse variation (y = k/x)",
+            "Joint and partial variation",
+            "Word problems on variation"
+          ],
+          "learning_objectives": [
+            "Solve linear equations and inequalities",
+            "Identify types of variation and find the constant k",
+            "Solve practical problems on direct, inverse and joint variation"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO — Variation is a standalone topic on every Paper 2"
+        },
+        {
+          "topic": "Introduction to Coordinate Geometry",
+          "subtopics": [
+            "The Cartesian plane: plotting and reading coordinates",
+            "Gradient (slope) of a straight line",
+            "Equation of a straight line: y = mx + c",
+            "Intercepts and sketching straight lines",
+            "Distance between two points; midpoint formula"
+          ],
+          "learning_objectives": [
+            "Plot points and determine coordinates on the Cartesian plane",
+            "Find the gradient and equation of a straight line",
+            "Calculate distance and midpoint between two points"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Coordinate Geometry; regular topic"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Quadratic Equations",
+          "subtopics": [
+            "Factorisation method (revision and extension)",
+            "Completing the square",
+            "Quadratic formula: x = (−b ± √(b² − 4ac)) / 2a",
+            "Graphical solution of quadratic equations",
+            "Word problems leading to quadratic equations"
+          ],
+          "learning_objectives": [
+            "Solve quadratic equations by factorisation, completing the square and using the formula",
+            "Draw and interpret graphs of quadratic functions",
+            "Solve word problems that lead to quadratic equations"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Quadratic equations; always on the paper"
+        },
+        {
+          "topic": "Simultaneous Equations",
+          "subtopics": [
+            "Revision: simultaneous linear equations",
+            "Simultaneous linear equations using graphs",
+            "One linear, one quadratic simultaneous equations",
+            "Word problems leading to simultaneous equations (prices, ages, distances)"
+          ],
+          "learning_objectives": [
+            "Solve simultaneous equations by elimination, substitution and graphically",
+            "Solve systems with one linear and one quadratic equation",
+            "Apply simultaneous equations to Nigerian everyday scenarios"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Simultaneous equations; one of the most tested SS topics"
+        },
+        {
+          "topic": "Mensuration: Circles, Cylinders, Cones and Spheres",
+          "subtopics": [
+            "Arc length and area of a sector",
+            "Surface area of cylinders, cones and spheres",
+            "Volume of prisms, cylinders, cones, pyramids and spheres",
+            "Frustum of a cone",
+            "Applications to Nigerian storage tanks, water bowls, buildings"
+          ],
+          "learning_objectives": [
+            "Calculate arc lengths and sector areas",
+            "Find surface area and volume of cylinders, cones and spheres",
+            "Solve applied mensuration problems in Nigerian contexts"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Mensuration; one of the highest-mark topics in Paper 2"
+        },
+        {
+          "topic": "Statistics (1): Data Collection and Frequency Distributions",
+          "subtopics": [
+            "Data collection methods; types of data",
+            "Frequency distribution tables (grouped and ungrouped)",
+            "Histograms, frequency polygons and cumulative frequency curves",
+            "Mean, median and mode of grouped data",
+            "Range and interpretation of data"
+          ],
+          "learning_objectives": [
+            "Construct and interpret frequency distribution tables",
+            "Draw histograms, frequency polygons and ogive (cumulative frequency curve)",
+            "Calculate mean, median and mode of grouped data"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Statistics; large allocated marks on every SS paper"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Revision: Number and Algebra",
+          "subtopics": [
+            "Number bases, modular arithmetic, indices, logarithms",
+            "Sets and Venn diagrams",
+            "Equations (linear, quadratic, simultaneous)",
+            "Variation, inequalities",
+            "WAEC/NECO past question practice"
+          ],
+          "learning_objectives": [
+            "Consolidate all SS1 number and algebra topics",
+            "Demonstrate facility with WAEC/NECO-style questions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO foundation — number and algebra account for approximately 50% of Paper 1"
+        },
+        {
+          "topic": "Revision: Geometry, Mensuration and Statistics",
+          "subtopics": [
+            "Coordinate geometry, straight lines",
+            "Mensuration (circles, solids)",
+            "Trigonometry foundations",
+            "Statistics (frequency tables, charts, mean/median/mode)",
+            "WAEC/NECO past question practice"
+          ],
+          "learning_objectives": [
+            "Consolidate all SS1 geometry and statistics topics",
+            "Attempt complete WAEC/NECO SS1 past papers under examination conditions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO preparation — full SS1 end-of-year assessment and promotion examinations"
+        }
+      ]
+    },
+    "SS2": {
+      "First": [
+        {
+          "topic": "Surds and Further Indices",
+          "subtopics": [
+            "Definition and simplification of surds",
+            "Addition, subtraction, multiplication and division of surds",
+            "Rationalising the denominator",
+            "Fractional and negative indices (extension)",
+            "Exponential equations"
+          ],
+          "learning_objectives": [
+            "Simplify surd expressions including rationalisation",
+            "Solve exponential equations using index laws",
+            "Apply surds to geometric problems (lengths, areas)"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Surds; tested annually"
+        },
+        {
+          "topic": "Sequences and Series: Arithmetic Progression",
+          "subtopics": [
+            "Arithmetic progressions (AP): terms, common difference",
+            "nth term formula: Tn = a + (n−1)d",
+            "Sum of n terms of an AP: Sn = n/2(2a + (n−1)d)",
+            "Applications of AP to Nigerian everyday problems (savings, bricks in a wall)"
+          ],
+          "learning_objectives": [
+            "Identify arithmetic progressions and find the nth term",
+            "Calculate the sum of n terms of an AP",
+            "Apply AP to practical Nigerian problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 2 — Sequences and Series; AP is one of the most tested SS2 topics"
+        },
+        {
+          "topic": "Sequences and Series: Geometric Progression",
+          "subtopics": [
+            "Geometric progressions (GP): terms, common ratio",
+            "nth term formula: Tn = ar^(n−1)",
+            "Sum of n terms of a GP",
+            "Sum to infinity of a GP (|r| < 1)",
+            "Applications of GP to compound interest, population growth"
+          ],
+          "learning_objectives": [
+            "Identify geometric progressions and find the nth term",
+            "Calculate sums of GPs including sum to infinity",
+            "Apply GP to compound interest and real-life growth problems"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 2 — Sequences; GP tested annually alongside AP"
+        },
+        {
+          "topic": "Matrices and Determinants",
+          "subtopics": [
+            "Order of a matrix; types of matrices (square, identity, zero)",
+            "Addition, subtraction and scalar multiplication of matrices",
+            "Matrix multiplication",
+            "Determinant of a 2×2 matrix",
+            "Inverse of a 2×2 matrix",
+            "Solving 2×2 simultaneous equations using matrices"
+          ],
+          "learning_objectives": [
+            "Perform basic operations on matrices",
+            "Find the determinant and inverse of a 2×2 matrix",
+            "Use matrix methods to solve simultaneous linear equations"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Matrices; tested annually with significant marks"
+        },
+        {
+          "topic": "Quadratic Functions and Graphs",
+          "subtopics": [
+            "Plotting graphs of quadratic functions y = ax² + bx + c",
+            "Minimum and maximum values; vertex of a parabola",
+            "Roots of a quadratic from graph; discriminant",
+            "Solving quadratic inequalities",
+            "Application of quadratic graphs to projectile motion"
+          ],
+          "learning_objectives": [
+            "Draw accurate graphs of quadratic functions",
+            "Identify roots, vertex and axis of symmetry from a graph",
+            "Solve quadratic inequalities"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Quadratic functions; graph drawing is a major part of the paper"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Trigonometry: Ratios, Graphs and Applications",
+          "subtopics": [
+            "Trigonometric ratios for angles beyond 90° (obtuse angles)",
+            "Graphs of sin x, cos x and tan x",
+            "Trigonometric identities: sin²x + cos²x = 1",
+            "Solving trigonometric equations",
+            "Sine rule and cosine rule for non-right-angled triangles",
+            "Bearings and angles of elevation/depression with trigonometry"
+          ],
+          "learning_objectives": [
+            "Use trigonometric ratios for acute and obtuse angles",
+            "Sketch and interpret graphs of sin, cos and tan",
+            "Apply the sine and cosine rules to find sides and angles"
+          ],
+          "estimated_hours": 8,
+          "exam_relevance": "WAEC/NECO Paper 2 — Trigonometry; high-mark topic with graph and calculation components"
+        },
+        {
+          "topic": "Further Coordinate Geometry",
+          "subtopics": [
+            "Equation of a straight line in various forms",
+            "Parallel and perpendicular lines",
+            "Distance from a point to a line",
+            "Gradient of curves at a point (introduction to differentiation)"
+          ],
+          "learning_objectives": [
+            "Write and use equations of straight lines in all forms",
+            "Determine conditions for parallel and perpendicular lines",
+            "Interpret the gradient of a curve at a given point"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Coordinate Geometry"
+        },
+        {
+          "topic": "Statistics (2): Measures of Dispersion",
+          "subtopics": [
+            "Range, interquartile range and semi-interquartile range",
+            "Variance and standard deviation (ungrouped and grouped data)",
+            "Cumulative frequency curve (ogive) and quartiles",
+            "Box-and-whisker plots",
+            "Comparison of distributions using measures of spread"
+          ],
+          "learning_objectives": [
+            "Calculate variance and standard deviation for data sets",
+            "Draw cumulative frequency curves and read off quartiles",
+            "Compare distributions using measures of central tendency and dispersion"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Statistics; standard deviation and cumulative frequency tested annually"
+        },
+        {
+          "topic": "Mensuration: Surface Area and Volume of Solids",
+          "subtopics": [
+            "Total surface area of prisms, cylinders and pyramids",
+            "Volume of prisms, cylinders, cones and spheres (revision)",
+            "Volume and surface area of composite solids",
+            "Earth geometry: latitude, longitude and great circles"
+          ],
+          "learning_objectives": [
+            "Calculate surface area and volume of all standard solids",
+            "Solve problems involving composite 3D shapes",
+            "Apply earth geometry to calculate distances on the globe"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Mensuration; earth geometry is a common WAEC extended question"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "WAEC/NECO Revision: Algebra and Number",
+          "subtopics": [
+            "Quadratic equations, simultaneous equations, inequalities",
+            "Sequences and series (AP and GP)",
+            "Matrices, indices, logarithms, surds",
+            "Variation; number bases; sets",
+            "WAEC/NECO past question practice"
+          ],
+          "learning_objectives": [
+            "Consolidate all SS1–SS2 algebra and number topics",
+            "Demonstrate WAEC/NECO exam technique in algebra and number"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO — algebra and number account for approximately 50% of Paper 1 and Paper 2"
+        },
+        {
+          "topic": "WAEC/NECO Revision: Geometry, Trigonometry and Statistics",
+          "subtopics": [
+            "Coordinate geometry; transformations",
+            "Trigonometry (all ratios, graphs, sine/cosine rules)",
+            "Mensuration (all solids); earth geometry",
+            "Statistics (all measures); probability",
+            "Full WAEC/NECO past paper practice"
+          ],
+          "learning_objectives": [
+            "Consolidate all SS1–SS2 geometry, trigonometry and statistics topics",
+            "Attempt full WAEC/NECO SS past papers under timed exam conditions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO — geometry, trig and statistics make up the remaining 50% of Paper 2"
+        }
+      ]
+    },
+    "SS3": {
+      "First": [
+        {
+          "topic": "Differentiation",
+          "subtopics": [
+            "Concept of the gradient of a curve at a point",
+            "Differentiation from first principles",
+            "Rules of differentiation: power rule, sum rule, product rule, quotient rule",
+            "Differentiating polynomial and simple functions",
+            "Finding stationary points (maxima and minima)",
+            "Practical applications: velocity, acceleration, rate of change"
+          ],
+          "learning_objectives": [
+            "Differentiate polynomial functions using standard rules",
+            "Find and classify stationary points on curves",
+            "Apply differentiation to problems of motion and optimisation"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Differentiation; JAMB — calculus section; tested annually at SS3"
+        },
+        {
+          "topic": "Integration",
+          "subtopics": [
+            "Integration as the reverse of differentiation",
+            "Indefinite integrals; constant of integration",
+            "Definite integrals; area under a curve",
+            "Simple applications of integration (area, displacement)",
+            "WAEC-style integration questions with limits"
+          ],
+          "learning_objectives": [
+            "Integrate polynomial functions using the power rule",
+            "Evaluate definite integrals and find areas under curves",
+            "Apply integration to motion and area problems"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Integration; JAMB calculus section; core SS3 topic"
+        },
+        {
+          "topic": "Permutation and Combination",
+          "subtopics": [
+            "Fundamental counting principle",
+            "Factorial notation: n!",
+            "Permutations: nPr = n!/(n−r)!",
+            "Combinations: nCr = n!/((n−r)!r!)",
+            "Arrangements with repeated elements",
+            "Application to committee selection, arrangement of letters, seating problems"
+          ],
+          "learning_objectives": [
+            "Calculate permutations and combinations",
+            "Apply counting techniques to selection and arrangement problems",
+            "Solve WAEC/JAMB-style problems on permutation and combination"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Permutation and Combination; JAMB tested annually"
+        },
+        {
+          "topic": "Probability",
+          "subtopics": [
+            "Revision of basic probability",
+            "Sample space and events; mutually exclusive events",
+            "Addition rule: P(A or B) = P(A) + P(B) − P(A and B)",
+            "Multiplication rule: P(A and B) = P(A) × P(B) for independent events",
+            "Conditional probability",
+            "Tree diagrams and probability tables"
+          ],
+          "learning_objectives": [
+            "Define sample spaces and calculate probabilities of events",
+            "Apply addition and multiplication rules for combined events",
+            "Use tree diagrams to solve multi-step probability problems"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 and 2 — Probability; JAMB; very frequently tested at SS3"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "WAEC/JAMB Comprehensive Revision: Number and Algebra",
+          "subtopics": [
+            "Number bases, surds, indices and logarithms",
+            "Sets and Venn diagrams",
+            "Quadratic equations, simultaneous equations, inequalities",
+            "Sequences and series (AP and GP); matrices",
+            "WAEC/JAMB past questions — number and algebra section"
+          ],
+          "learning_objectives": [
+            "Demonstrate mastery of all SS number and algebra topics",
+            "Achieve consistent accuracy on WAEC/JAMB-format questions"
+          ],
+          "estimated_hours": 8,
+          "exam_relevance": "WAEC/NECO/JAMB — comprehensive revision; direct exam preparation"
+        },
+        {
+          "topic": "WAEC/JAMB Comprehensive Revision: Geometry, Trig and Statistics",
+          "subtopics": [
+            "Coordinate geometry; transformations",
+            "Trigonometry (all ratios, sine/cosine rule, graphs)",
+            "Mensuration (all 2D and 3D; earth geometry)",
+            "Statistics (all measures of central tendency and dispersion)",
+            "Probability and permutation/combination"
+          ],
+          "learning_objectives": [
+            "Demonstrate mastery of all SS geometry, trig and statistics topics",
+            "Complete full WAEC and JAMB past papers under timed conditions"
+          ],
+          "estimated_hours": 8,
+          "exam_relevance": "WAEC/NECO/JAMB — all geometry and statistics topics; direct final exam preparation"
+        },
+        {
+          "topic": "Calculus Revision and Applications",
+          "subtopics": [
+            "Differentiation: all rules; finding gradients, turning points",
+            "Integration: definite and indefinite; area under curves",
+            "Kinematics: displacement, velocity, acceleration",
+            "Optimisation problems (maximum area, minimum cost)",
+            "WAEC/NECO past calculus questions"
+          ],
+          "learning_objectives": [
+            "Apply differentiation and integration to solve applied problems",
+            "Solve kinematics and optimisation problems using calculus",
+            "Achieve full marks on WAEC/NECO calculus questions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Calculus; JAMB; one of the highest-mark single topics in SS3 exams"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Mock Examinations and JAMB Preparation",
+          "subtopics": [
+            "UTME Mathematics format: 40 multiple-choice questions in 40 minutes",
+            "JAMB question types: calculations, conceptual and reasoning",
+            "Full JAMB practice papers (Number, Algebra, Geometry, Statistics, Calculus)",
+            "Time management strategies for UTME",
+            "Common JAMB traps and how to avoid them"
+          ],
+          "learning_objectives": [
+            "Complete full JAMB-format practice papers under strict time conditions",
+            "Identify and strengthen weak topic areas",
+            "Demonstrate exam-day readiness in Mathematics"
+          ],
+          "estimated_hours": 10,
+          "exam_relevance": "JAMB/UTME — direct preparation; this term determines university admission"
+        }
+      ]
+    }
+  }
+}

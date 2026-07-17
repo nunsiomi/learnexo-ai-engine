@@ -1,0 +1,4 @@
+condition,n_calls,n_failures,total_topics,slug_exact_%,slug_borderline_%,slug_none_%,curr_exact_%,curr_borderline_%,curr_none_%,hallucination_rate,avg_topics_per_call
+grounded,24,0,657,99.7,0.3,0.0,1.8,9.7,88.4,0.0,27.38
+ungrounded,24,0,157,67.5,12.1,20.4,5.7,17.2,77.1,20.4,6.54
+ungrounded_readable,24,0,151,64.9,13.2,21.9,5.3,8.6,86.1,21.9,6.29

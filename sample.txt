@@ -1,0 +1,62 @@
+
+#LEARNING STYLE
+
+{
+  "student_activity": {
+    "activity": [
+      "Question 1: When learning something new, what helps you most? Selected answer: Listening to someone explain it.",
+      "Question 2: In class, you understand a topic best when the teacher explains it clearly out loud. Selected answer: Explains it clearly out loud.",
+      "Question 3: When giving directions, I prefer someone telling me the directions. Selected answer: Someone telling me the directions.",
+      "Question 4: When studying for a test, I usually read aloud or discuss with someone. Selected answer: Read aloud or discuss with someone.",
+      "Question 5: When I meet a new person, I remember their name or voice best. Selected answer: Their name or voice.",
+      "Question 6: When learning how to use a new app or device, I prefer to hear someone explain the steps. Selected answer: Hear someone explain the steps.",
+      "Question 7: If I am bored in a lesson, I usually start talking or listening to sounds around me. Selected answer: Start talking or listening to sounds around me.",
+      "Question 8: The easiest activity for me is following spoken instructions. Selected answer: Following spoken instructions.",
+      "Question 9: In a group project, I prefer to lead discussions and explain ideas. Selected answer: Lead discussions and explain ideas.",
+      "Question 10: If I want to remember something important, I repeat it aloud. Selected answer: Repeat it aloud."
+    ]
+  }
+}
+
+
+
+#LEARNING PATH
+
+{
+  "learning_style": "auditory",
+  "subject": "Maths, English",
+  "class_level": "JSS1",
+  "student_id": "3406",
+  "term": "First"
+}
+
+
+#CONTENT GENERATION
+
+{
+  "topic": "Fractions",
+  "subject": "string",
+  "class_level": "JSS1",
+  "learning_style": "visual",
+  "generated_curriculum": {
+    "additionalProp1": {}
+  },
+  "student_id": "3046",
+  "content_depth": "core"
+}
+
+#PIPELINE
+
+{
+  "student_activity": {
+    "activity": [
+      "string"
+    ]
+  },
+  "subject": "string",
+  "class_level": "string",
+  "term": "First",
+  "student_id": "string",
+  "content_depth": "core",
+  "generate_content_for_first_topic": true
+}

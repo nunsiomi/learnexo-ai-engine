@@ -1,0 +1,1265 @@
+{
+  "subject": "English Language",
+  "class_levels": {
+    "JSS1": {
+      "First": [
+        {
+          "topic": "Introduction to Speech and Language Skills",
+          "subtopics": [
+            "Organs of speech and how sounds are produced",
+            "Introduction to speech work: pure vowel sounds (monophthongs)",
+            "The four language skills: Listening, Speaking, Reading, Writing",
+            "Vocabulary development: the family; school subjects",
+            "Reading strategy: SPQ3R (Survey, Preview, Question, Read, Recall, Review)"
+          ],
+          "learning_objectives": [
+            "Identify and name the organs of speech",
+            "Distinguish the four language skills and explain their importance",
+            "Apply the SPQ3R reading strategy to a passage"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English foundation; reading strategies tested across all BECE comprehension questions"
+        },
+        {
+          "topic": "Parts of Speech (1): Nouns, Pronouns and Verbs",
+          "subtopics": [
+            "Nouns: meaning and types (common, proper, collective, abstract)",
+            "Pronouns: meaning, types (personal, possessive, reflexive) and functions",
+            "Verbs: meaning, types (transitive, intransitive, auxiliary, lexical, regular, irregular)"
+          ],
+          "learning_objectives": [
+            "Identify, classify and use nouns, pronouns and verbs correctly in sentences",
+            "Distinguish transitive from intransitive verbs",
+            "Use the correct pronoun to replace a noun"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Grammatical Accuracy — Parts of Speech; Section C of BECE Paper 1"
+        },
+        {
+          "topic": "Parts of Speech (2): Adjectives, Adverbs, Prepositions and Conjunctions",
+          "subtopics": [
+            "Adjectives: definition, types and comparison (positive, comparative, superlative; absolute adjectives)",
+            "Adverbs: definition, types and functions",
+            "Prepositions: definition, types and functions in sentences",
+            "Conjunctions: definition, types (subordinating and coordinating) and functions",
+            "Introduction to adverbials: features, functions and types"
+          ],
+          "learning_objectives": [
+            "Identify adjectives, adverbs, prepositions and conjunctions in context",
+            "Use comparison of adjectives correctly",
+            "Construct sentences demonstrating the correct use of each part of speech"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Grammatical Accuracy — Parts of Speech; Section C Paper 1; foundation for WAEC/NECO grammar"
+        },
+        {
+          "topic": "Reading Comprehension: Main and Supporting Ideas",
+          "subtopics": [
+            "Identifying main ideas and supporting ideas in a passage",
+            "Differentiating between main and supporting ideas",
+            "Answering comprehension questions at knowledge, translation and interpretation levels",
+            "Vocabulary development in context (family, school settings)"
+          ],
+          "learning_objectives": [
+            "Distinguish main ideas from supporting details in a passage",
+            "Answer comprehension questions at different cognitive levels",
+            "Infer the meaning of unfamiliar words from context"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Reading — Section A of Paper 1; core comprehension skill tested in all BECE papers"
+        },
+        {
+          "topic": "Composition Writing: Introduction",
+          "subtopics": [
+            "Meaning and types of composition (Narrative, Descriptive, Argumentative, Expository)",
+            "Elements of a good composition: introduction, body, conclusion",
+            "Paragraph writing: arranging ideas in logical sequence",
+            "Narrative essay: recounting a personal experience",
+            "Descriptive essay: describing a place (e.g. a Nigerian market)"
+          ],
+          "learning_objectives": [
+            "Identify and distinguish the four types of composition",
+            "Write a structured paragraph with a clear topic sentence",
+            "Produce a short narrative or descriptive essay"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3 (Essay); composition is 30 marks of BECE — high-priority topic"
+        },
+        {
+          "topic": "Introduction to Literature in English",
+          "subtopics": [
+            "What is literature? Features and types of literature (oral, historical, written)",
+            "Introduction to prose: elements of prose (plot, style, characterisation, setting, theme)",
+            "Introduction to drama: types and elements of drama",
+            "Introduction to folktales: definition, types and features (didactic, entertaining, magical)",
+            "Figures of speech: simile, metaphor, irony"
+          ],
+          "learning_objectives": [
+            "Define literature and identify its major genres",
+            "Describe the key elements of prose and drama",
+            "Identify and use basic figures of speech (simile and metaphor)"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Literature — Paper 2 (Literature); covers drama, prose, poetry and oral literature"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Oral English: Vowel Sounds (Continued) and Tenses",
+          "subtopics": [
+            "Pure vowel sounds: /u/, /u:/, /ʌ/, /3:/, /ə/ (schwa)",
+            "Contrasting vowel sounds: /ɒ/ and /ɜ:/, /a:/ and /æ/",
+            "Tenses: Simple Present, Simple Past, Present Continuous, Past Continuous",
+            "Future tense using 'will' and 'shall'",
+            "Making correct sentences using all tenses"
+          ],
+          "learning_objectives": [
+            "Produce and contrast a range of pure English vowel sounds",
+            "Form and use the simple present, simple past, continuous and future tenses correctly",
+            "Write sentences demonstrating accurate tense usage"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Grammatical Accuracy — Tenses; Section C Paper 1; Spoken English — Section D Paper 1"
+        },
+        {
+          "topic": "Formal and Informal Letter Writing",
+          "subtopics": [
+            "Revision of informal letter features (one address, salutation, body, closing)",
+            "Formal letter features: two addresses, opening salutation, body, closing, signature",
+            "Writing an informal letter: to a cousin about your new school",
+            "Writing a formal letter of permission to be absent from school",
+            "Guided formal letter: a complaint letter about bad roads"
+          ],
+          "learning_objectives": [
+            "Identify and write the features of formal and informal letters correctly",
+            "Produce a complete, correctly formatted formal letter",
+            "Adapt tone and register for formal and informal audiences"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3; letter writing is a fixed option in every BECE and WAEC Paper 3"
+        },
+        {
+          "topic": "Reading Comprehension: Critical and Projective Reading",
+          "subtopics": [
+            "Reading to understand the author's mood and tone (anger, joy, doubt, disappointment)",
+            "Reading to make projections and draw conclusions",
+            "Reading to interpret diagrams, maps and sketches",
+            "Vocabulary development: child labour, health, environment"
+          ],
+          "learning_objectives": [
+            "Identify the author's mood and tone from language clues",
+            "Make inferences and projections based on a passage",
+            "Interpret visual information integrated with text"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Reading — author's mood and critical evaluation; Section A Paper 1"
+        },
+        {
+          "topic": "Composition: Expository and Argumentative Essays",
+          "subtopics": [
+            "Expository essay: structure and purpose (e.g. HIV/AIDS, the Ebola virus)",
+            "Argumentative essay: presenting a case for or against (e.g. transport safety)",
+            "Arranging ideas in logical sequence",
+            "Guided composition: the Federal Roads Safety Commission",
+            "Festival composition: a festival in my village"
+          ],
+          "learning_objectives": [
+            "Distinguish expository from argumentative essays",
+            "Write a complete, well-structured expository or argumentative essay",
+            "Use appropriate linking words and logical sequencing"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3; expository and argumentative are always listed as essay options"
+        },
+        {
+          "topic": "Literature: Poetry, Myths and Legends",
+          "subtopics": [
+            "Introduction to poetry: definition and features (concise, unique, high language)",
+            "Types of poetry: epic, lyric, dramatic",
+            "Oral and written poetry; differences",
+            "Myths and Legends: features (magic, supernatural, superstition)",
+            "Comparing African and non-African myths and legends; moral lessons"
+          ],
+          "learning_objectives": [
+            "Define poetry and identify its major types and features",
+            "Compare oral and written poetry",
+            "Identify key features of myths and legends and extract moral lessons"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Literature — Poetry and Oral Literature; Paper 2 Section on poetry"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Oral English: Diphthongs and Consonant Sounds",
+          "subtopics": [
+            "Diphthongs: /ei/, /oʊ/, /aʊ/, /iə/, /eə/, /ɔi/, /ai/, /ʊə/",
+            "Identification of diphthongs in words",
+            "Introduction to consonant sounds; consonant clusters (asks, school, thrive, respect)",
+            "Word boundaries and linking sounds",
+            "Contrasting diphthongs: /ei/ and /iə/, /ʊə/ and /əʊ/"
+          ],
+          "learning_objectives": [
+            "Identify and produce the eight English diphthongs",
+            "Pronounce consonant clusters and word-boundary linking sounds correctly",
+            "Distinguish between minimal pairs using diphthongs"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Spoken English — Section D Paper 1; diphthong recognition is tested in multiple-choice"
+        },
+        {
+          "topic": "Grammar: Active and Passive Voice, and Tag Questions",
+          "subtopics": [
+            "Identifying active and passive verbs in passages",
+            "Transforming active sentences to passive and vice versa",
+            "Polar questions vs. tag questions",
+            "Forming correct tag questions in the present, past and future tenses",
+            "Revision of adverbials (frequency, manner, place)"
+          ],
+          "learning_objectives": [
+            "Transform sentences between active and passive voice",
+            "Form and use question tags correctly",
+            "Identify and use adverbials in sentences"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Grammatical Accuracy — Active/Passive voice and Question tags; Section C Paper 1"
+        },
+        {
+          "topic": "Summary Writing and Reading Comprehension",
+          "subtopics": [
+            "Identifying topic sentences in paragraphs",
+            "Identifying key ideas and distinguishing from supporting details",
+            "Summary writing: using your own words; techniques and tips",
+            "Reading for evaluation: analysing facts, opinions and deductions",
+            "Vocabulary: spelling drills and context clues"
+          ],
+          "learning_objectives": [
+            "Identify topic sentences and key ideas in paragraphs",
+            "Write a concise summary in your own words",
+            "Evaluate a passage for facts, opinions and logical deductions"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Summary writing in Paper 3; summary is a compulsory question in WAEC Paper 3"
+        },
+        {
+          "topic": "Composition Revision and Oral Composition",
+          "subtopics": [
+            "Revision of all essay types: Narrative, Descriptive, Argumentative, Expository",
+            "Oral composition: presenting ideas clearly (school rules topic)",
+            "Differentiating argumentative from expository essays",
+            "Revision of letter writing (formal and informal)",
+            "Proofreading and editing written work"
+          ],
+          "learning_objectives": [
+            "Identify the distinguishing features of all four essay types",
+            "Produce polished written and oral compositions",
+            "Proofread and self-edit written work"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Paper 3 — final revision of all composition types before examination"
+        },
+        {
+          "topic": "Literature Revision: Prose, Drama, Poetry and Figures of Speech",
+          "subtopics": [
+            "Prose: types (narrative, descriptive), features (plot, characterisation, style, setting, theme)",
+            "Drama: dramatisation of selected scenes from recommended text",
+            "Poetry: figures of speech — simile, metaphor, euphemism, pun",
+            "Turning similes into metaphors and vice versa",
+            "Revision of the recommended prose and drama texts"
+          ],
+          "learning_objectives": [
+            "Analyse prose and drama using literary terms",
+            "Identify and explain advanced figures of speech",
+            "Demonstrate understanding of recommended texts through questions"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Literature — Paper 2; figures of speech, prose and drama analysis are always tested"
+        }
+      ]
+    },
+    "JSS2": {
+      "First": [
+        {
+          "topic": "Oral English: Revision of Vowel and Consonant Sounds",
+          "subtopics": [
+            "Revision of pure vowel sounds",
+            "Consonant sounds with emphasis on consonant clusters",
+            "The /iə/ sound: ear, clear, hear, bear",
+            "The /əʊ/ sound: go, blow, mow, know",
+            "Contrasting consonants: /p/ and /t/, /f/ and /v/, /v/ and /r/"
+          ],
+          "learning_objectives": [
+            "Produce and distinguish all learned vowel and consonant sounds",
+            "Contrast minimal pairs involving consonant and vowel sounds"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English — Section D; sound contrasts tested in Paper 1 multiple-choice"
+        },
+        {
+          "topic": "Grammar: Voice, Tenses and Direct/Indirect Speech",
+          "subtopics": [
+            "Revision of transitive and intransitive verbs",
+            "Active voice and passive voice (extension from JSS1)",
+            "Tenses: Present Continuous, Past Perfect",
+            "Direct speech: statements, commands and requests",
+            "Indirect speech: rules for changing tense, pronoun, time reference"
+          ],
+          "learning_objectives": [
+            "Identify transitive and intransitive verbs and use them correctly",
+            "Transform sentences between active and passive voice",
+            "Convert between direct and indirect speech accurately"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Grammatical Accuracy — Direct/Indirect speech and tenses; Section C Paper 1"
+        },
+        {
+          "topic": "Reading Comprehension: Writer's Purpose and Critical Reading",
+          "subtopics": [
+            "Reading to understand the writer's purpose (to inform, persuade, entertain, etc.)",
+            "Critical reading: meaning, steps and process",
+            "Identifying facts and opinions in a passage",
+            "Vocabulary development: word families (hospital, police, places of worship)"
+          ],
+          "learning_objectives": [
+            "Identify and explain the writer's purpose in a passage",
+            "Distinguish facts from opinions in written texts",
+            "Build vocabulary through word family study"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Reading — writer's purpose; Section A Paper 1"
+        },
+        {
+          "topic": "Composition Writing: Descriptive and Narrative Essays",
+          "subtopics": [
+            "Elements of composition: pre-writing, writing, editing",
+            "Descriptive essay: a place of interest, a local festival, my favourite teacher",
+            "Narrative essay: what I do every day; my last holiday",
+            "Letter writing: a letter to a father about a new school; a letter of invitation",
+            "Report writing: introduction, outline and features"
+          ],
+          "learning_objectives": [
+            "Follow the writing process (pre-writing, drafting, editing) for any essay type",
+            "Write a well-structured descriptive or narrative essay",
+            "Write a formal letter of invitation"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3; all listed essay types appear as BECE options"
+        },
+        {
+          "topic": "Literature: Prose Features, Folktales and Figures of Speech",
+          "subtopics": [
+            "Prose features (revision): setting, theme, characterisation, plot",
+            "Features of folktales: didactic, entertaining, riddles, magical elements",
+            "Differentiating a novella from a novel",
+            "Figures of speech: alliteration, onomatopoeia, personification",
+            "Use of recommended prose text"
+          ],
+          "learning_objectives": [
+            "Analyse prose using all major literary elements",
+            "Identify features of folktales in a given text",
+            "Define and identify alliteration, onomatopoeia and personification"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Literature — Paper 2; prose and oral literature analysis"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Oral English: Intonation, Stress and Rhythm",
+          "subtopics": [
+            "Intonation: identification of patterns in statements, questions and commands",
+            "Stress: correct points of pauses in words (im'port vs. 'import; 're'fuse vs. re'fuse)",
+            "Rhythm: identification of appropriate rhythm in a given poem",
+            "Consonant sounds: /s/ and /z/, /k/ and /g/, /m/, /n/, /ŋ/"
+          ],
+          "learning_objectives": [
+            "Identify and use rising and falling intonation correctly",
+            "Apply correct word stress to distinguish meaning",
+            "Demonstrate correct rhythm in a poem"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English — intonation, stress and rhythm; Section D Paper 1"
+        },
+        {
+          "topic": "Grammar: Reported Speech (Commands and Requests) and Punctuation",
+          "subtopics": [
+            "Reported commands: transformation rules",
+            "Reported requests using 'asked' and modal verbs",
+            "Adverbials: present tense adverbials; frequency adverbials",
+            "Punctuation marks: full stop, comma, question mark, colon, semicolon"
+          ],
+          "learning_objectives": [
+            "Convert direct commands and requests into reported speech",
+            "Use reported speech rules accurately for all sentence types",
+            "Apply punctuation marks correctly in written work"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Grammatical Accuracy — Reported speech and punctuation; Section C Paper 1"
+        },
+        {
+          "topic": "Reading Comprehension: Speed Reading and Summarising",
+          "subtopics": [
+            "Speed reading techniques: surveying, scanning, skimming",
+            "Avoiding vocalisation and regressive reading",
+            "Identifying main and supporting ideas (revision)",
+            "Reading to summarise a selected passage",
+            "Dialogue: reading and interpreting dialogue passages"
+          ],
+          "learning_objectives": [
+            "Apply scanning, skimming and speed-reading techniques",
+            "Summarise a passage extracting only the key information",
+            "Interpret information from a written dialogue"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Reading and Summary Writing — Section A and Paper 3"
+        },
+        {
+          "topic": "Composition: Reports, Argumentative and Narrative Essays",
+          "subtopics": [
+            "Report writing: a witnessed accident; structure and language",
+            "Argumentative essay: herbal vs orthodox medicines",
+            "Narrative essay: my last birthday",
+            "Expository essay: entrepreneurship in Nigeria",
+            "Story writing: the meeting"
+          ],
+          "learning_objectives": [
+            "Write a structured accident report with accurate factual language",
+            "Construct a convincing argument with supporting evidence",
+            "Produce a polished narrative essay"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3; report writing is a distinct BECE option; argumentative essays always appear"
+        },
+        {
+          "topic": "Literature: Drama, Figures of Speech and Recommended Texts",
+          "subtopics": [
+            "Drama features: theme, stage, action, plot, characters, props, costumes",
+            "Themes and characterisation in the recommended drama text",
+            "Figures of speech: irony, euphemism, hyperbole — definition, identification, use",
+            "Short play writing: the reward of truancy",
+            "Summary of recommended prose and drama texts"
+          ],
+          "learning_objectives": [
+            "Analyse a drama text using all major literary elements",
+            "Define and use irony, euphemism and hyperbole correctly",
+            "Write a short play demonstrating understanding of dramatic structure"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Literature — Paper 2; drama analysis, figures of speech and text-based questions"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Oral English: Consonant Contrasts and Review",
+          "subtopics": [
+            "Consonant sounds: /t/ and /d/, /p/ and /b/, /tʃ/ and /ʃ/, /θ/ and /ð/",
+            "Contrast between vowels /u/ and /u:/, /ɜ:/ and /ʌ/",
+            "Review of all consonant and vowel sounds",
+            "Word and sentence stress revision"
+          ],
+          "learning_objectives": [
+            "Distinguish and produce contrasting consonant pairs correctly",
+            "Demonstrate accuracy in all vowel and consonant sounds covered in JSS2"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English — final oral revision; Section D Paper 1"
+        },
+        {
+          "topic": "Grammar: Conjunctions, Synonyms, Antonyms and Causative Verbs",
+          "subtopics": [
+            "Conjunctions: 'although' and 'whereas' as contrasts; 'despite' and 'in spite of'",
+            "Synonyms: finding replacement words that fit the context",
+            "Antonyms: opposite meanings",
+            "Causative verbs: e.g. 'blacken — to cause to become black'",
+            "Adverbs of place: by the gate, in the school, on the field"
+          ],
+          "learning_objectives": [
+            "Use contrast conjunctions correctly in complex sentences",
+            "Identify synonyms and antonyms in the context of comprehension passages",
+            "Construct sentences using causative verbs"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Grammatical Accuracy and Vocabulary — conjunctions, synonyms tested in Section B and C Paper 1"
+        },
+        {
+          "topic": "Composition and Dialogue Writing",
+          "subtopics": [
+            "Review of formal and informal letters and all essay types",
+            "Dialogue writing: conventions and format",
+            "Compositions on social themes: The Rich also Cry; Pride goes before a fall; The day I would not like to remember",
+            "Writing a composition on government responsibilities"
+          ],
+          "learning_objectives": [
+            "Write all studied letter and essay types without errors",
+            "Produce a correctly formatted written dialogue",
+            "Write thematic compositions on social issues relevant to Nigeria"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Paper 3 — final composition revision; social themes are common essay prompts"
+        },
+        {
+          "topic": "Literature Revision: Myths, Drama and Recommended Texts",
+          "subtopics": [
+            "Myths and legends: themes (magic, supernatural, superstition), moral import",
+            "Drama: characterisation, diction, plot and theme in recommended text",
+            "Prose text review: setting, plot, characterisation, moral lessons",
+            "Use of literary terms in examination answers",
+            "Review of all figures of speech studied in JSS2"
+          ],
+          "learning_objectives": [
+            "Analyse myths and legends using key literary features",
+            "Answer examination questions on recommended prose and drama texts",
+            "Use literary terms accurately in written responses"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Literature — Paper 2; all text-based and oral literature questions"
+        }
+      ]
+    },
+    "JSS3": {
+      "First": [
+        {
+          "topic": "Grammar Revision and Modal Forms",
+          "subtopics": [
+            "Revision of all parts of speech (nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions)",
+            "Modal verbs: will, can, could, may, might — direct and indirect forms",
+            "Expressing emotions using verb + preposition constructions",
+            "Adverbs of frequency: often, always, occasionally",
+            "Changing positive statements to negatives using 'not'; idiomatic expressions"
+          ],
+          "learning_objectives": [
+            "Demonstrate accurate use of all parts of speech",
+            "Use modal verbs correctly in direct and indirect forms",
+            "Construct sentences using adverbs of frequency and idiomatic expressions"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Grammatical Accuracy — all grammar structures; Section C of Paper 1"
+        },
+        {
+          "topic": "Oral English: Schwa, Stress, Intonation and Consonant Contrasts",
+          "subtopics": [
+            "The schwa /ə/ sound: about, doctor, above, teacher, pastor",
+            "Stress and intonation continued (revision and extension)",
+            "Consonant contrasts: /ʒ/ and /dʒ/ — leisure/ledger; /d/, /ð/, /θ/, /z/",
+            "Consonant contrasts: /s/, /ʃ/, /tʃ/ — ceiling, short, machine, cheque",
+            "Consonants /w/ and /j/ — wonder/yellow"
+          ],
+          "learning_objectives": [
+            "Produce the schwa sound in unstressed syllables",
+            "Distinguish and produce contrasting consonant sounds accurately",
+            "Apply stress and intonation knowledge to spoken English exercises"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English — Section D Paper 1; final JSS-level oral English preparation"
+        },
+        {
+          "topic": "Reading Comprehension: Scanning, Skimming and Deduction",
+          "subtopics": [
+            "Scanning for main points",
+            "Skimming for specific information",
+            "Practising all reading rates: scanning, skimming and normal",
+            "Reading to differentiate facts from opinions",
+            "Reading to make deductions from a passage",
+            "Identifying topic sentences in passages"
+          ],
+          "learning_objectives": [
+            "Apply scanning and skimming strategies fluently",
+            "Distinguish facts from opinions and make logical deductions",
+            "Identify topic sentences to aid comprehension and summary"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Reading — Section A Paper 1; all BECE comprehension techniques tested here"
+        },
+        {
+          "topic": "Composition: Informal Letters, Narratives, Debates and Descriptive Essays",
+          "subtopics": [
+            "Informal letter: a letter to my best friend about my academic plans",
+            "Writing to a pen-pal: features and tone",
+            "Narrative story: 'All that glitters is not gold'",
+            "Descriptive essay: My favourite subject",
+            "Debate writing: Corruption is worse than armed robbery; Child trafficking is worse than stealing",
+            "Care-for-a-vehicle instructions essay"
+          ],
+          "learning_objectives": [
+            "Write a pen-pal letter with appropriate tone and format",
+            "Construct a well-structured debate essay presenting two sides",
+            "Produce a polished narrative using figurative language"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Writing — Paper 3; debate/argumentative and narrative essays are common BECE options"
+        },
+        {
+          "topic": "Literature: Fiction, Poetry and Rhyme Schemes",
+          "subtopics": [
+            "Fiction vs. non-fiction: definitions and examples",
+            "Poetry analysis: tone, mood, theme, language",
+            "Types of rhyme scheme: ABAB, AABB, ABCABC",
+            "Identification of literary devices in a selected poem",
+            "Introduction to rhyme scheme (ABAB, cross rhyme, couplet)",
+            "Comprehensive study of recommended prose text: characterisation, theme, plot"
+          ],
+          "learning_objectives": [
+            "Distinguish fiction from non-fiction with examples",
+            "Analyse a poem for theme, mood, tone and rhyme scheme",
+            "Identify and name literary devices in poetry"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Literature — Paper 2; poetry analysis and rhyme scheme are regularly tested"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Oral English: Consonant Contrasts and Nasal Sounds",
+          "subtopics": [
+            "Consonant contrasts: /t/ and /θ/ — tin/thin, tick/thick",
+            "Consonant contrasts: /t/ and /s/ — tailor/summer",
+            "Nasal sounds: /m/, /n/ and /ŋ/ — mentor, knotty, fling",
+            "Contrasting vowels: /ʌ/ and /a:/ — much/march; /æ/ and /3:/ — bath/birth",
+            "Vowels: /ɜ:/ and /ɔ/ — brought/hot; /u/ and /u:/ — pull/pool"
+          ],
+          "learning_objectives": [
+            "Produce and contrast nasal sounds and consonant pairs",
+            "Demonstrate mastery of vowel contrasts",
+            "Apply phonetic knowledge to BECE-style oral English questions"
+          ],
+          "estimated_hours": 4,
+          "exam_relevance": "BECE Spoken English — Section D Paper 1; final oral English preparation before BECE"
+        },
+        {
+          "topic": "Grammar: Sentence Types and Pronouns",
+          "subtopics": [
+            "The simple sentence: subject, verb, object/complement",
+            "The compound sentence: joining with coordinating conjunctions",
+            "Prepositions expressing relations with people: with, for, against",
+            "Reflexive pronouns: myself, himself, themselves",
+            "Relative pronouns: who, whom, which, that",
+            "Personal pronouns: rules guiding correct use",
+            "Demonstrative pronouns vs. demonstrative adjectives"
+          ],
+          "learning_objectives": [
+            "Construct simple and compound sentences correctly",
+            "Use all types of pronouns accurately",
+            "Distinguish demonstrative pronouns from demonstrative adjectives"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE Grammatical Accuracy — pronoun use, sentence types; Section C Paper 1"
+        },
+        {
+          "topic": "Reading Comprehension: Critical Evaluation and Listening",
+          "subtopics": [
+            "Reading for critical evaluation: detecting facts, opinions, logicality, bias",
+            "Listening for implied meanings in speeches and passages",
+            "Listening to get main gist from paragraphs",
+            "Listening to interpret ideas",
+            "Reading to summarise paragraphs",
+            "Vocabulary development: tourism, conflict resolution"
+          ],
+          "learning_objectives": [
+            "Critically evaluate a passage for facts, opinions and bias",
+            "Extract main gist and implied meanings from spoken and written texts",
+            "Summarise paragraphs accurately"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Reading and Listening — Sections A and D of Paper 1; critical reading in Paper 3"
+        },
+        {
+          "topic": "Composition: Article Writing, Expository and Argumentative Essays",
+          "subtopics": [
+            "Article writing: the evils of youth unemployment; features and structure",
+            "Expository essay: drug addiction; population explosion",
+            "Argumentative essay: Teachers are better than farmers in society",
+            "Informal letters: to a friend; to a grandparent",
+            "The School Prize-Giving Day: report or descriptive composition"
+          ],
+          "learning_objectives": [
+            "Write an informative newspaper/magazine article with correct features",
+            "Produce a well-structured expository essay on a social issue",
+            "Construct a convincing argumentative essay"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Paper 3 — article writing, expository and argumentative are all BECE essay options"
+        },
+        {
+          "topic": "Literature: Poetry, Drama and Prose Revision",
+          "subtopics": [
+            "Literary devices in a selected poem: simile, metaphor, alliteration, irony, hyperbole",
+            "Drama: lead students to write a playlet",
+            "Drama text: theme, setting, characterisation",
+            "Prose: identification of prose features; summarising the prose text",
+            "Review of folktales; short stories — the tortoise and the pattern on his shell"
+          ],
+          "learning_objectives": [
+            "Identify literary devices in a poem and explain their effects",
+            "Write a short playlet demonstrating understanding of dramatic structure",
+            "Summarise and evaluate the themes of recommended prose texts"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE Literature — Paper 2; all genres (poetry, drama, prose, oral literature) are tested"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "BECE Comprehensive Revision: Grammar and Oral English",
+          "subtopics": [
+            "Review of all parts of speech: nouns, pronouns, verbs, adjectives, adverbs, conjunctions, prepositions, interjections",
+            "Review of tenses, active/passive voice, direct/indirect speech, question tags",
+            "Review of all vowel sounds (monotones) and consonant sounds",
+            "Review of diphthongs",
+            "BECE past questions: grammatical accuracy and spoken English sections"
+          ],
+          "learning_objectives": [
+            "Demonstrate mastery of all JSS1–JSS3 grammar topics",
+            "Answer BECE-format grammatical accuracy and spoken English questions confidently"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE — Section C (Grammatical Accuracy) and Section D (Spoken English) of Paper 1; approximately 45 marks combined"
+        },
+        {
+          "topic": "BECE Comprehensive Revision: Reading and Vocabulary",
+          "subtopics": [
+            "Review of reading comprehension strategies (SPQ3R, scanning, skimming, critical reading)",
+            "BECE past comprehension questions: main ideas, tone, facts/opinions, deductions",
+            "Vocabulary development: synonyms, antonyms, word families, registers",
+            "BECE past vocabulary questions (Section B Paper 1)"
+          ],
+          "learning_objectives": [
+            "Apply all reading strategies fluently to unseen BECE passages",
+            "Answer vocabulary questions accurately using context and word knowledge"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE — Section A (Comprehension) and Section B (Vocabulary); approximately 35 marks of Paper 1"
+        },
+        {
+          "topic": "BECE Comprehensive Revision: Composition and Summary Writing",
+          "subtopics": [
+            "Revision of Narrative, Descriptive, Argumentative and Expository essays",
+            "Revision of formal and informal letters",
+            "Summary writing: rules, techniques, BECE-format practice",
+            "BECE past Paper 3 questions: essay and summary",
+            "Proofreading for grammar, spelling, punctuation and expression"
+          ],
+          "learning_objectives": [
+            "Write any required essay type under examination conditions",
+            "Produce a 150-word BECE-format summary",
+            "Proofread and self-correct written work effectively"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "BECE — Paper 3 (Language/Essay); 30 marks; this is the most directly scored paper"
+        },
+        {
+          "topic": "BECE Comprehensive Revision: Literature",
+          "subtopics": [
+            "Review of prose: types, features, recommended prose texts",
+            "Review of poetry: types, language, rhyme, literary devices; review of set poems",
+            "Review of drama: types, features, costumes, props, performance",
+            "Review of oral literature: folktales, myths, legends",
+            "BECE past Paper 2 (Literature) practice questions"
+          ],
+          "learning_objectives": [
+            "Analyse prose, poetry and drama texts using all literary terms",
+            "Answer BECE literature questions on recommended texts",
+            "Demonstrate understanding of all oral literature types"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "BECE — Paper 2 (Literature); 40 marks covering all three genres plus oral literature"
+        }
+      ]
+    },
+    "SS1": {
+      "First": [
+        {
+          "topic": "Oral English: Sounds, Stress and Intonation",
+          "subtopics": [
+            "Review of all 20 vowel sounds and 24 consonant sounds from JSS",
+            "Word and sentence stress patterns",
+            "Intonation patterns: rising, falling and fall-rise",
+            "Spoken English for communication: presentations and formal speech",
+            "WAEC/NECO Spoken English format and expectations"
+          ],
+          "learning_objectives": [
+            "Produce all English vowel and consonant sounds accurately",
+            "Apply correct stress and intonation in spoken and written exercises",
+            "Demonstrate awareness of WAEC/NECO spoken English requirements"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 3 — Oral English test; 20% of the English Language examination"
+        },
+        {
+          "topic": "Grammar: Complex Sentences and Conditional Clauses",
+          "subtopics": [
+            "Review of simple and compound sentences",
+            "Complex sentences: main clause and subordinate clause",
+            "Noun clauses, adjectival clauses, adverbial clauses",
+            "Conditional sentences: zero, first, second and third conditionals",
+            "Subjunctive mood: formal and literary use"
+          ],
+          "learning_objectives": [
+            "Construct complex sentences using subordinating conjunctions",
+            "Identify and use all four types of conditional clauses",
+            "Use the subjunctive mood in formal writing"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Grammatical Accuracy; conditional clauses tested annually"
+        },
+        {
+          "topic": "Reading Comprehension and Vocabulary Development",
+          "subtopics": [
+            "Reading for main and supporting ideas (advanced passage level)",
+            "Reading for tone, mood and author's attitude in SS-level passages",
+            "Critical evaluation of arguments and evidence in a passage",
+            "Vocabulary: synonyms, antonyms, word inference from context",
+            "Registers: language of law, medicine, commerce, education"
+          ],
+          "learning_objectives": [
+            "Read and critically evaluate SS-level comprehension passages",
+            "Identify tone, mood and author's purpose in a passage",
+            "Demonstrate register awareness across different professional contexts"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 — Comprehension and Vocabulary; Section A and B of Paper 1"
+        },
+        {
+          "topic": "Composition (1): Narrative and Descriptive Essays",
+          "subtopics": [
+            "Narrative essay: advanced techniques (flashback, suspense, dialogue)",
+            "Descriptive essay: sensory language, vivid detail, structure",
+            "Personal essay: writing about experiences and observations",
+            "The writing process: planning, drafting, revising and publishing",
+            "WAEC/NECO composition marking criteria"
+          ],
+          "learning_objectives": [
+            "Write a polished narrative essay using advanced techniques",
+            "Produce a vivid, well-structured descriptive essay",
+            "Apply the full writing process to produce examination-standard essays"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Composition; narrative and descriptive are always listed as options"
+        },
+        {
+          "topic": "Literature: Introduction to Prose and the Novel",
+          "subtopics": [
+            "Prose as a literary genre: types (fiction, non-fiction, short story, novel, novella)",
+            "Elements of the novel: plot structure, characterisation, setting, theme, diction, style",
+            "Studying an African prose text: themes, setting, social context",
+            "Reading a set text: guided close reading and note-taking",
+            "Writing about prose: using textual evidence in answers"
+          ],
+          "learning_objectives": [
+            "Identify and analyse the elements of the novel",
+            "Read a set African prose text and extract themes and characters",
+            "Write analytical responses using quotations and textual evidence"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Literature; prose text questions are compulsory in the literature section"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Grammar: Reported Speech, Modal Verbs and Sentence Patterns",
+          "subtopics": [
+            "Reported speech: rules for tense, pronoun and time reference changes",
+            "Reporting questions, commands and requests",
+            "Modal verbs: will, would, shall, should, can, could, may, might, must, ought to",
+            "Sentence patterns (SV, SVO, SVOC, SVOA)",
+            "Clause functions: subject, object, complement, adverbial"
+          ],
+          "learning_objectives": [
+            "Accurately convert between direct and reported speech for all sentence types",
+            "Identify and use modal verbs with correct meaning and register",
+            "Identify sentence patterns and clause functions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Grammar; reported speech is tested annually"
+        },
+        {
+          "topic": "Summary Writing",
+          "subtopics": [
+            "Principles of summary writing: brevity, accuracy, own words",
+            "Identifying key points in a passage",
+            "Writing a summary within a specified word limit",
+            "WAEC/NECO summary format: 5-8 points in continuous prose",
+            "Common errors in summary writing and how to avoid them"
+          ],
+          "learning_objectives": [
+            "Identify and extract key points from a passage",
+            "Write a concise, accurate summary within a word limit",
+            "Demonstrate WAEC/NECO summary-writing technique"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 — Summary Writing (Section C); one of the highest-mark single questions"
+        },
+        {
+          "topic": "Composition (2): Formal Letter, Report and Expository Essay",
+          "subtopics": [
+            "Formal letter: writing to institutions, officials and authorities",
+            "Report writing: features of a formal report (heading, findings, recommendations)",
+            "Expository essay: structured presentation of facts and analysis",
+            "Argumentative essay (advanced): thesis statement, counter-argument, rebuttal",
+            "WAEC/NECO composition marking: grammar, vocabulary, organisation, mechanics"
+          ],
+          "learning_objectives": [
+            "Write a formal letter and a formal report with correct features",
+            "Produce a well-organised expository or argumentative essay",
+            "Apply WAEC/NECO marking criteria to self-assess compositions"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Composition; all SS composition types appear regularly on the exam"
+        },
+        {
+          "topic": "Literature: Drama and Poetry",
+          "subtopics": [
+            "Drama: theatrical elements (staging, props, costume, script)",
+            "Studying a set drama text: plot, conflict, characterisation, themes",
+            "Writing about drama: scene analysis, character essays",
+            "Introduction to poetry at SS level: form, structure, persona, mood, tone",
+            "Analysing a set poem: imagery, symbolism, metre, rhyme scheme"
+          ],
+          "learning_objectives": [
+            "Analyse a set drama text using all literary elements",
+            "Analyse a poem for form, theme, imagery and language",
+            "Write structured literary essays using textual evidence"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Literature; drama and poetry analysis are both compulsory sections"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "WAEC/NECO Comprehensive English Revision",
+          "subtopics": [
+            "Paper 1 revision: comprehension, vocabulary, summary writing, grammatical accuracy, oral English",
+            "Paper 2 revision: all essay types, letter writing, report writing",
+            "Literature revision: prose, drama, poetry and oral literature",
+            "WAEC/NECO past paper practice (full papers under timed conditions)",
+            "Exam technique: time allocation, reading questions, checking work"
+          ],
+          "learning_objectives": [
+            "Demonstrate mastery across all components of the WAEC/NECO English Language paper",
+            "Complete WAEC/NECO past papers under timed conditions with increasing accuracy"
+          ],
+          "estimated_hours": 10,
+          "exam_relevance": "WAEC/NECO — direct SS1 end-of-year and promotion exam preparation"
+        }
+      ]
+    },
+    "SS2": {
+      "First": [
+        {
+          "topic": "Advanced Grammar: Nominalisation, Passive and Complex Structures",
+          "subtopics": [
+            "Nominalisation: converting verbs and adjectives to nouns",
+            "Passive voice in complex and formal contexts",
+            "Relative clauses: defining and non-defining",
+            "Participial phrases and their use in formal writing",
+            "Prepositional phrases and their functions"
+          ],
+          "learning_objectives": [
+            "Use nominalisation to write in a formal, academic register",
+            "Construct defining and non-defining relative clauses accurately",
+            "Apply passive constructions appropriately in formal writing"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Grammatical Accuracy; advanced structures tested in SS2"
+        },
+        {
+          "topic": "Vocabulary: Registers, Idioms and Technical Language",
+          "subtopics": [
+            "Registers: language of law, medicine, sports, technology, finance",
+            "Idioms: meaning in context; common Nigerian and general English idioms",
+            "Technical vocabulary: understanding specialist word meanings",
+            "Cloze tests for vocabulary development",
+            "WAEC/NECO vocabulary question types and strategies"
+          ],
+          "learning_objectives": [
+            "Identify register features in specialist texts",
+            "Interpret idioms and technical vocabulary in context",
+            "Answer WAEC/NECO vocabulary questions accurately"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 — Section B Vocabulary; registers and idioms always tested"
+        },
+        {
+          "topic": "Composition: Argumentative, Discursive and Creative Writing",
+          "subtopics": [
+            "Argumentative essay (advanced): constructing and refuting arguments",
+            "Discursive essay: balanced presentation of different views",
+            "Creative writing: short story with developed plot and characters",
+            "Speech writing: features of a formal prepared speech",
+            "Using exemplification, illustration and logical connectives"
+          ],
+          "learning_objectives": [
+            "Write a sophisticated argumentative essay with thesis, counter-argument and rebuttal",
+            "Produce a discursive essay presenting balanced perspectives",
+            "Write a formal speech on a public issue"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Composition; speech writing and discursive essays are SS2-level options"
+        },
+        {
+          "topic": "Literature: African Prose and Social Themes",
+          "subtopics": [
+            "Close reading of a set African novel or short story",
+            "Social context: colonialism, identity, culture conflict, gender in Nigerian literature",
+            "Character analysis: protagonist, antagonist, foil characters",
+            "Plot analysis: exposition, rising action, climax, falling action, resolution",
+            "Thematic essay writing with textual evidence"
+          ],
+          "learning_objectives": [
+            "Analyse an African prose text in its social and historical context",
+            "Write a character and thematic essay using close textual analysis",
+            "Demonstrate understanding of African literary themes"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Literature; African prose is a set text component tested annually"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "Oral English: Public Speaking and Advanced Sound Work",
+          "subtopics": [
+            "Public speaking: structure of a speech (introduction, body, conclusion, call to action)",
+            "Delivery: eye contact, pace, volume, gestures",
+            "Advanced sound contrasts and problem areas for Nigerian speakers",
+            "Consonant clusters in connected speech",
+            "WAEC/NECO oral English: test format and practice"
+          ],
+          "learning_objectives": [
+            "Deliver a prepared speech using correct pronunciation, stress and intonation",
+            "Demonstrate awareness of all problem sounds for Nigerian English speakers",
+            "Perform confidently in WAEC/NECO oral English format"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO — Paper 3 Oral English test; public speaking and sound work"
+        },
+        {
+          "topic": "Summary Writing (Advanced)",
+          "subtopics": [
+            "Summarising arguments and opinions (not just facts)",
+            "Summarising multiple paragraphs into a coherent paragraph",
+            "Paraphrasing effectively: synonyms, restructuring sentences",
+            "WAEC/NECO summary mark scheme: how marks are allocated",
+            "Timed summary practice on topical Nigerian passages"
+          ],
+          "learning_objectives": [
+            "Write a concise, accurate summary of complex passages",
+            "Paraphrase effectively without changing meaning",
+            "Meet WAEC/NECO word count and format requirements consistently"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 — Summary; one of the highest-mark questions; critical for B or A grade"
+        },
+        {
+          "topic": "Literature: Poetry and Drama (Advanced)",
+          "subtopics": [
+            "Poetry: extended analysis — voice, perspective, attitude; unseen poem technique",
+            "Metre: iambic pentameter; free verse; types of poetic feet",
+            "Drama: conflict and resolution; dramatic irony; subtext",
+            "Studying a Nigerian play: cultural and historical context",
+            "Comparative literature: themes across texts"
+          ],
+          "learning_objectives": [
+            "Analyse unseen poems using all poetic devices",
+            "Identify and explain dramatic irony and subtext in a play",
+            "Compare themes and techniques across two literary texts"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 2 — Literature; advanced poetry and drama are SS2-level requirements"
+        },
+        {
+          "topic": "Report and Feature Article Writing",
+          "subtopics": [
+            "Report writing: accident, event or survey reports; formal style and layout",
+            "Feature article: magazine and newspaper style; headline, hook, body",
+            "Minutes of a meeting: format, writing concise action points",
+            "Review writing: a book, film or event",
+            "WAEC/NECO format for reports and articles"
+          ],
+          "learning_objectives": [
+            "Write a formal report, feature article and minutes of a meeting",
+            "Apply appropriate register and layout for each writing type",
+            "Answer WAEC/NECO questions on directed writing tasks"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 2 — Composition; directed writing types appear in SS2 and SS3 exam options"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "WAEC/NECO Revision: Language Paper",
+          "subtopics": [
+            "Paper 1 revision: comprehension, vocabulary, summary, grammatical accuracy, oral English",
+            "Past WAEC/NECO Paper 1 questions: full timed practice",
+            "Targeted revision of weakest grammar and vocabulary areas",
+            "Examination technique for Paper 1"
+          ],
+          "learning_objectives": [
+            "Achieve consistent accuracy across all Paper 1 sections",
+            "Manage time effectively across the full Paper 1"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 1 — direct exam preparation"
+        },
+        {
+          "topic": "WAEC/NECO Revision: Composition and Literature",
+          "subtopics": [
+            "Paper 2 revision: all essay types, all letter/report forms",
+            "Literature revision: all set texts (prose, drama, poetry)",
+            "Past WAEC/NECO literature questions on set texts",
+            "Full Paper 2 timed mock examinations",
+            "Examination technique for Paper 2 and literature"
+          ],
+          "learning_objectives": [
+            "Produce examination-standard compositions under timed conditions",
+            "Answer literature questions on all set texts with textual evidence",
+            "Complete full WAEC/NECO English past papers with target grades"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Papers 2 and 3 — direct final exam preparation"
+        }
+      ]
+    },
+    "SS3": {
+      "First": [
+        {
+          "topic": "Oral English: Comprehensive WAEC/NECO Preparation",
+          "subtopics": [
+            "All vowel and consonant sounds: systematic review",
+            "Intonation: falling tone, rising tone, fall-rise tone — uses and examples",
+            "Stress: word stress and sentence stress patterns",
+            "Sounds in context: connected speech, elision, assimilation",
+            "WAEC/NECO oral English test format: listening comprehension and sound recognition"
+          ],
+          "learning_objectives": [
+            "Demonstrate mastery of all English sounds for WAEC/NECO Paper 3",
+            "Identify falling, rising and fall-rise intonation patterns in sentences",
+            "Perform accurately in WAEC/NECO oral English format exercises"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 3 — Oral English; 15–20% of the English Language examination"
+        },
+        {
+          "topic": "Reading Comprehension: Critical Evaluation and Paraphrasing",
+          "subtopics": [
+            "Reading for critical evaluation: facts, opinions, bias, overstatement",
+            "Reading to paraphrase: using synonyms, restructuring, umbrella words",
+            "Unseen passages on contemporary Nigerian issues: crude oil, corruption, education, health",
+            "Speed reading revision: scanning and skimming for examination conditions",
+            "WAEC/NECO comprehension question types and strategies"
+          ],
+          "learning_objectives": [
+            "Critically evaluate an unseen passage for facts, opinions and logical reasoning",
+            "Paraphrase effectively as part of summary writing",
+            "Answer all WAEC/NECO comprehension question types accurately"
+          ],
+          "estimated_hours": 5,
+          "exam_relevance": "WAEC/NECO Paper 1 — Comprehension (Section A); critical evaluation questions carry high marks"
+        },
+        {
+          "topic": "Grammar: Comprehensive WAEC/NECO Revision",
+          "subtopics": [
+            "Revision of all grammar topics: parts of speech, tenses, voice, mood",
+            "Relative clauses, conditional sentences, reported speech, question tags",
+            "Concord (subject-verb agreement): special cases and exceptions",
+            "WAEC/NECO grammatical accuracy question types (MCQs and structured)",
+            "Common errors made by Nigerian SS students in WAEC English"
+          ],
+          "learning_objectives": [
+            "Demonstrate accuracy in all WAEC/NECO grammar structures",
+            "Avoid common subject-verb agreement and tense errors",
+            "Answer WAEC/NECO grammatical accuracy questions with confidence"
+          ],
+          "estimated_hours": 6,
+          "exam_relevance": "WAEC/NECO Paper 1 — Section C Grammatical Accuracy; 30 questions in Paper 1"
+        },
+        {
+          "topic": "Composition and Summary: Final WAEC/NECO Preparation",
+          "subtopics": [
+            "All composition types: narrative, descriptive, argumentative, expository, speech, article, report, letter",
+            "WAEC/NECO composition marking scheme: grammar (25%), vocabulary (20%), organisation (20%), mechanics (10%), content (25%)",
+            "Summary writing: final techniques and WAEC-format practice",
+            "WAEC/NECO Paper 2 past questions: full timed composition and summary practice",
+            "Editing and proofreading for mechanical accuracy"
+          ],
+          "learning_objectives": [
+            "Write any WAEC/NECO composition type to examination standard",
+            "Produce accurate WAEC-format summaries within the word limit",
+            "Self-assess written work against the WAEC marking scheme"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Composition and Summary; one of the two highest-scored sections"
+        },
+        {
+          "topic": "Literature: WAEC/NECO Set Texts and Exam Technique",
+          "subtopics": [
+            "Prose set text: character analysis, theme, plot, setting, diction, style",
+            "Drama set text: stagecraft, conflict, theme, characterisation",
+            "Poetry set poems: theme, imagery, figures of speech, tone, mood, structure",
+            "Oral literature: features and examples of folktales, myths, legends (BECE-WAEC bridge)",
+            "WAEC/NECO Literature examination technique: answering with textual evidence"
+          ],
+          "learning_objectives": [
+            "Write detailed, evidence-based essays on all WAEC/NECO set texts",
+            "Analyse unseen poems using a systematic approach",
+            "Demonstrate examination technique for full-mark literature responses"
+          ],
+          "estimated_hours": 7,
+          "exam_relevance": "WAEC/NECO Paper 2 — Literature; set text questions are compulsory and carry 30+ marks"
+        }
+      ],
+      "Second": [
+        {
+          "topic": "WAEC/NECO/JAMB Full Revision: Language Papers",
+          "subtopics": [
+            "Full WAEC/NECO Paper 1 past questions: comprehension, vocabulary, summary, grammar",
+            "Full WAEC/NECO Paper 2 past questions: composition, literature",
+            "JAMB Use of English: sentence completion, comprehension, figures of speech, register",
+            "Time management strategies for each paper",
+            "Targeted revision of identified weak areas"
+          ],
+          "learning_objectives": [
+            "Complete WAEC/NECO and JAMB past papers under strict exam conditions",
+            "Achieve target grades by addressing weak areas systematically"
+          ],
+          "estimated_hours": 10,
+          "exam_relevance": "WAEC/NECO/JAMB — direct preparation; this is the most critical revision term for final results"
+        },
+        {
+          "topic": "JAMB Use of English: Specific Preparation",
+          "subtopics": [
+            "JAMB format: 60 multiple-choice questions in 30 minutes",
+            "Question types: vocabulary in context, antonyms, synonyms, sentence completion",
+            "Comprehension passages: JAMB style and approach",
+            "Oral English for JAMB: stress patterns and sound identification",
+            "Common JAMB traps and strategies for eliminating wrong options"
+          ],
+          "learning_objectives": [
+            "Complete JAMB Use of English sections accurately within the time limit",
+            "Demonstrate strategies for all JAMB question types",
+            "Achieve JAMB cut-off score for English in chosen course"
+          ],
+          "estimated_hours": 8,
+          "exam_relevance": "JAMB/UTME — Use of English is compulsory for all candidates regardless of course"
+        }
+      ],
+      "Third": [
+        {
+          "topic": "Final Examinations: Mock Papers and Guided Revision",
+          "subtopics": [
+            "Full WAEC English Language mock examinations (Paper 1 and Paper 2)",
+            "Full JAMB Use of English mock papers",
+            "Individual topic reinforcement based on mock examination results",
+            "Examination readiness: materials, timing, WAEC/JAMB examination rules",
+            "Psychological preparation: exam-day strategies and confidence building"
+          ],
+          "learning_objectives": [
+            "Demonstrate readiness for WAEC/NECO and JAMB English examinations",
+            "Achieve consistent performance across full mock examinations",
+            "Enter final examinations with confidence and clear strategy"
+          ],
+          "estimated_hours": 10,
+          "exam_relevance": "WAEC/NECO/JAMB — final examination preparation; determines university admission"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,216 @@
+from __future__ import annotations
+
+import os
+from typing import Any, Literal, Optional
+
+from langchain_core.output_parsers import JsonOutputParser
+from langchain_core.prompts import PromptTemplate
+from langchain_groq import ChatGroq
+from pydantic import BaseModel, Field
+
+from app.core.config import GROQ_API_KEY, GROQ_MODEL
+
+LearningStyle = Literal["visual", "auditory", "kinesthetic"]
+ClassLevel = Literal["JSS1", "JSS2", "JSS3", "SS1", "SS2", "SS3"]
+ContentDepth = Literal["introduction", "core", "advanced", "revision"]
+
+
+class TopicInput(BaseModel):
+    topic: str
+    mastery: float = Field(default=0.5, ge=0.0, le=1.0)
+    learning_stage: str = Field(default="foundation")
+
+
+class ResourceItem(BaseModel):
+    title: str
+    url: str
+
+
+class TopicResources(BaseModel):
+    videos: list[ResourceItem] = Field(
+        ..., description="2–3 video recommendations (YouTube or other)"
+    )
+    materials: list[ResourceItem] = Field(
+        ..., description="2–3 reading or reference links"
+    )
+
+
+class TopicExplanation(BaseModel):
+    summary: str = Field(..., description="One or two sentence plain-English summary")
+    key_points: list[str] = Field(..., description="3–5 key learning points")
+
+
+class SingleTopicOutput(BaseModel):
+    topic: str
+    priority: int = Field(..., description="1 = highest priority")
+    resources: TopicResources
+    explanation: TopicExplanation
+    recommended_action: str = Field(
+        ..., description="One sentence telling the student what to do first"
+    )
+
+
+CONTENT_TEMPLATE = """
+You are an expert Nigerian secondary-school lesson designer.
+
+Generate focused study content for one topic.
+
+INPUT
+- Topic slug: {topic}
+- Subject: {subject}
+- Class level: {class_level}
+- Learning style: {learning_style}
+- Student mastery level: {mastery} (0.0 = no knowledge, 1.0 = mastered)
+- Learning stage: {learning_stage}
+- Content depth: {content_depth}
+- Focus reason: {focus_reason}
+
+REQUIREMENTS
+1. explanation.summary: one or two plain sentences explaining the topic slug above simply.
+2. explanation.key_points: 3 to 5 bullet-point facts or rules the student must know.
+3. resources.videos: suggest 2 to 3 relevant YouTube video titles with real or plausible URLs that a Nigerian student could search for.
+4. resources.materials: suggest 2 to 3 online reading or reference links relevant to this topic and level.
+5. recommended_action: one sentence telling the student exactly what to do first (e.g. watch, read, practise).
+6. Use Nigerian context throughout — Naira, Lagos, local schools, WAEC/NECO/JAMB where relevant.
+7. Adjust depth to the mastery level: low mastery → foundational explanation; high mastery → revision and extension.
+8. The "topic" field in your response must be the exact slug string from the INPUT above, unchanged.
+9. Return valid JSON only — follow the schema exactly.
+
+{format_instructions}
+""".strip()
+
+
+class ContentService:
+    def __init__(
+        self,
+        groq_api_key: Optional[str] = None,
+        model: Optional[str] = None,
+    ) -> None:
+        self.groq_api_key = groq_api_key or GROQ_API_KEY
+        self.model = model or GROQ_MODEL
+
+        self.parser = JsonOutputParser(pydantic_object=SingleTopicOutput)
+        self.prompt = PromptTemplate(
+            template=CONTENT_TEMPLATE,
+            input_variables=[
+                "topic",
+                "subject",
+                "class_level",
+                "learning_style",
+                "mastery",
+                "learning_stage",
+                "content_depth",
+                "focus_reason",
+            ],
+            partial_variables={
+                "format_instructions": self.parser.get_format_instructions()
+            },
+        )
+        self.llm = ChatGroq(
+            api_key=self.groq_api_key,
+            model=self.model,
+            temperature=0.2,
+        )
+        self.chain = self.prompt | self.llm | self.parser
+
+    def _fetch_youtube_videos(
+        self,
+        topic: str,
+        subject: str,
+        class_level: ClassLevel,
+    ) -> list[dict[str, str]] | None:
+        youtube_api_key = os.getenv("YOUTUBE_API_KEY")
+        if not youtube_api_key:
+            return None
+        try:
+            from youtube_recommender import recommend_videos
+
+            recommendation = recommend_videos(
+                topic=topic,
+                subject=subject,
+                class_level=class_level,
+                max_results=3,
+            )
+            return [
+                {"title": v.title, "url": v.url}
+                for v in recommendation.videos
+            ]
+        except Exception:
+            return None
+
+    def _generate_single(
+        self,
+        topic_input: TopicInput,
+        priority: int,
+        subject: str,
+        class_level: ClassLevel,
+        learning_style: LearningStyle,
+        content_depth: ContentDepth,
+        focus_reason: str,
+    ) -> dict[str, Any]:
+        result = self.chain.invoke(
+            {
+                "topic": topic_input.topic,
+                "subject": subject,
+                "class_level": class_level,
+                "learning_style": learning_style,
+                "mastery": topic_input.mastery,
+                "learning_stage": topic_input.learning_stage,
+                "content_depth": content_depth,
+                "focus_reason": focus_reason or "general_assessment",
+            }
+        )
+
+        if not isinstance(result, dict):
+            raise ValueError(f"Invalid content response for topic '{topic_input.topic}'")
+
+        result["topic"] = topic_input.topic
+        result["priority"] = priority
+
+        if learning_style == "visual":
+            real_videos = self._fetch_youtube_videos(topic_input.topic, subject, class_level)
+            if real_videos:
+                result.setdefault("resources", {})
+                result["resources"]["videos"] = real_videos
+
+        result.setdefault("resources", {"videos": [], "materials": []})
+        result.setdefault("explanation", {"summary": "", "key_points": []})
+        result.setdefault("recommended_action", "")
+
+        return result
+
+    def generate(
+        self,
+        topics: list[TopicInput],
+        subject: str,
+        class_level: ClassLevel,
+        learning_style: LearningStyle,
+        content_depth: ContentDepth = "core",
+        focus_reason: Optional[str] = None,
+        student_id: Optional[str] = None,
+    ) -> dict[str, Any]:
+        subject = subject.strip()
+        if not subject:
+            raise ValueError("subject cannot be empty")
+        if not topics:
+            raise ValueError("topics list cannot be empty")
+
+        sorted_topics = sorted(topics, key=lambda t: t.mastery)
+
+        generated_content = []
+        for priority, topic_input in enumerate(sorted_topics, start=1):
+            item = self._generate_single(
+                topic_input=topic_input,
+                priority=priority,
+                subject=subject,
+                class_level=class_level,
+                learning_style=learning_style,
+                content_depth=content_depth,
+                focus_reason=focus_reason or "general_assessment",
+            )
+            generated_content.append(item)
+
+        return {
+            "generated_content": generated_content,
+            "recommended_start": sorted_topics[0].topic if sorted_topics else "",
+        }
