@@ -21,17 +21,29 @@ class TopicInput(BaseModel):
     learning_stage: str = Field(default="foundation")
 
 
-class ResourceItem(BaseModel):
+class VideoItem(BaseModel):
     title: str
     url: str
+    # Ranking hint, not gating: True surfaces this video prominently (currently
+    # set for visual learners). Optional so LLM-generated videos default to False.
+    featured: bool = False
+
+
+class MaterialItem(BaseModel):
+    title: str
+    # Materials deliberately carry NO url: the LLM hallucinates reading links, so
+    # it is only asked for a title + short description it can be trusted to write.
+    description: str = Field(
+        ..., description="One-line description of the reading/reference material"
+    )
 
 
 class TopicResources(BaseModel):
-    videos: list[ResourceItem] = Field(
+    videos: list[VideoItem] = Field(
         ..., description="2–3 video recommendations (YouTube or other)"
     )
-    materials: list[ResourceItem] = Field(
-        ..., description="2–3 reading or reference links"
+    materials: list[MaterialItem] = Field(
+        ..., description="2–3 reading or reference suggestions (title + description, no links)"
     )
 
 
@@ -69,7 +81,7 @@ REQUIREMENTS
 1. explanation.summary: one or two plain sentences explaining the topic slug above simply.
 2. explanation.key_points: 3 to 5 bullet-point facts or rules the student must know.
 3. resources.videos: suggest 2 to 3 relevant YouTube video titles with real or plausible URLs that a Nigerian student could search for.
-4. resources.materials: suggest 2 to 3 online reading or reference links relevant to this topic and level.
+4. resources.materials: suggest 2 to 3 reading or reference materials relevant to this topic and level. Each material must have a title and a one-line description ONLY — do NOT include any URL, link, or web address for materials.
 5. recommended_action: one sentence telling the student exactly what to do first (e.g. watch, read, practise).
 6. Use Nigerian context throughout — Naira, Lagos, local schools, WAEC/NECO/JAMB where relevant.
 7. Adjust depth to the mastery level: low mastery → foundational explanation; high mastery → revision and extension.
@@ -167,11 +179,18 @@ class ContentService:
         result["topic"] = topic_input.topic
         result["priority"] = priority
 
-        if learning_style == "visual":
-            real_videos = self._fetch_youtube_videos(topic_input.topic, subject, class_level)
-            if real_videos:
-                result.setdefault("resources", {})
-                result["resources"]["videos"] = real_videos
+        # Fetch real videos for EVERY learning style, not just visual learners.
+        # learning_style now affects ranking, not whether videos appear: visual
+        # learners get their videos flagged "featured" and surfaced first.
+        real_videos = self._fetch_youtube_videos(topic_input.topic, subject, class_level)
+        if real_videos:
+            is_visual = learning_style == "visual"
+            for video in real_videos:
+                video["featured"] = is_visual
+            if is_visual:
+                real_videos.sort(key=lambda v: not v.get("featured", False))
+            result.setdefault("resources", {})
+            result["resources"]["videos"] = real_videos
 
         result.setdefault("resources", {"videos": [], "materials": []})
         result.setdefault("explanation", {"summary": "", "key_points": []})

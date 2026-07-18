@@ -41,6 +41,11 @@
         },
         {
           "topic": "Decimals, Fractions and Percentages",
+          "slug": [
+            "fractions",
+            "decimals",
+            "percentages"
+          ],
           "subtopics": [
             "Relationship between fractions and decimals",
             "Place values of decimal fractions",
@@ -113,6 +118,9 @@
       "Second": [
         {
           "topic": "Fractions (2): Basic Operations",
+          "slug": [
+            "basic_operations"
+          ],
           "subtopics": [
             "Addition and subtraction of fractions",
             "Multiplication and division of fractions",
@@ -177,6 +185,9 @@
         },
         {
           "topic": "Use of Symbols and Algebraic Expressions",
+          "slug": [
+            "algebraic_expressions"
+          ],
           "subtopics": [
             "Open sentences and use of letters to represent unknown values",
             "Like and unlike terms in algebraic expressions",
@@ -259,6 +270,9 @@
         },
         {
           "topic": "Geometrical Constructions and Angles",
+          "slug": [
+            "angles"
+          ],
           "subtopics": [
             "Construction of parallel and perpendicular lines",
             "Bisection of a line segment and bisection of angles",
@@ -276,6 +290,9 @@
         },
         {
           "topic": "Statistics: Data Collection and Presentation",
+          "slug": [
+            "statistics"
+          ],
           "subtopics": [
             "Why we collect data; purpose of statistics",
             "Collecting and organising data (tally and frequency tables)",
@@ -347,6 +364,9 @@
         },
         {
           "topic": "Fractions: Percentages, Ratio, Proportion and Rate",
+          "slug": [
+            "ratio_and_proportion"
+          ],
           "subtopics": [
             "Revision of fractions; finding percentage of quantities",
             "Ratio and proportion in sharing (e.g. sharing ₦5000 in a given ratio)",
@@ -364,6 +384,9 @@
         },
         {
           "topic": "Household and Commercial Arithmetic",
+          "slug": [
+            "commercial_arithmetic"
+          ],
           "subtopics": [
             "Simple interest calculations",
             "Profit and loss; percentage profit and loss",
@@ -434,6 +457,9 @@
         },
         {
           "topic": "Graphs of Linear Equations",
+          "slug": [
+            "linear_equations"
+          ],
           "subtopics": [
             "Plotting points on the Cartesian plane",
             "Drawing graphs of linear equations in two variables",
@@ -538,6 +564,9 @@
         },
         {
           "topic": "Probability",
+          "slug": [
+            "probability_jss2"
+          ],
           "subtopics": [
             "Meaning of probability; equally likely outcomes",
             "Probability scale from 0 to 1",
@@ -832,6 +861,9 @@
       "Third": [
         {
           "topic": "Revision: Number and Numeration",
+          "slug": [
+            "numbers_and_numeration"
+          ],
           "subtopics": [
             "Whole numbers, fractions, decimals, percentages, ratio and proportion",
             "Number bases (binary, base 10)",
@@ -864,6 +896,10 @@
         },
         {
           "topic": "Revision: Mensuration and Geometry",
+          "slug": [
+            "mensuration",
+            "plane_geometry"
+          ],
           "subtopics": [
             "Areas and perimeters of plane shapes; volumes of 3D solids",
             "Construction of angles and shapes",
@@ -917,6 +953,9 @@
         },
         {
           "topic": "Sets",
+          "slug": [
+            "sets"
+          ],
           "subtopics": [
             "Definition and notation of sets; types of sets",
             "Venn diagrams (2 and 3 sets)",
@@ -934,6 +973,10 @@
         },
         {
           "topic": "Indices and Logarithms",
+          "slug": [
+            "indices",
+            "logarithms"
+          ],
           "subtopics": [
             "Laws of indices (revision and extension)",
             "Negative and fractional indices",
@@ -951,6 +994,9 @@
         },
         {
           "topic": "Simple Equations, Inequalities and Variation",
+          "slug": [
+            "inequalities"
+          ],
           "subtopics": [
             "Linear equations in one variable (revision)",
             "Linear inequalities in one variable; graphical representation",
@@ -968,6 +1014,9 @@
         },
         {
           "topic": "Introduction to Coordinate Geometry",
+          "slug": [
+            "coordinate_geometry_ss1"
+          ],
           "subtopics": [
             "The Cartesian plane: plotting and reading coordinates",
             "Gradient (slope) of a straight line",
@@ -987,6 +1036,9 @@
       "Second": [
         {
           "topic": "Quadratic Equations",
+          "slug": [
+            "quadratic_equations"
+          ],
           "subtopics": [
             "Factorisation method (revision and extension)",
             "Completing the square",
@@ -1004,6 +1056,9 @@
         },
         {
           "topic": "Simultaneous Equations",
+          "slug": [
+            "simultaneous_equations"
+          ],
           "subtopics": [
             "Revision: simultaneous linear equations",
             "Simultaneous linear equations using graphs",
@@ -1020,6 +1075,9 @@
         },
         {
           "topic": "Mensuration: Circles, Cylinders, Cones and Spheres",
+          "slug": [
+            "circles"
+          ],
           "subtopics": [
             "Arc length and area of a sector",
             "Surface area of cylinders, cones and spheres",
@@ -1092,6 +1150,9 @@
       "First": [
         {
           "topic": "Surds and Further Indices",
+          "slug": [
+            "surds"
+          ],
           "subtopics": [
             "Definition and simplification of surds",
             "Addition, subtraction, multiplication and division of surds",
@@ -1109,6 +1170,9 @@
         },
         {
           "topic": "Sequences and Series: Arithmetic Progression",
+          "slug": [
+            "sequence_arithmetic"
+          ],
           "subtopics": [
             "Arithmetic progressions (AP): terms, common difference",
             "nth term formula: Tn = a + (n−1)d",
@@ -1125,6 +1189,9 @@
         },
         {
           "topic": "Sequences and Series: Geometric Progression",
+          "slug": [
+            "sequence_geometric"
+          ],
           "subtopics": [
             "Geometric progressions (GP): terms, common ratio",
             "nth term formula: Tn = ar^(n−1)",
@@ -1142,6 +1209,9 @@
         },
         {
           "topic": "Matrices and Determinants",
+          "slug": [
+            "matrices"
+          ],
           "subtopics": [
             "Order of a matrix; types of matrices (square, identity, zero)",
             "Addition, subtraction and scalar multiplication of matrices",
@@ -1179,6 +1249,9 @@
       "Second": [
         {
           "topic": "Trigonometry: Ratios, Graphs and Applications",
+          "slug": [
+            "trigonometry"
+          ],
           "subtopics": [
             "Trigonometric ratios for angles beyond 90° (obtuse angles)",
             "Graphs of sin x, cos x and tan x",
@@ -1197,6 +1270,9 @@
         },
         {
           "topic": "Further Coordinate Geometry",
+          "slug": [
+            "coordinate_geometry_ss2"
+          ],
           "subtopics": [
             "Equation of a straight line in various forms",
             "Parallel and perpendicular lines",
@@ -1337,6 +1413,9 @@
         },
         {
           "topic": "Probability",
+          "slug": [
+            "probability_ss3"
+          ],
           "subtopics": [
             "Revision of basic probability",
             "Sample space and events; mutually exclusive events",

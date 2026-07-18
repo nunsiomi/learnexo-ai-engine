@@ -37,6 +37,9 @@
         },
         {
           "topic": "Parts of Speech (2): Adjectives, Adverbs, Prepositions and Conjunctions",
+          "slug": [
+            "prepositions"
+          ],
           "subtopics": [
             "Adjectives: definition, types and comparison (positive, comparative, superlative; absolute adjectives)",
             "Adverbs: definition, types and functions",
@@ -106,6 +109,9 @@
       "Second": [
         {
           "topic": "Oral English: Vowel Sounds (Continued) and Tenses",
+          "slug": [
+            "vowel_sounds"
+          ],
           "subtopics": [
             "Pure vowel sounds: /u/, /u:/, /ʌ/, /3:/, /ə/ (schwa)",
             "Contrasting vowel sounds: /ɒ/ and /ɜ:/, /a:/ and /æ/",
@@ -123,6 +129,9 @@
         },
         {
           "topic": "Formal and Informal Letter Writing",
+          "slug": [
+            "letter_writing"
+          ],
           "subtopics": [
             "Revision of informal letter features (one address, salutation, body, closing)",
             "Formal letter features: two addresses, opening salutation, body, closing, signature",
@@ -192,6 +201,9 @@
       "Third": [
         {
           "topic": "Oral English: Diphthongs and Consonant Sounds",
+          "slug": [
+            "consonant_sounds"
+          ],
           "subtopics": [
             "Diphthongs: /ei/, /oʊ/, /aʊ/, /iə/, /eə/, /ɔi/, /ai/, /ʊə/",
             "Identification of diphthongs in words",
@@ -226,6 +238,9 @@
         },
         {
           "topic": "Summary Writing and Reading Comprehension",
+          "slug": [
+            "comprehension"
+          ],
           "subtopics": [
             "Identifying topic sentences in paragraphs",
             "Identifying key ideas and distinguishing from supporting details",
@@ -297,6 +312,9 @@
         },
         {
           "topic": "Grammar: Voice, Tenses and Direct/Indirect Speech",
+          "slug": [
+            "tenses"
+          ],
           "subtopics": [
             "Revision of transitive and intransitive verbs",
             "Active voice and passive voice (extension from JSS1)",
@@ -330,6 +348,10 @@
         },
         {
           "topic": "Composition Writing: Descriptive and Narrative Essays",
+          "slug": [
+            "narrative_writing",
+            "descriptive_writing"
+          ],
           "subtopics": [
             "Elements of composition: pre-writing, writing, editing",
             "Descriptive essay: a place of interest, a local festival, my favourite teacher",
@@ -366,6 +388,10 @@
       "Second": [
         {
           "topic": "Oral English: Intonation, Stress and Rhythm",
+          "slug": [
+            "stress_jss2",
+            "intonation_jss2"
+          ],
           "subtopics": [
             "Intonation: identification of patterns in statements, questions and commands",
             "Stress: correct points of pauses in words (im'port vs. 'import; 're'fuse vs. re'fuse)",
@@ -466,6 +492,10 @@
         },
         {
           "topic": "Grammar: Conjunctions, Synonyms, Antonyms and Causative Verbs",
+          "slug": [
+            "synonyms",
+            "antonyms"
+          ],
           "subtopics": [
             "Conjunctions: 'although' and 'whereas' as contrasts; 'despite' and 'in spite of'",
             "Synonyms: finding replacement words that fit the context",
@@ -627,6 +657,9 @@
         },
         {
           "topic": "Grammar: Sentence Types and Pronouns",
+          "slug": [
+            "sentence_structure"
+          ],
           "subtopics": [
             "The simple sentence: subject, verb, object/complement",
             "The compound sentence: joining with coordinating conjunctions",
@@ -664,6 +697,9 @@
         },
         {
           "topic": "Composition: Article Writing, Expository and Argumentative Essays",
+          "slug": [
+            "essay_writing"
+          ],
           "subtopics": [
             "Article writing: the evils of youth unemployment; features and structure",
             "Expository essay: drug addiction; population explosion",
@@ -769,6 +805,10 @@
       "First": [
         {
           "topic": "Oral English: Sounds, Stress and Intonation",
+          "slug": [
+            "stress_ss1",
+            "intonation_ss1"
+          ],
           "subtopics": [
             "Review of all 20 vowel sounds and 24 consonant sounds from JSS",
             "Word and sentence stress patterns",
@@ -803,6 +843,10 @@
         },
         {
           "topic": "Reading Comprehension and Vocabulary Development",
+          "slug": [
+            "vocabulary_in_context",
+            "reading_skills"
+          ],
           "subtopics": [
             "Reading for main and supporting ideas (advanced passage level)",
             "Reading for tone, mood and author's attitude in SS-level passages",
@@ -873,6 +917,9 @@
         },
         {
           "topic": "Summary Writing",
+          "slug": [
+            "summary"
+          ],
           "subtopics": [
             "Principles of summary writing: brevity, accuracy, own words",
             "Identifying key points in a passage",
@@ -963,6 +1010,9 @@
         },
         {
           "topic": "Vocabulary: Registers, Idioms and Technical Language",
+          "slug": [
+            "idioms"
+          ],
           "subtopics": [
             "Registers: language of law, medicine, sports, technology, finance",
             "Idioms: meaning in context; common Nigerian and general English idioms",
@@ -1067,6 +1117,9 @@
         },
         {
           "topic": "Report and Feature Article Writing",
+          "slug": [
+            "articles"
+          ],
           "subtopics": [
             "Report writing: accident, event or survey reports; formal style and layout",
             "Feature article: magazine and newspaper style; headline, hook, body",
