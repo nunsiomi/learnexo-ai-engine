@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field, model_validator
 from typing import Literal, Optional
 
 from app.services.learning_path_service import LearningPathService
-from app.core.topics import get_topics, invalid_topics
+from app.core.topics import get_topics, invalid_topics, SubjectLiteral
 
 router = APIRouter(prefix="/learning-path", tags=["Learning Path"])
 
@@ -17,7 +17,8 @@ class LearningPathRequest(BaseModel):
         ...,
         description="Student learning style: visual, auditory, or kinesthetic",
     )
-    subject: str = Field(..., min_length=2, description="School subject, e.g. Mathematics, English Language")
+    # Phase 3: subject constrained to pilot subjects (Literal type → 422 on unknown values).
+    subject: SubjectLiteral = Field(..., description="School subject: 'Mathematics' or 'English Language'")
     class_level: ClassLevel = Field(..., description="Student class level")
     weak_topics: list[str] = Field(
         default=[],

@@ -19,12 +19,32 @@ app = FastAPI(
     contact={"name": "LearNexo AI Team"},
 )
 
+# CORS — Phase 3 hardening
+# allow_origins=["*"] + allow_credentials=True is a spec-invalid combination
+# (browsers reject it) and too permissive for a student-data service.
+# Replaced with an explicit allowlist.
+#
+# NOTE: allow_credentials is removed — no current endpoint uses cookies or
+# auth headers that require it. Re-add only if a future endpoint genuinely
+# needs cross-origin cookie/auth support (and update origins to match).
+#
+# ⚠️  UPDATE THIS before deploying:
+#     Replace the placeholder below with the real production frontend URL.
+#     Do NOT put allow_origins=["*"] back.
+ALLOWED_ORIGINS = [
+    "http://localhost:3000",   # React / Create-React-App dev server
+    "http://localhost:5173",   # Vite dev server
+    "http://127.0.0.1:3000",
+    "http://127.0.0.1:5173",
+    # "https://your-learnexo-frontend.vercel.app",  # ← UPDATE BEFORE DEPLOY
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_origins=ALLOWED_ORIGINS,
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Accept", "Authorization"],
 )
 
 

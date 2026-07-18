@@ -10,13 +10,15 @@ from langchain_groq import ChatGroq
 from pydantic import BaseModel, Field
 
 from app.core.config import GROQ_API_KEY, GROQ_MODEL
-from app.core.topics import get_topics
+from app.core.topics import get_topics, PILOT_SUBJECTS
 
 LearningStyle = Literal["visual", "auditory", "kinesthetic"]
 ClassLevel = Literal["JSS1", "JSS2", "JSS3", "SS1", "SS2", "SS3"]
 TermName = Literal["First", "Second", "Third"]
 
-PILOT_SUBJECTS = {"Mathematics", "English Language"}
+# PILOT_SUBJECTS is imported from app.core.topics (single source of truth).
+# Previously defined here as a local set — moved to topics.py in Phase 3
+# so the schema layer and the service layer share the same definition.
 
 _CURRICULUM_DIR = Path(__file__).parent.parent / "data" / "curriculum"
 _SUBJECT_FILE_MAP = {

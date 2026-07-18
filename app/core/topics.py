@@ -1,5 +1,17 @@
 from __future__ import annotations
 
+from typing import Literal
+
+# Phase 3 — single source of truth for valid subjects.
+# AUDIT.md §4.3: /content accepted any str; /learning-path had PILOT_SUBJECTS
+# only in the service layer (learning_path_service.py). Both are now constrained
+# here at the schema/type level so an invalid subject 422s before touching any
+# service or the LLM.
+SubjectLiteral = Literal["Mathematics", "English Language"]
+
+# Set form for O(1) membership checks (used by services that still need it).
+PILOT_SUBJECTS: frozenset[str] = frozenset({"Mathematics", "English Language"})
+
 # KNOWN SCOPE GAP — Literature is not covered by this allowlist. The active
 # ENGLISH_TOPICS below has NO slugs for Literature content (poetry, drama, prose,
 # folktales, oral literature), even though english_language.json carries

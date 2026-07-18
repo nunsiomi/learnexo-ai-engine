@@ -1,9 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
-from pydantic import BaseModel, Field, model_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 from typing import Literal, Optional, Any
 
 from app.services.content_service import ContentService, TopicInput
-from app.core.topics import get_topics, invalid_topics
+from app.core.topics import get_topics, invalid_topics, SubjectLiteral
+from app.core.security import check_free_text
 
 router = APIRouter(
     prefix="/content",
@@ -12,6 +13,9 @@ router = APIRouter(
 
 LearningStyle = Literal["visual", "auditory", "kinesthetic"]
 ClassLevel = Literal["JSS1", "JSS2", "JSS3", "SS1", "SS2", "SS3"]
+# Phase 3: content_depth constrained to the four values already declared in
+# content_service.py. Invalid value → 422 before reaching the LLM.
+ContentDepthLiteral = Literal["introduction", "core", "advanced", "revision"]
 
 
 class ContentRequest(BaseModel):
@@ -21,18 +25,30 @@ class ContentRequest(BaseModel):
         min_length=1,
         description="List of topics with mastery score and learning stage",
     )
-    subject: str = Field(..., min_length=2, description="School subject")
+    # Phase 3: subject constrained to pilot subjects (Literal type → 422 on unknown values).
+    subject: SubjectLiteral = Field(..., description="School subject: 'Mathematics' or 'English Language'")
     class_level: ClassLevel = Field(..., description="Student class level")
     learning_style: LearningStyle = Field(..., description="Student learning style")
     student_id: Optional[str] = Field(default=None, description="Optional student identifier")
     focus_reason: Optional[str] = Field(
         default="general_assessment",
+        max_length=200,
         description="Why these topics were selected, e.g. 'general_assessment', 'exam_prep'",
     )
-    content_depth: str = Field(
+    # Phase 3: content_depth constrained to its four valid values.
+    content_depth: ContentDepthLiteral = Field(
         default="core",
         description="Depth: introduction, core, advanced, or revision",
     )
+
+    @field_validator("focus_reason", mode="before")
+    @classmethod
+    def guard_focus_reason(cls, v: Optional[str]) -> Optional[str]:
+        """Phase 3: basic prompt-injection guard on focus_reason.
+        This is a first-layer check, not a complete defence — see app/core/security.py."""
+        if v is not None:
+            check_free_text(v, field_name="focus_reason")
+        return v
 
     @model_validator(mode="after")
     def validate_topic_slugs(self) -> "ContentRequest":
