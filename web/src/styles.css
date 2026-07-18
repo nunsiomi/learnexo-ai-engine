@@ -1,0 +1,159 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-navy: var(--navy);
+  --color-navy-foreground: var(--navy-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-highlight: var(--highlight);
+  --color-highlight-foreground: var(--highlight-foreground);
+
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-card: 0 1px 2px oklch(0.2 0.05 265 / 0.04), 0 8px 24px oklch(0.2 0.05 265 / 0.06);
+  --shadow-navy: 0 20px 60px -20px oklch(0.25 0.09 265 / 0.5);
+}
+
+:root {
+  --radius: 0.875rem;
+
+  --background: oklch(0.995 0.003 250);
+  --surface: oklch(0.975 0.008 250);
+  --foreground: oklch(0.15 0.02 265);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.15 0.02 265);
+
+  --navy: oklch(0.28 0.09 265);
+  --navy-foreground: oklch(0.98 0.005 250);
+
+  --primary: oklch(0.32 0.1 265);
+  --primary-foreground: oklch(0.99 0.005 250);
+
+  --accent: oklch(0.58 0.19 258);
+  --accent-foreground: oklch(0.99 0.005 250);
+
+  --muted: oklch(0.96 0.008 250);
+  --muted-foreground: oklch(0.45 0.02 265);
+
+  --border: oklch(0.9 0.012 255);
+  --input: oklch(0.9 0.012 255);
+  --ring: oklch(0.58 0.19 258);
+
+  --destructive: oklch(0.55 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --highlight: oklch(0.96 0.09 95);
+  --highlight-foreground: oklch(0.28 0.05 80);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: transform 0.15s ease, background-color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  cursor: pointer;
+}
+@utility btn-pill-accent {
+  background: var(--color-accent);
+  color: var(--color-accent-foreground);
+  padding: 0.9rem 1.75rem;
+  box-shadow: 0 10px 24px -12px oklch(0.58 0.19 258 / 0.7);
+  &:hover { transform: translateY(-1px); }
+  &:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+}
+@utility btn-pill-ghost {
+  background: transparent;
+  color: var(--color-foreground);
+  border: 1px solid var(--color-border);
+  padding: 0.6rem 1.1rem;
+  &:hover { background: var(--color-muted); }
+}
+@utility btn-pill-navy {
+  background: var(--color-navy);
+  color: var(--color-navy-foreground);
+  padding: 0.75rem 1.4rem;
+  &:hover { opacity: 0.92; }
+}
+
+@utility field-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-foreground);
+  margin-bottom: 0.4rem;
+  letter-spacing: -0.005em;
+}
+
+@utility field-input {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  padding: 0.7rem 0.9rem;
+  font-size: 0.95rem;
+  color: var(--color-foreground);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  &:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 4px oklch(0.58 0.19 258 / 0.12);
+  }
+}
+
+@utility skeleton-line {
+  background: linear-gradient(
+    90deg,
+    oklch(0.9 0.01 255) 0%,
+    oklch(0.95 0.008 255) 50%,
+    oklch(0.9 0.01 255) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+  border-radius: 0.5rem;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
