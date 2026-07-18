@@ -2,8 +2,9 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field, field_validator, model_validator
 from typing import Literal, Optional, Any
 
-from app.services.content_service import ContentService, TopicInput
-from app.core.topics import get_topics, invalid_topics, SubjectLiteral
+from app.services.content_service import ContentService, TopicInput, ContentGenerationError
+from app.core.topics import SubjectLiteral
+from app.core.validators import validate_slug_list
 from app.core.security import check_free_text
 
 router = APIRouter(
@@ -52,14 +53,10 @@ class ContentRequest(BaseModel):
 
     @model_validator(mode="after")
     def validate_topic_slugs(self) -> "ContentRequest":
+        # Phase 4: delegated to shared validate_slug_list() in app/core/validators.py
+        # (previously inlined here — AUDIT.md §1.4 item 6).
         slugs = [t.topic for t in self.topics]
-        bad = invalid_topics(slugs, self.subject)
-        if bad:
-            valid = get_topics(self.subject)
-            raise ValueError(
-                f"Invalid topic slugs for '{self.subject}': {bad}. "
-                f"Valid topics: {valid}"
-            )
+        validate_slug_list(slugs, self.subject, field_name="topics")
         return self
 
 
@@ -109,10 +106,20 @@ def content_endpoint(
             recommended_start=result["recommended_start"],
         )
 
-    except ValueError as exc:
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
-    except Exception as exc:
+    except ContentGenerationError:
+        # Phase 4 (AUDIT.md §2.2): server-side failure (e.g. LLM returned
+        # unexpected format). Report as 500, not 400 — this is NOT the
+        # client's fault. No internal detail is included in the response.
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to generate content",
-        ) from exc
+            detail="An internal error occurred while generating content. Please try again.",
+        )
+    except ValueError as exc:
+        # Only genuine client-input errors reach here (empty subject / empty
+        # topics list checked in ContentService.generate). These are 400.
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
+    except Exception:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="An internal error occurred while generating content. Please try again.",
+        )

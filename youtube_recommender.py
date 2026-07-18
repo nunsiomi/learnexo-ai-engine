@@ -13,6 +13,7 @@ Videos are filtered and scored to surface the most educational results:
 Requires: YOUTUBE_API_KEY environment variable
 """
 
+import logging
 import os
 import re
 import httpx
@@ -21,6 +22,8 @@ from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 
 load_dotenv()
+
+logger = logging.getLogger(__name__)
 
 YOUTUBE_API_BASE = "https://www.googleapis.com/youtube/v3"
 
@@ -169,78 +172,136 @@ def _build_why_recommended(video: dict, is_nigerian_channel: bool, topic: str) -
 
 
 def _fetch_videos(query: str, max_results: int = 10) -> List[dict]:
-    """Call YouTube search.list and then videos.list for details."""
+    """Call YouTube search.list and then videos.list for details.
+
+    Returns an empty list (rather than raising) when:
+      - YOUTUBE_API_KEY is not set (Task 5 / AUDIT.md §2.3 — silent-skip
+        is deliberate: videos are supplementary, a missing key should not
+        block a student from getting learning content).
+      - The YouTube API returns an HTTP error (quota, auth, network).
+      - The API response has an unexpected shape (Task 4 / AUDIT.md §2.1).
+    All failure reasons are logged at WARNING/ERROR level so they are still
+    debuggable server-side without being exposed to the client (Task 3).
+    """
     api_key = os.environ.get("YOUTUBE_API_KEY")
     if not api_key:
-        raise EnvironmentError(
-            "YOUTUBE_API_KEY is not set. Add it to your .env file or Replit Secrets."
+        # Task 5: silent-skip instead of raising EnvironmentError.
+        # A missing API key is a configuration issue, not a request error.
+        # Videos are supplementary — the student should still get their
+        # learning content. The /videos endpoint now returns an empty list
+        # rather than 503. If you need the endpoint to be strict, change
+        # this return to: raise EnvironmentError("YOUTUBE_API_KEY not set")
+        logger.warning(
+            "YOUTUBE_API_KEY is not set. YouTube video recommendations "
+            "are disabled. Set the key in your .env file to enable them."
         )
+        return []
 
     # Step 1: Search
-    search_resp = httpx.get(
-        f"{YOUTUBE_API_BASE}/search",
-        params={
-            "part": "snippet",
-            "q": query,
-            "type": "video",
-            "videoCategoryId": "27",  # Education category
-            "relevanceLanguage": "en",
-            "maxResults": max_results,
-            "safeSearch": "strict",
-            "key": api_key,
-        },
-        timeout=15,
-    )
-    search_resp.raise_for_status()
+    try:
+        search_resp = httpx.get(
+            f"{YOUTUBE_API_BASE}/search",
+            params={
+                "part": "snippet",
+                "q": query,
+                "type": "video",
+                "videoCategoryId": "27",  # Education category
+                "relevanceLanguage": "en",
+                "maxResults": max_results,
+                "safeSearch": "strict",
+                "key": api_key,
+            },
+            timeout=15,
+        )
+        search_resp.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        # Task 3/4: HTTP error from the YouTube API (quota, auth, etc.).
+        # Log server-side but return empty list so the caller degrades gracefully.
+        logger.error(
+            "YouTube search request failed with HTTP %s for query %r: %s",
+            exc.response.status_code, query, exc,
+        )
+        return []
+    except httpx.RequestError as exc:
+        # Network-level error (timeout, DNS, etc.).
+        logger.error("YouTube search network error for query %r: %s", query, exc)
+        return []
+
     search_data = search_resp.json()
     items = search_data.get("items", [])
 
     if not items:
         return []
 
+    # Task 4: .get() guard already present on videoId extraction (line below).
+    # Any item without a videoId is skipped rather than raising KeyError.
     video_ids = [item["id"]["videoId"] for item in items if item.get("id", {}).get("videoId")]
 
     # Step 2: Get full details (duration, view count)
-    details_resp = httpx.get(
-        f"{YOUTUBE_API_BASE}/videos",
-        params={
-            "part": "snippet,contentDetails,statistics",
-            "id": ",".join(video_ids),
-            "key": api_key,
-        },
-        timeout=15,
-    )
-    details_resp.raise_for_status()
+    try:
+        details_resp = httpx.get(
+            f"{YOUTUBE_API_BASE}/videos",
+            params={
+                "part": "snippet,contentDetails,statistics",
+                "id": ",".join(video_ids),
+                "key": api_key,
+            },
+            timeout=15,
+        )
+        details_resp.raise_for_status()
+    except httpx.HTTPStatusError as exc:
+        logger.error(
+            "YouTube video-details request failed with HTTP %s: %s",
+            exc.response.status_code, exc,
+        )
+        return []
+    except httpx.RequestError as exc:
+        logger.error("YouTube video-details network error: %s", exc)
+        return []
+
     details_data = details_resp.json()
 
     results = []
     for item in details_data.get("items", []):
-        snippet = item.get("snippet", {})
-        stats = item.get("statistics", {})
-        content = item.get("contentDetails", {})
+        # Task 4: wrap each item in try/except so a malformed single item
+        # does not abort the entire result set.
+        try:
+            snippet = item.get("snippet", {})
+            stats = item.get("statistics", {})
+            content = item.get("contentDetails", {})
 
-        title = snippet.get("title", "")
-        description = snippet.get("description", "")[:300]
-        channel = snippet.get("channelTitle", "")
-        duration_iso = content.get("duration", "")
-        view_count = int(stats.get("viewCount", 0))
-        thumbnails = snippet.get("thumbnails", {})
-        thumbnail = (
-            thumbnails.get("high", {}).get("url")
-            or thumbnails.get("medium", {}).get("url")
-            or thumbnails.get("default", {}).get("url")
-            or ""
-        )
+            title = snippet.get("title", "")
+            description = snippet.get("description", "")[:300]
+            channel = snippet.get("channelTitle", "")
+            duration_iso = content.get("duration", "")
+            # Task 4: stats.get("viewCount") may be missing or non-numeric
+            # (e.g. views disabled). Guard with int(... or 0).
+            try:
+                view_count = int(stats.get("viewCount") or 0)
+            except (ValueError, TypeError):
+                view_count = 0
+            thumbnails = snippet.get("thumbnails", {})
+            thumbnail = (
+                thumbnails.get("high", {}).get("url")
+                or thumbnails.get("medium", {}).get("url")
+                or thumbnails.get("default", {}).get("url")
+                or ""
+            )
 
-        results.append({
-            "video_id": item["id"],
-            "title": title,
-            "channel": channel,
-            "description": description,
-            "duration_iso": duration_iso,
-            "view_count": view_count,
-            "thumbnail": thumbnail,
-        })
+            # Task 4: item["id"] was direct indexing — now .get() with fallback.
+            results.append({
+                "video_id": item.get("id", ""),
+                "title": title,
+                "channel": channel,
+                "description": description,
+                "duration_iso": duration_iso,
+                "view_count": view_count,
+                "thumbnail": thumbnail,
+            })
+        except Exception as exc:  # noqa: BLE001
+            # A malformed item degrades to being skipped, not a crash.
+            logger.warning("Skipping malformed YouTube video item: %s", exc)
+            continue
 
     return results
 

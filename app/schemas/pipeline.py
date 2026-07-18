@@ -1,7 +1,8 @@
 from typing import Optional, Any, Literal
 from pydantic import BaseModel, Field, model_validator
 from app.schemas.learning_style import LearningStyleRequest, LearningStyleLiteral
-from app.core.topics import get_topics, invalid_topics, SubjectLiteral
+from app.core.topics import SubjectLiteral
+from app.core.validators import validate_slug_list
 
 # Phase 3: Literal aliases — same values as individual route files.
 # Centralised here rather than imported from routes to keep the schema layer
@@ -26,20 +27,10 @@ class GenerateLearningRequest(BaseModel):
 
     @model_validator(mode="after")
     def validate_topic_slugs(self) -> "GenerateLearningRequest":
-        bad = invalid_topics(self.weak_topics, self.subject)
-        if bad:
-            valid = get_topics(self.subject)
-            raise ValueError(
-                f"Invalid weak_topics for '{self.subject}': {bad}. "
-                f"Valid topics: {valid}"
-            )
-        bad = invalid_topics(self.strong_topics, self.subject)
-        if bad:
-            valid = get_topics(self.subject)
-            raise ValueError(
-                f"Invalid strong_topics for '{self.subject}': {bad}. "
-                f"Valid topics: {valid}"
-            )
+        # Phase 4: delegated to shared validate_slug_list() in app/core/validators.py
+        # (previously inlined here — AUDIT.md §1.4 item 6).
+        validate_slug_list(self.weak_topics, self.subject, field_name="weak_topics")
+        validate_slug_list(self.strong_topics, self.subject, field_name="strong_topics")
         return self
 
 

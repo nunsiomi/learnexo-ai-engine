@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 import os
 from typing import Any, Literal, Optional
 
@@ -10,9 +11,21 @@ from pydantic import BaseModel, Field
 
 from app.core.config import GROQ_API_KEY, GROQ_MODEL
 
+logger = logging.getLogger(__name__)
+
 LearningStyle = Literal["visual", "auditory", "kinesthetic"]
 ClassLevel = Literal["JSS1", "JSS2", "JSS3", "SS1", "SS2", "SS3"]
 ContentDepth = Literal["introduction", "core", "advanced", "revision"]
+
+
+class ContentGenerationError(Exception):
+    """Raised when content generation fails due to a server-side condition
+    (e.g. the LLM returned an unexpected response shape). This is NOT a
+    client input error — it maps to HTTP 500 in the route layer, not 400.
+
+    Introduced in Phase 4 (AUDIT.md §2.2): previously these failures were
+    raised as ValueError, which the route mis-mapped to 400 Bad Request.
+    """
 
 
 class TopicInput(BaseModel):
@@ -133,6 +146,14 @@ class ContentService:
     ) -> list[dict[str, str]] | None:
         youtube_api_key = os.getenv("YOUTUBE_API_KEY")
         if not youtube_api_key:
+            # Task 5 / AUDIT.md §2.3: silent-skip is deliberate here.
+            # Videos are supplementary — a missing key must not block content
+            # generation. Logged at DEBUG (not WARNING) because content_service
+            # is not the primary caller; youtube_recommender._fetch_videos
+            # already emits the WARNING when it runs.
+            logger.debug(
+                "YOUTUBE_API_KEY not set; skipping real-video fetch for topic=%r", topic
+            )
             return None
         try:
             from youtube_recommender import recommend_videos
@@ -147,7 +168,13 @@ class ContentService:
                 {"title": v.title, "url": v.url}
                 for v in recommendation.videos
             ]
-        except Exception:
+        except Exception as exc:
+            # YouTube call failed but this is a supplementary enrichment step;
+            # log and degrade gracefully rather than failing the whole request.
+            logger.warning(
+                "YouTube video fetch failed for topic=%r, degrading to LLM-only videos: %s",
+                topic, exc,
+            )
             return None
 
     def _generate_single(
@@ -174,7 +201,10 @@ class ContentService:
         )
 
         if not isinstance(result, dict):
-            raise ValueError(f"Invalid content response for topic '{topic_input.topic}'")
+            raise ContentGenerationError(
+                f"Content service received an unexpected response for topic '{topic_input.topic}'. "
+                f"The upstream model did not return the expected format."
+            )
 
         result["topic"] = topic_input.topic
         result["priority"] = priority
