@@ -202,8 +202,8 @@ Run all three stages in a single call. Useful for onboarding.
   "student_activity": { "activity": ["watched diagrams", "drew concept maps"] },
   "subject": "English Language",
   "class_level": "JSS2",
-  "weak_topics": ["concord", "tenses"],
-  "strong_topics": ["spelling"],
+  "weak_topics": ["tenses", "essay_writing"],
+  "strong_topics": ["summary"],
   "term": "First",
   "student_id": "STU-001",
   "content_depth": "core",
@@ -241,20 +241,27 @@ Requires `YOUTUBE_API_KEY`. Returns `503` if not configured.
 
 All `weak_topics`, `strong_topics`, and `topics[].topic` values **must** use these exact slugs. Unrecognised slugs return a `422` error with the full valid list.
 
-### English Language (23 topics)
+Every active slug maps to a real curriculum entry in `app/data/curriculum/*.json` (via that entry's `"slug"` field), so generated content is grounded in the official scheme of work rather than the model's general knowledge.
+
+### English Language (21 active topics)
 
 | Slug | Slug | Slug |
 |---|---|---|
-| `concord` | `tenses` | `articles` |
-| `prepositions` | `sentence_structure` | `comprehension` |
-| `inference` | `vocabulary_in_context` | `summary` |
-| `reading_skills` | `synonyms` | `antonyms` |
-| `idioms` | `word_formation` | `spelling` |
-| `vowel_sounds` | `consonant_sounds` | `stress` |
-| `intonation` | `essay_writing` | `letter_writing` |
-| `narrative_writing` | `descriptive_writing` | |
+| `prepositions` | `tenses` | `sentence_structure` |
+| `synonyms` | `antonyms` | `idioms` |
+| `vocabulary_in_context` | `comprehension` | `reading_skills` |
+| `summary` | `essay_writing` | `letter_writing` |
+| `narrative_writing` | `descriptive_writing` | `articles` |
+| `vowel_sounds` | `consonant_sounds` | `stress_jss2` |
+| `stress_ss1` | `intonation_jss2` | `intonation_ss1` |
 
-### Mathematics (30 topics)
+> **Class-split slugs:** `stress` and `intonation` are taught as distinct oral-English entries at two levels, so each is split — use `stress_jss2`/`intonation_jss2` for JSS2 and `stress_ss1`/`intonation_ss1` for SS1.
+>
+> **Reserved (not accepted):** `concord`, `inference`, `spelling`, and `word_formation` have no standalone curriculum entry to ground against and are **not** in the active allowlist — requests using them return `422`. See `ENGLISH_TOPICS_RESERVED` in `app/core/topics.py` for the per-slug reasoning.
+>
+> **Known scope gap:** the allowlist has no slugs for Literature content (poetry, drama, prose, folktales), even though the curriculum carries Literature topics at every class level. This is a documented, deliberate gap for the current pilot.
+
+### Mathematics (29 active topics)
 
 | Slug | Slug | Slug |
 |---|---|---|
@@ -262,12 +269,16 @@ All `weak_topics`, `strong_topics`, and `topics[].topic` values **must** use the
 | `decimals` | `percentages` | `ratio_and_proportion` |
 | `indices` | `logarithms` | `surds` |
 | `algebraic_expressions` | `linear_equations` | `simultaneous_equations` |
-| `quadratic_equations` | `inequalities` | `polynomials` |
-| `sets` | `logic` | `plane_geometry` |
-| `angles` | `triangles` | `circles` |
-| `mensuration` | `coordinate_geometry` | `vectors` |
-| `statistics` | `probability` | `sequence_and_series` |
-| `commercial_arithmetic` | `matrices` | `trigonometry` |
+| `quadratic_equations` | `inequalities` | `sets` |
+| `plane_geometry` | `angles` | `circles` |
+| `mensuration` | `coordinate_geometry_ss1` | `coordinate_geometry_ss2` |
+| `statistics` | `probability_jss2` | `probability_ss3` |
+| `sequence_arithmetic` | `sequence_geometric` | `commercial_arithmetic` |
+| `matrices` | `trigonometry` | |
+
+> **Class-split slugs:** `coordinate_geometry`, `probability`, and `sequence_and_series` are each carried at two levels, so each is split — `coordinate_geometry_ss1`/`_ss2`, `probability_jss2`/`_ss3`, and `sequence_arithmetic`/`sequence_geometric`.
+>
+> **Reserved (not accepted):** `logic`, `polynomials`, `triangles`, and `vectors` have no standalone curriculum entry and are **not** in the active allowlist — requests using them return `422`. See `MATHS_TOPICS_RESERVED` in `app/core/topics.py`.
 
 ---
 
@@ -305,8 +316,8 @@ async def get_learning_path(learning_style: str, subject: str, class_level: str,
                 "learning_style": learning_style,
                 "subject": subject,
                 "class_level": class_level,
-                "weak_topics": weak_topics,    # e.g. ["concord", "tenses"]
-                "strong_topics": strong_topics, # e.g. ["spelling"]
+                "weak_topics": weak_topics,    # e.g. ["tenses", "essay_writing"]
+                "strong_topics": strong_topics, # e.g. ["summary"]
                 "term": "First",
             }
         )
@@ -322,7 +333,7 @@ Pass topics from `recommended_order` with mastery scores:
 ```python
 async def get_content(topics: list[dict], subject: str, class_level: str,
                        learning_style: str):
-    # topics format: [{"topic": "concord", "mastery": 0.3, "learning_stage": "foundation"}]
+    # topics format: [{"topic": "tenses", "mastery": 0.3, "learning_stage": "foundation"}]
     async with httpx.AsyncClient(timeout=60) as client:
         response = await client.post(
             f"{CONTENT_ENGINE_URL}/content",
