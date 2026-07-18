@@ -1,8 +1,28 @@
-# LearNexo Content Engine
+# LearNEXO-AI — Content Engine
 
-AI-powered microservice that generates personalised learning content for Nigerian secondary school students (JSS1–SS3). It takes a student's learning style and weak/strong topic profile, then produces curriculum-aligned learning paths and focused lesson content tailored to how that student learns best.
+An **AI-powered personalized learning engine** for Nigerian secondary school students (JSS1–SS3). It takes a student's learning style and weak/strong topic profile, then produces curriculum-aligned learning paths and focused lesson content tailored to how that student learns best.
+
+The engine is **three coordinated AI modules** — Learning Style, Learning Path, and Content — each built on the same foundation model (**LLaMA 3.3 70B via Groq**, orchestrated with LangChain and schema-constrained with Pydantic) but specialized through its own prompting and curriculum grounding. No model is trained; the engineering is the orchestration and grounding around the foundation model.
 
 **Pilot scope: English Language and Mathematics only.**
+
+---
+
+## Project Status
+
+The backend is **stabilized through Phase 4** of the roadmap — all three AI modules work end-to-end for valid requests.
+
+| Area | Status |
+|---|---|
+| Pipeline crash on `/api/generate-learning/` | ✅ Fixed & verified |
+| Curriculum grounding (Math + English) | ✅ Reconciled — every active slug maps to a real curriculum entry via its `"slug"` field |
+| Security & input validation | ✅ Hardened — CORS locked to an explicit allowlist, `subject`/`class_level`/`term`/`content_depth` constrained to enums, learning-style score keys required, first-layer prompt-injection guard |
+| Error handling | ✅ Cleaned up — honest 4xx vs 5xx mapping, no leaked tracebacks, YouTube failures degrade to an empty video list |
+| Structural cleanup (Phase 5) | 🔲 Not started (optional) |
+| Frontend (Phase 6) | 🔲 Not built yet |
+| Deployment (Phase 7) | 🔲 Not built yet |
+
+**Known documented gaps** (not blocking): Literature has no allowlist coverage in the English pilot; `vectors` (Math) and `word_formation` (English) are genuine curriculum content gaps, not matching failures; YouTube relevance ranking is sometimes weak and is flagged for a future pass.
 
 ---
 
