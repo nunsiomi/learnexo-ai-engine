@@ -19,7 +19,6 @@ class GenerateLearningRequest(BaseModel):
     subject: SubjectLiteral = Field(..., description="School subject: 'Mathematics' or 'English Language'")
     class_level: ClassLevel = Field(..., description="Student class level, e.g. JSS1, SS3")
     term: TermName = Field(default="First", description="Academic term: First, Second, or Third")
-    student_id: Optional[str] = None
     content_depth: ContentDepth = Field(default="core", description="Content depth: introduction, core, advanced, or revision")
     weak_topics: list[str] = Field(default=[], description="Topic slugs the student struggles with")
     strong_topics: list[str] = Field(default=[], description="Topic slugs the student is comfortable with")

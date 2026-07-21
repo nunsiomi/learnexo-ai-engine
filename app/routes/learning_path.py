@@ -1,10 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import BaseModel, Field, model_validator
-from typing import Literal, Optional
+from typing import Literal
 
 from app.services.learning_path_service import LearningPathService
 from app.core.topics import SubjectLiteral
 from app.core.validators import validate_slug_list
+from app.core.dependencies import get_learning_path_service
 
 router = APIRouter(prefix="/learning-path", tags=["Learning Path"])
 
@@ -33,7 +34,6 @@ class LearningPathRequest(BaseModel):
         default="First",
         description="Academic term — used to select the correct curriculum reference",
     )
-    student_id: Optional[str] = Field(default=None, description="Optional student identifier")
 
     @model_validator(mode="after")
     def validate_topic_slugs(self) -> "LearningPathRequest":
@@ -48,10 +48,6 @@ class LearningPathResponse(BaseModel):
     recommended_order: list[str]
     strategy: str
     focus_areas: list[str]
-
-
-def get_learning_path_service() -> LearningPathService:
-    return LearningPathService()
 
 
 @router.post(
@@ -77,7 +73,6 @@ def generate_learning_path(
             class_level=payload.class_level,
             weak_topics=payload.weak_topics,
             strong_topics=payload.strong_topics,
-            student_id=payload.student_id,
             term=payload.term,
         )
 

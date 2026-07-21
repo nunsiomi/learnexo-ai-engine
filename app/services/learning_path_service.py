@@ -125,7 +125,6 @@ class LearningPathService:
         class_level: ClassLevel,
         weak_topics: list[str] | None = None,
         strong_topics: list[str] | None = None,
-        student_id: str | None = None,
         term: TermName = "First",
     ) -> dict[str, Any]:
         subject = subject.strip()
