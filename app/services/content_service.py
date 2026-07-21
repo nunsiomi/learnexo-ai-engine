@@ -236,7 +236,6 @@ class ContentService:
         learning_style: LearningStyle,
         content_depth: ContentDepth = "core",
         focus_reason: Optional[str] = None,
-        student_id: Optional[str] = None,
     ) -> dict[str, Any]:
         subject = subject.strip()
         if not subject:

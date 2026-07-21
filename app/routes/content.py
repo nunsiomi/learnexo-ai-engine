@@ -6,6 +6,7 @@ from app.services.content_service import ContentService, TopicInput, ContentGene
 from app.core.topics import SubjectLiteral
 from app.core.validators import validate_slug_list
 from app.core.security import check_free_text
+from app.core.dependencies import get_content_service
 
 router = APIRouter(
     prefix="/content",
@@ -30,7 +31,6 @@ class ContentRequest(BaseModel):
     subject: SubjectLiteral = Field(..., description="School subject: 'Mathematics' or 'English Language'")
     class_level: ClassLevel = Field(..., description="Student class level")
     learning_style: LearningStyle = Field(..., description="Student learning style")
-    student_id: Optional[str] = Field(default=None, description="Optional student identifier")
     focus_reason: Optional[str] = Field(
         default="general_assessment",
         max_length=200,
@@ -65,10 +65,6 @@ class ContentResponse(BaseModel):
     recommended_start: str
 
 
-def get_content_service() -> ContentService:
-    return ContentService()
-
-
 @router.post(
     "",
     response_model=ContentResponse,
@@ -98,7 +94,6 @@ def content_endpoint(
             learning_style=request.learning_style,
             content_depth=request.content_depth,
             focus_reason=request.focus_reason,
-            student_id=request.student_id,
         )
 
         return ContentResponse(

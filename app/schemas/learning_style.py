@@ -11,10 +11,6 @@ LearningStyleLiteral = Literal["visual", "auditory", "kinesthetic"]
 _REQUIRED_SCORE_KEYS: frozenset[str] = frozenset({"visual", "auditory", "kinesthetic"})
 
 
-class StudentActivity(BaseModel):
-    activity: List[str] = Field(..., min_length=1)
-
-
 class LearningStyleRequest(BaseModel):
     # Phase 3 — bug #22: Dict[str, int] with no key constraints let an empty {}
     # through Pydantic and reach the LLM, which fabricated a confident-sounding
@@ -90,7 +86,3 @@ class LearningStyleEvaluation(BaseModel):
         description="Internal note on why this style was chosen based on the scores",
     )
     risk_of_misclassification: Literal["low", "medium", "high"]
-
-
-class LearningStyleResponse(BaseModel):
-    learning_style: LearningStyleLiteral

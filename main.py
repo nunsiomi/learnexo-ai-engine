@@ -1,11 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes.learning_style import router as learning_style_router
-from app.routes.learning_path import router as learning_path_router
-from app.routes.content import router as content_router
-from app.routes.pipeline import router as pipeline_router
-
-from app.routes import learning_path, content, videos, pipeline
+from app.routes import learning_style, learning_path, content, pipeline, videos
 
 app = FastAPI(
     title="LearNexo Content Engine",
@@ -33,11 +28,14 @@ app = FastAPI(
 #     Do NOT put allow_origins=["*"] back.
 ALLOWED_ORIGINS = [
     "http://localhost:3000",   # React / Create-React-App dev server
-    "http://localhost:5173",   # Vite dev server
+    "http://localhost:5173",   # Vite dev server (default)
+    "http://localhost:8080",   # Vite dev server (Lovable plugin variant)
     "http://127.0.0.1:3000",
     "http://127.0.0.1:5173",
+    "http://127.0.0.1:8080",
     # "https://your-learnexo-frontend.vercel.app",  # ← UPDATE BEFORE DEPLOY
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
@@ -52,7 +50,7 @@ app.add_middleware(
 def health_check():
     return {"status": "ok", "service": "learnexo-content-engine"}
 
-app.include_router(learning_style_router)
+app.include_router(learning_style.router)
 app.include_router(learning_path.router)
 app.include_router(content.router)
 app.include_router(pipeline.router)

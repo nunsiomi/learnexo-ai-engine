@@ -10,7 +10,9 @@ The engine is **three coordinated AI modules** — Learning Style, Learning Path
 
 ## Project Status
 
-The backend is **stabilized through Phase 4** of the roadmap — all three AI modules work end-to-end for valid requests.
+The backend is stable through its structural cleanup pass, and the frontend
+now has real accounts, a full onboarding wizard, and assesses both pilot
+subjects per session.
 
 | Area | Status |
 |---|---|
@@ -18,9 +20,13 @@ The backend is **stabilized through Phase 4** of the roadmap — all three AI mo
 | Curriculum grounding (Math + English) | ✅ Reconciled — every active slug maps to a real curriculum entry via its `"slug"` field |
 | Security & input validation | ✅ Hardened — CORS locked to an explicit allowlist, `subject`/`class_level`/`term`/`content_depth` constrained to enums, learning-style score keys required, first-layer prompt-injection guard |
 | Error handling | ✅ Cleaned up — honest 4xx vs 5xx mapping, no leaked tracebacks, YouTube failures degrade to an empty video list |
-| Structural cleanup (Phase 5) | 🔲 Not started (optional) |
-| Frontend (Phase 6) | 🔲 Not built yet |
-| Deployment (Phase 7) | 🔲 Not built yet |
+| Structural cleanup | ✅ Done. DI factories centralized, dependencies pinned, dead code and stray artifacts removed |
+| Frontend, onboarding wizard | ✅ Built and working |
+| Frontend, accounts (Supabase Auth) | ✅ Built and working: sign-up/sign-in, per-student profile |
+| Frontend, VAK quiz | ✅ 18 questions, no style labels shown, shuffled option order |
+| Frontend, two-subject assessment | ✅ Assesses Math then English per session, generates both learning paths together |
+| Frontend, gamified roadmap | 🔲 Not built yet. MCQ content is ready, roadmap UI isn't |
+| Deployment | 🔲 Not built yet, the only phase left |
 
 **Known documented gaps** (not blocking): Literature has no allowlist coverage in the English pilot; `vectors` (Math) and `word_formation` (English) are genuine curriculum content gaps, not matching failures; YouTube relevance ranking is sometimes weak and is flagged for a future pass.
 
@@ -52,6 +58,11 @@ The backend is **stabilized through Phase 4** of the roadmap — all three AI mo
 
 ## Running Locally
 
+The backend and frontend are separate processes and both need to be running
+for the wizard to work end to end.
+
+### Backend
+
 **Prerequisites:** Python 3.11+
 
 ```bash
@@ -73,9 +84,34 @@ uvicorn main:app --reload --port 8000
 - Interactive docs: `http://localhost:8000/docs`
 - Health check: `GET http://localhost:8000/health`
 
+### Frontend
+
+**Prerequisites:** Node 22, a Supabase project (free tier is fine)
+
+```bash
+cd web
+
+# 1. Install dependencies
+npm install
+
+# 2. Set up environment variables
+cp .env.example .env
+# Edit .env: add VITE_API_URL (the backend above), VITE_SUPABASE_URL, and
+# VITE_SUPABASE_ANON_KEY (from your Supabase project's API settings)
+
+# 3. Start the dev server
+npm run dev
+```
+
+The dev server prints its own port (5173 by default). Sign up for an account
+in the browser, then run through the wizard: profile, learning-style quiz,
+Mathematics assessment, English assessment, generated paths for both subjects.
+
 ---
 
 ## Environment Variables
+
+### Backend (`.env`)
 
 | Variable | Required | Purpose | Where to get it |
 |---|---|---|---|
@@ -83,7 +119,15 @@ uvicorn main:app --reload --port 8000
 | `YOUTUBE_API_KEY` | No | Fetches real YouTube videos for visual learners | [console.cloud.google.com](https://console.cloud.google.com) → Enable "YouTube Data API v3" |
 | `GROQ_MODEL` | No | Override the default LLM model | Default: `llama-3.3-70b-versatile` |
 
-> If `YOUTUBE_API_KEY` is missing, the `/videos` endpoint returns `503` and `resources.videos` in content responses falls back to LLM-suggested links — all other generation still works normally.
+> If `YOUTUBE_API_KEY` is missing, videos are silently skipped. `/videos` returns an empty list and `resources.videos` in content responses falls back to LLM-suggested links. Nothing fails or returns an error; videos are supplementary, not core content.
+
+### Frontend (`web/.env`)
+
+| Variable | Required | Purpose |
+|---|---|---|
+| `VITE_API_URL` | **Yes** | The backend URL above (`http://localhost:8000` for local dev) |
+| `VITE_SUPABASE_URL` | **Yes** | Your Supabase project URL |
+| `VITE_SUPABASE_ANON_KEY` | **Yes** | Your Supabase project's anon/public API key |
 
 ---
 
@@ -131,7 +175,6 @@ Generate a prioritised topic order based on the student's weak and strong areas.
 | `weak_topics` | string[] | No | Must use valid topic slugs — see [Topic Slugs](#topic-slugs) |
 | `strong_topics` | string[] | No | Must use valid topic slugs |
 | `term` | string | No | `First`, `Second`, `Third` (default: `First`) |
-| `student_id` | string | No | Any identifier |
 
 **Response:**
 ```json
@@ -161,7 +204,6 @@ Generate focused study content for one or more topics. Topics are sorted by mast
   "subject": "Mathematics",
   "class_level": "SS1",
   "learning_style": "visual",
-  "student_id": "STU-1023",
   "focus_reason": "general_assessment",
   "content_depth": "core"
 }
@@ -177,7 +219,6 @@ Generate focused study content for one or more topics. Topics are sorted by mast
 | `learning_style` | string | Yes | `visual`, `auditory`, `kinesthetic` |
 | `content_depth` | string | No | `introduction`, `core`, `advanced`, `revision` (default: `core`) |
 | `focus_reason` | string | No | e.g. `general_assessment`, `exam_prep` |
-| `student_id` | string | No | Any identifier |
 
 **Response:**
 ```json
@@ -191,7 +232,7 @@ Generate focused study content for one or more topics. Topics are sorted by mast
           { "title": "Solving Quadratic Equations for WAEC", "url": "https://youtube.com/..." }
         ],
         "materials": [
-          { "title": "Quadratic Equations Practice", "url": "https://..." }
+          { "title": "Quadratic Equations Practice", "description": "A set of past WAEC-style questions with worked solutions." }
         ]
       },
       "explanation": {
@@ -208,6 +249,8 @@ Generate focused study content for one or more topics. Topics are sorted by mast
 }
 ```
 
+> **Materials never carry a `url` field**, only `title` and `description`. This is deliberate: the LLM was inventing plausible-looking but fake resource links, so the field was removed from the schema entirely rather than adding a second search API just to validate them. Video URLs are real (from the YouTube Data API) and unaffected by this.
+
 > For **visual learners** with `YOUTUBE_API_KEY` set, `resources.videos` contains real YouTube results ranked by educational quality, Nigerian channels prioritised. Without the key, the LLM suggests plausible video links.
 
 ---
@@ -219,17 +262,22 @@ Run all three stages in a single call. Useful for onboarding.
 **Request:**
 ```json
 {
-  "student_activity": { "activity": ["watched diagrams", "drew concept maps"] },
+  "student_activity": {
+    "learning_style_scores": { "visual": 75, "auditory": 50, "kinesthetic": 60 },
+    "cognitive_score": 70,
+    "student_profile": { "class_level": "JSS2" }
+  },
   "subject": "English Language",
   "class_level": "JSS2",
   "weak_topics": ["tenses", "essay_writing"],
   "strong_topics": ["summary"],
   "term": "First",
-  "student_id": "STU-001",
   "content_depth": "core",
   "generate_content_for_first_topic": true
 }
 ```
+
+> `student_activity` takes the exact same shape as the request body for `POST /api/learning-style/detailed` above: `learning_style_scores`, `cognitive_score`, and `student_profile`, all required. It is **not** a list of activity strings; that shape was an early design that caused every call to this endpoint to fail and was fixed in Phase 1.
 
 **Response:** `{ learning_style, learning_path, content }` — `learning_path` is the Stage 2 response, `content` is the Stage 3 response for the first recommended topic (or `null` if `generate_content_for_first_topic` is `false`).
 
@@ -246,7 +294,7 @@ Fetch ranked YouTube videos for any topic independently.
 
 **Response per video:** `title`, `channel_name`, `url`, `thumbnail_url`, `duration_readable`, `view_count`, `relevance_score`, `why_recommended`
 
-Requires `YOUTUBE_API_KEY`. Returns `503` if not configured.
+Requires `YOUTUBE_API_KEY`. Without it, returns an empty `videos` list (`200`, not an error). Videos are supplementary, so a missing key degrades gracefully instead of failing the request.
 
 ---
 
@@ -383,7 +431,7 @@ for item in result["generated_content"]:
     summary  = item["explanation"]["summary"]
     points   = item["explanation"]["key_points"]
     videos   = item["resources"]["videos"]    # [{title, url}]
-    materials = item["resources"]["materials"] # [{title, url}]
+    materials = item["resources"]["materials"] # [{title, description}], no url, see note above
     action   = item["recommended_action"]
 
 start_here = result["recommended_start"]  # slug of the highest-priority topic
@@ -392,13 +440,17 @@ start_here = result["recommended_start"]  # slug of the highest-priority topic
 ### 4 — Full onboarding in one call
 
 ```python
-async def onboard_student(student_activity: list[str], subject: str,
-                           class_level: str, weak_topics: list[str]):
+async def onboard_student(learning_style_scores: dict, cognitive_score: int,
+                           subject: str, class_level: str, weak_topics: list[str]):
     async with httpx.AsyncClient(timeout=90) as client:
         response = await client.post(
             f"{CONTENT_ENGINE_URL}/api/generate-learning/",
             json={
-                "student_activity": {"activity": student_activity},
+                "student_activity": {
+                    "learning_style_scores": learning_style_scores,  # {"visual": .., "auditory": .., "kinesthetic": ..}
+                    "cognitive_score": cognitive_score,
+                    "student_profile": {"class_level": class_level},
+                },
                 "subject": subject,
                 "class_level": class_level,
                 "weak_topics": weak_topics,
@@ -425,10 +477,8 @@ async def get_videos(topic: str, subject: str, class_level: str):
             json={"topic": topic, "subject": subject,
                   "class_level": class_level, "max_results": 5}
         )
-        if response.status_code == 503:
-            return []  # YOUTUBE_API_KEY not configured
         response.raise_for_status()
-        return response.json()["videos"]
+        return response.json()["videos"]  # [] if YOUTUBE_API_KEY isn't configured, not an error
 ```
 
 ### Error Codes
@@ -438,7 +488,7 @@ async def get_videos(topic: str, subject: str, class_level: str):
 | `200` | Success |
 | `422` | Invalid request — check field names, topic slugs, and allowed values |
 | `500` | AI generation failed — check `GROQ_API_KEY` and Groq service status |
-| `503` | YouTube API unavailable — check `YOUTUBE_API_KEY` |
+| `502` | The learning-style model returned output that failed schema validation. A Groq-side issue, retry |
 
 ---
 
@@ -451,8 +501,10 @@ youtube_recommender.py         # YouTube Data API v3 search, filter, ranking
 app/
   core/
     config.py                  # Loads env vars (GROQ_API_KEY, GROQ_MODEL)
-    dependencies.py            # FastAPI dependency injection
+    dependencies.py            # FastAPI dependency injection, all three service factories
     topics.py                  # Topic slug allowlists for English & Mathematics
+    validators.py              # Shared topic-slug validation, used by all three request schemas
+    security.py                # First-layer prompt-injection guard for free-text fields
   data/
     curriculum/
       mathematics.json         # Official Nigerian curriculum (JSS1–SS3, all terms)
@@ -473,7 +525,40 @@ app/
     learning_style_service.py  # Stage 1 — learning style interpretation
     learning_path_service.py   # Stage 2 — curriculum-aware topic ordering
     content_service.py         # Stage 3 — per-topic content generation
+
+web/                           # React frontend, see "Frontend" below
 ```
+
+---
+
+## Frontend
+
+A guided onboarding wizard lives in `web/` (React + TanStack Start + Vite,
+Tailwind for styling). It runs entirely against the backend above and
+Supabase for auth and profile data. The backend itself has no auth code and
+doesn't need any.
+
+**Flow:** sign up or sign in → profile (name, class level, term) → 18-question
+learning-style quiz → Mathematics assessment → English assessment →
+personalized learning paths for both subjects, shown with a subject tab
+switcher.
+
+| File | Purpose |
+|---|---|
+| `web/src/routes/index.tsx` | The wizard itself: profile, quiz, assessment, and results steps |
+| `web/src/routes/login.tsx` / `signup.tsx` | Auth pages |
+| `web/src/lib/auth-context.tsx` | Supabase session/profile context |
+| `web/src/lib/supabase.ts` | Supabase client |
+| `web/src/lib/quiz-data.ts` | VAK question bank, class-scoped MCQ banks, scoring helpers |
+| `web/src/lib/api.ts` | All backend HTTP calls |
+
+The learning-style quiz and the academic assessment are deliberately separate
+question sets. The quiz measures how a student prefers to learn and has
+nothing to do with the curriculum. The assessment measures what a student
+already knows, and every question is tagged with the exact topic slug it
+tests, so a wrong answer traces back to one specific curriculum topic, not a
+vague overall score. See `LearNEXO-AI_Executive_Overview.md` for the full
+explanation of how that tagging works end to end.
 
 ---
 
@@ -487,7 +572,10 @@ app/
 | Data Validation | Pydantic v2 |
 | YouTube Integration | YouTube Data API v3 (`google-api-python-client`) |
 | Environment Config | python-dotenv |
-| Language | Python 3.11+ |
+| Backend Language | Python 3.11+ |
+| Frontend Framework | React + TanStack Start (Vite) |
+| Frontend Styling | Tailwind CSS |
+| Auth & Profile Storage | Supabase (Postgres + Auth, Row Level Security) |
 
 ---
 

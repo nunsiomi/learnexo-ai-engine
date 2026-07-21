@@ -250,7 +250,10 @@
             "Solve real-world area problems (farmland, floor tiles, window panes)"
           ],
           "estimated_hours": 5,
-          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 2 and 3 compulsory questions"
+          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 2 and 3 compulsory questions",
+          "slug": [
+            "mensuration"
+          ]
         },
         {
           "topic": "Three-Dimensional Shapes and Volume",
@@ -669,7 +672,10 @@
             "Solve real-world area problems in the Nigerian context"
           ],
           "estimated_hours": 5,
-          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 3 compulsory questions"
+          "exam_relevance": "BECE Geometry and Measurement — Area; BECE Paper 3 compulsory questions",
+          "slug": [
+            "mensuration"
+          ]
         },
         {
           "topic": "Formulae: Substitution and Change of Subject",

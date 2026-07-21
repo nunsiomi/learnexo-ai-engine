@@ -20,6 +20,10 @@ dist-ssr
 .wrangler/
 .dev.vars
 
+# Local environment variables — never commit real keys or URLs
+.env
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

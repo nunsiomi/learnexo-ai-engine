@@ -1,9 +1,9 @@
-fastapi
-uvicorn[standard]
-pydantic
-python-dotenv
+fastapi==0.139.2
+uvicorn[standard]==0.51.0
+pydantic==2.13.4
+python-dotenv==1.2.2
 langchain==1.0.8
 langchain-core==1.1.0
 langchain-groq==1.0.1
-google-api-python-client
-httpx
+google-api-python-client==2.198.0
+httpx==0.28.1

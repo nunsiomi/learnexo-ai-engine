@@ -5,17 +5,13 @@ from app.schemas.learning_style import LearningStyleEvaluation
 from app.services.learning_style_service import LearningStyleService
 from app.services.learning_path_service import LearningPathService
 from app.services.content_service import ContentService, TopicInput
-from app.core.dependencies import get_learning_style_service
+from app.core.dependencies import (
+    get_learning_style_service,
+    get_learning_path_service,
+    get_content_service,
+)
 
 router = APIRouter(prefix="/api", tags=["Pipeline"])
-
-
-def get_learning_path_service() -> LearningPathService:
-    return LearningPathService()
-
-
-def get_content_service() -> ContentService:
-    return ContentService()
 
 
 @router.post(
@@ -45,7 +41,6 @@ def generate_learning(
             class_level=payload.class_level,
             weak_topics=payload.weak_topics,
             strong_topics=payload.strong_topics,
-            student_id=payload.student_id,
             term=payload.term,
         )
 
@@ -62,7 +57,6 @@ def generate_learning(
                     learning_style=stage1_result.learning_style,
                     content_depth=payload.content_depth,
                     focus_reason="pipeline_first_topic",
-                    student_id=payload.student_id,
                 )
 
         return GenerateLearningResponse(
