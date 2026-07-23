@@ -1,0 +1,58 @@
+services:
+  # FastAPI content-generation API
+  - type: web
+    name: learnexo-backend
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    buildFilter:
+      paths:
+        - app/**
+        - main.py
+        - requirements.txt
+        - youtube_recommender.py
+        - runtime.txt
+      ignoredPaths:
+        - web/**
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: YOUTUBE_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      # Public URL of the frontend service below, so its browser-side
+      # requests pass CORS. Render assigns https://<name>.onrender.com
+      # for a fresh service name; if this account already had a service
+      # named "learnexo-frontend", Render will suffix the real one instead
+      # — update this value (and VITE_API_URL below) to match, then
+      # redeploy both services.
+      - key: ADDITIONAL_ALLOWED_ORIGINS
+        value: https://learnexo-frontend.onrender.com
+
+  # TanStack Start (React 19 + Vite) SSR frontend
+  - type: web
+    name: learnexo-frontend
+    runtime: node
+    plan: free
+    region: oregon
+    rootDir: web
+    buildCommand: npm ci && npm run build
+    startCommand: node .output/server/index.mjs
+    healthCheckPath: /
+    buildFilter:
+      paths:
+        - web/**
+      ignoredPaths: []
+    envVars:
+      # See the note on ADDITIONAL_ALLOWED_ORIGINS above — same caveat
+      # applies here in reverse (this must match the backend's real URL).
+      - key: VITE_API_URL
+        value: https://learnexo-backend.onrender.com
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false

@@ -12,4 +12,11 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Absent an explicit preset, non-sandbox builds fall back to Cloudflare
+  // Workers output. Render runs a plain Node process, so target nitro's
+  // node-server preset (reads PORT/HOST from env, outputs
+  // .output/server/index.mjs).
+  nitro: {
+    preset: "node-server",
+  },
 });
